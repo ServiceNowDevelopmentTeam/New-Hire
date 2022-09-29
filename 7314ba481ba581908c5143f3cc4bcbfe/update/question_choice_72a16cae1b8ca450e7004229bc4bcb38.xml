@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value=" Leadership Program Type">0d81a4ae1b8ca450e7004229bc4bcb10</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
+        <sys_created_on>2020-10-27 00:12:54</sys_created_on>
+        <sys_id>72a16cae1b8ca450e7004229bc4bcb38</sys_id>
+        <sys_name>ERP - Employee Rotation Program</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>question_choice_72a16cae1b8ca450e7004229bc4bcb38</sys_update_name>
+        <text>ERP - Employee Rotation Program</text>
+        <value>ERP</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=72a16cae1b8ca450e7004229bc4bcb38"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>72a16cae1b8ca450e7004229bc4bcb38</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
+        <sys_created_on>2020-10-27 00:12:54</sys_created_on>
+        <sys_id>42b1acae1b8ca450e7004229bc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kirolos.iskander@cdw.com</sys_updated_by>
+        <sys_updated_on>2020-10-27 00:12:54</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>72a16cae1b8ca450e7004229bc4bcb38</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
+        <sys_created_on>2020-10-27 00:12:54</sys_created_on>
+        <sys_id>0ab1acae1b8ca450e7004229bc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kirolos.iskander@cdw.com</sys_updated_by>
+        <sys_updated_on>2020-10-27 00:12:54</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>1816d5c84330000001</claim_timestamp>
+        <metadata_update_name>question_choice_72a16cae1b8ca450e7004229bc4bcb38</metadata_update_name>
+        <previous_claim_app_version>1.0.1</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-16 16:33:08</sys_created_on>
+        <sys_id>3d3f92761b88d11062e50ed2cd4bcbcb</sys_id>
+    </sys_claim>
+</record_update>

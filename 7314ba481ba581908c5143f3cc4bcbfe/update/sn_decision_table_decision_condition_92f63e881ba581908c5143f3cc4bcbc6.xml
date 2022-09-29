@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Company">4ef676c81ba581908c5143f3cc4bcb77</decision_input>
+        <decision_table display_value="New Hire After Task AD Account Created">bf1536c81ba581908c5143f3cc4bcb64</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Company</label>
+        <order>100</order>
+        <reference display_value="Company" name="core_company">0c7468231b211010e7004229bc4bcbed</reference>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-02-03 22:36:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>92f63e881ba581908c5143f3cc4bcbc6</sys_id>
+        <sys_name/>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_92f63e881ba581908c5143f3cc4bcbc6</sys_update_name>
+        <type display_value="Reference">52a227c1bf3320001875647fcf07396a</type>
+    </sn_decision_table_decision_condition>
+</record_update>

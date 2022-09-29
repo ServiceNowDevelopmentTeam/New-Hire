@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Hire Request">09f71b261b46e8108c5143f3cc4bcbb5</catalog_item>
+        <catalog_variable>IO:1471a4ae1b8ca450e7004229bc4bcbab</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-11 16:42:59</sys_created_on>
+        <sys_id>036049491b3b381062e50ed2cd4bcb6e</sys_id>
+        <sys_name>new_hire_is_an_ldp_candidate</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_036049491b3b381062e50ed2cd4bcb6e</sys_update_name>
+        <table/>
+        <ui_policy display_value="ldp is invisible if api group">60df3c091b3b381062e50ed2cd4bcb35</ui_policy>
+        <variable>new_hire_is_an_ldp_candidate</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>1816d58aced0000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_036049491b3b381062e50ed2cd4bcb6e</metadata_update_name>
+        <previous_claim_app_version>1.0.1</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-16 16:28:56</sys_created_on>
+        <sys_id>1c4edab21b88d11062e50ed2cd4bcba6</sys_id>
+    </sys_claim>
+</record_update>
