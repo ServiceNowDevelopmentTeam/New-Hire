@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Distribution Lookup">1bce45161b9a91508c5143f3cc4bcb5a</decision_table>
+        <label>Distribution Group: api-all-safetyservicesitemployees</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-10-04 17:53:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>168051d61b9a91508c5143f3cc4bcbd8</sys_id>
+        <sys_name>Distribution Group: api-all-safetyservicesitemployees</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sys_decision_multi_result_168051d61b9a91508c5143f3cc4bcbd8</sys_update_name>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=168051d61b9a91508c5143f3cc4bcbd8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>168051d61b9a91508c5143f3cc4bcbd8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2022-10-04 17:53:41</sys_created_on>
+        <sys_id>5a8051d61b9a91508c5143f3cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-10-04 17:53:41</sys_updated_on>
+        <value>api-all-safetyservicesitemployees</value>
+        <variable display_value="Distribution Group">06ef41d61b9a91508c5143f3cc4bcbaf</variable>
+    </sys_variable_value>
+</record_update>

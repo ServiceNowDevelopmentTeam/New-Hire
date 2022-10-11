@@ -20,7 +20,7 @@
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
-        <global>false</global>
+        <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
