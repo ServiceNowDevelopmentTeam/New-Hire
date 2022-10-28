@@ -11,11 +11,14 @@
         <sys_created_by>bj.strohl</sys_created_by>
         <sys_created_on>2021-06-25 15:16:59</sys_created_on>
         <sys_id>f8c7341c1b0df490e7004229bc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>will_this_person_be_supervising_others</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_ui_policy_action_f8c7341c1b0df490e7004229bc4bcbc9</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <table/>
         <ui_policy display_value="email only">2777f4d81b0df490e7004229bc4bcb0e</ui_policy>
         <variable>will_this_person_be_supervising_others</variable>
@@ -32,5 +35,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-16 16:28:51</sys_created_on>
         <sys_id>0f3e5ab21b88d11062e50ed2cd4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
     </sys_claim>
 </record_update>

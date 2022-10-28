@@ -15,11 +15,14 @@
         <sys_created_on>2022-02-03 22:36:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>92f63e881ba581908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sn_decision_table_decision_condition_92f63e881ba581908c5143f3cc4bcbc6</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <type display_value="Reference">52a227c1bf3320001875647fcf07396a</type>
     </sn_decision_table_decision_condition>
 </record_update>

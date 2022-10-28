@@ -36,11 +36,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-02-03 22:36:41</sys_created_on>
         <sys_id>a6f6be4c1ba581908c5143f3cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>New Hire After Task AD Account Created_100</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_metadata_link_a6f6be4c1ba581908c5143f3cc4bcbdb</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <tablename>sys_decision_question</tablename>
     </sys_metadata_link>
 </record_update>

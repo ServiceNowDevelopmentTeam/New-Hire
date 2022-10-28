@@ -69,11 +69,14 @@
         <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
         <sys_created_on>2020-10-27 00:15:15</sys_created_on>
         <sys_id>fb22a4ee1b8ca450e7004229bc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Human Resources:</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_fb22a4ee1b8ca450e7004229bc4bcbac</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <table/>
         <tooltip/>
         <type>19</type>
@@ -138,5 +141,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-16 16:33:05</sys_created_on>
         <sys_id>c13f1e361b88d11062e50ed2cd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
     </sys_claim>
 </record_update>

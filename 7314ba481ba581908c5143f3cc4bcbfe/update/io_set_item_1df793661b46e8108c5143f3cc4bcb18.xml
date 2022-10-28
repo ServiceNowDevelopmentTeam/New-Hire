@@ -6,11 +6,14 @@
         <sys_created_by>bj.strohl</sys_created_by>
         <sys_created_on>2021-02-03 23:34:41</sys_created_on>
         <sys_id>1df793661b46e8108c5143f3cc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Employee/Contractor.New Hire Request</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>io_set_item_1df793661b46e8108c5143f3cc4bcb18</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
     </io_set_item>
     <sys_claim action="INSERT_OR_UPDATE">
@@ -23,5 +26,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-16 16:28:10</sys_created_on>
         <sys_id>451e56b21b88d11062e50ed2cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
     </sys_claim>
 </record_update>

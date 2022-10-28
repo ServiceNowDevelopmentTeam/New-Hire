@@ -88,6 +88,7 @@
         <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
         <sys_id>09b1f3e975ac4982885f04bf356ec7a9</sys_id>
         <sys_metadata>c4810a0d1bf2d9508c5143f3cc4bcb4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>new hire - if WSFP</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_parent display_value="Sc Task">3ba86cef1be11010e7004229bc4bcb15</sys_parent>
@@ -96,5 +97,7 @@
         <sys_scope_delete display_value="">02bb50b2c2f047da8049e48e2bb1db31</sys_scope_delete>
         <sys_update_name>sys_script_c4810a0d1bf2d9508c5143f3cc4bcb4f</sys_update_name>
         <sys_update_version display_value="sys_script_c4810a0d1bf2d9508c5143f3cc4bcb4f">1591c20d1bf2d9508c5143f3cc4bcbf8</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-10-26 13:17:50</sys_updated_on>
     </sys_metadata_delete>
 </record_update>
