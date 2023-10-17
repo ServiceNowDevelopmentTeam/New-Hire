@@ -38,7 +38,7 @@
         <label>Numbers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="APi New Hire Flow">d079a2621bf5291062e50ed2cd4bcbe3</model>
+        <model display_value="">d079a2621bf5291062e50ed2cd4bcbe3</model>
         <model_id>d079a2621bf5291062e50ed2cd4bcbe3</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_d079a2621bf5291062e50ed2cd4bcbe3</name>

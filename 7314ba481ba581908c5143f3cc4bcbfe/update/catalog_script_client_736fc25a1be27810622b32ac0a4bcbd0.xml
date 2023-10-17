@@ -7,7 +7,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="*DEPRECATED*  New Hire Request">c96fce1a1be27810622b32ac0a4bcb2b</cat_item>
+        <cat_item display_value="*DEPRECATED* New Hire Request">c96fce1a1be27810622b32ac0a4bcb2b</cat_item>
         <cat_variable>IO:c8f5ac9f1b5bd810e7004229bc4bcb34</cat_variable>
         <condition/>
         <description/>

@@ -38,7 +38,7 @@
         <label>mpnext level</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="APi New Hire Flow">ad73ecc91b3925508c5143f3cc4bcbaa</model>
+        <model display_value="">ad73ecc91b3925508c5143f3cc4bcbaa</model>
         <model_id>ad73ecc91b3925508c5143f3cc4bcbaa</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_ad73ecc91b3925508c5143f3cc4bcbaa</name>

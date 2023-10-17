@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="*DEPRECATED*  Onboard Your New Hire Request">8be0681b1b5bd810e7004229bc4bcbaa</catalog_item>
+        <catalog_item display_value="*DEPRECATED* Onboard Your New Hire Request">8be0681b1b5bd810e7004229bc4bcbaa</catalog_item>
         <catalog_variable>IO:f8ea681b1b9bd810e7004229bc4bcbb3</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>

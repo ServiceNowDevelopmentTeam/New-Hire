@@ -38,7 +38,7 @@
         <label>mp tech</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="APi New Hire Flow">ed4e52261b75291062e50ed2cd4bcb4f</model>
+        <model display_value="">ed4e52261b75291062e50ed2cd4bcb4f</model>
         <model_id>ed4e52261b75291062e50ed2cd4bcb4f</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_ed4e52261b75291062e50ed2cd4bcb4f</name>

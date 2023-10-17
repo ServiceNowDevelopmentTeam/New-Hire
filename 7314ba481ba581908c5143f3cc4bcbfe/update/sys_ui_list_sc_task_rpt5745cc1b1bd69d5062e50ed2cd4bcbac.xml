@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.35a5e8131b9bd810e7004229bc4bcbb8</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.453417d21bc8a450e7004229bc4bcb26</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.1781685b1b5bd810e7004229bc4bcb37</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.332624531b9bd810e7004229bc4bcb2c</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.994f2ad31b1b1c10e7004229bc4bcbde</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.e14b96ab1b06b4108c5143f3cc4bcb4a</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,7 +138,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.50d5ecdf1b5bd810e7004229bc4bcbfd</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -153,7 +153,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.c8f5ac9f1b5bd810e7004229bc4bcb34</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
@@ -168,7 +168,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.e7dc8cb61b47ac50e7004229bc4bcbcd</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
@@ -183,7 +183,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.4b22641b1b5bd810e7004229bc4bcbe6</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
@@ -198,7 +198,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.510e90ea1b8ca450e7004229bc4bcb08</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>13</position>
@@ -213,7 +213,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.ec9a6c1b1b9bd810e7004229bc4bcb65</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>14</position>
@@ -228,7 +228,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>variables.f8ea681b1b9bd810e7004229bc4bcbb3</element>
-            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="9345cc1b1bd69d5062e50ed2cd4bcbb3">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
+            <list_id display_value="sc_task" element="NULL" name="sc_task" parent="NULL" relationship="NULL" sys_domain="global" view="5c8b58981bc39d508db03375cc4bcbde">df45cc1b1bd69d5062e50ed2cd4bcbb3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>15</position>
@@ -265,7 +265,7 @@
             <sys_updated_by>John.Schwab</sys_updated_by>
             <sys_updated_on>2022-10-12 16:41:15</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt5745cc1b1bd69d5062e50ed2cd4bcbac" name="RPT5745cc1b1bd69d5062e50ed2cd4bcbac">9345cc1b1bd69d5062e50ed2cd4bcbb3</view>
+            <view display_value="Rpt5745cc1b1bd69d5062e50ed2cd4bcbac" name="RPT5745cc1b1bd69d5062e50ed2cd4bcbac">5c8b58981bc39d508db03375cc4bcbde</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

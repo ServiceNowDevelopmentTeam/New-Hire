@@ -38,7 +38,7 @@
         <label>WSFP</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="APi New Hire Flow">0e3020011b3925508c5143f3cc4bcb97</model>
+        <model display_value="">0e3020011b3925508c5143f3cc4bcb97</model>
         <model_id>0e3020011b3925508c5143f3cc4bcb97</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_0e3020011b3925508c5143f3cc4bcb97</name>

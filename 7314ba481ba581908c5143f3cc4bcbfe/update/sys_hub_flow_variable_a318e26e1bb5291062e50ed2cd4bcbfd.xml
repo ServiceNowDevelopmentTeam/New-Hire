@@ -38,7 +38,7 @@
         <label>MPNL</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="APi New Hire Flow">1b18e26e1bb5291062e50ed2cd4bcbd0</model>
+        <model display_value="">1b18e26e1bb5291062e50ed2cd4bcbd0</model>
         <model_id>1b18e26e1bb5291062e50ed2cd4bcbd0</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_1b18e26e1bb5291062e50ed2cd4bcbd0</name>
