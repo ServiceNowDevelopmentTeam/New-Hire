@@ -23,15 +23,15 @@
             <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_flow_input_a74d4ad61bb57510c16ddb9ebd4bcb30</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
             <sys_created_on>2023-10-12 18:10:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-12 18:10:09</sys_updated_on>
+            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,15 +42,15 @@
             <label>Non-Union</label>
             <language>en</language>
             <name>var__m_sys_hub_flow_input_a74d4ad61bb57510c16ddb9ebd4bcb30</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
             <sys_created_on>2023-10-12 18:10:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-12 18:10:09</sys_updated_on>
+            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
             <value>non_union</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,15 +61,15 @@
             <label>Union</label>
             <language>en</language>
             <name>var__m_sys_hub_flow_input_a74d4ad61bb57510c16ddb9ebd4bcb30</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
             <sys_created_on>2023-10-12 18:10:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-12 18:10:09</sys_updated_on>
+            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
             <value>union</value>
         </sys_choice>
     </sys_choice>

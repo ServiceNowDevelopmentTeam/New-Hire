@@ -1795,7 +1795,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"6c34d5521bda91508c5143f3cc4bcb4d","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</plan_id>
-        <snapshot>748b8c24979c31102e853cf3a253afaa</snapshot>
+        <snapshot>276f24ce1b423dd062e50ed2cd4bcbc8</snapshot>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-10-04 18:09:41</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -3599,6 +3599,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>5bfc85da1b5a91508c5143f3cc4bcb21</sys_id>
         <latest_snapshot>843455521bda91508c5143f3cc4bcb09</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1-08-16-2023_08-21-2023_1705.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
