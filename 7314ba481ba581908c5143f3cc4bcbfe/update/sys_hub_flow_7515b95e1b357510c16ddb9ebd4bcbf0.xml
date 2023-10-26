@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>reqf__new_hire_create_user</internal_name>
-        <label_cache>[{"name":"subflow.employment_start_date","label":"Input➛Employment Start Date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6de60a4b-2256-4783-b44b-15ec5f1a56cf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fd57d926-f199-4cfe-b938-b5aea8d33a8a.record","label":"2 - Create Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.union_status","label":"Input➛Union Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"u_union_status","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Non-Union","value":"non_union","order":1.0},{"label":"Union","value":"union","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e462d14b-b3e7-405b-9e29-2d77988a4535","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.position_type","label":"Input➛Position Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"position_type","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Casual","value":"casual","order":1.0},{"label":"Consultant","value":"consultant","order":2.0},{"label":"Contractor","value":"contractor","order":3.0},{"label":"Expatriate","value":"expatriate","order":4.0},{"label":"Fixed Term Contract (Fixed Term)","value":"fixed_term_contract_(fixed_term)","order":5.0},{"label":"Regular","value":"regular","order":6.0},{"label":"Seasonal","value":"seasonal","order":7.0},{"label":"Temporary","value":"temporary","order":8.0},{"label":"Trainee (Trainee)","value":"trainee_(trainee)","order":9.0},{"label":"Vendor","value":"vendor","order":10.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"efc6f972-6ab2-4216-9d4a-6eaf2bc11126","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b468be9e-105f-4dc7-bd09-ebde8e98676c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.last_name","label":"Input➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33eccdbe-d199-4ca2-966c-915d549f3843","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company","label":"Input➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9491e47-4b74-475b-a118-c5429fcd503b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.location","label":"Input➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ebe6d7a9-c6cb-45d8-8bab-fbba3741ec81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.department","label":"Input➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"51ff9a48-86f3-4365-a3aa-da9466b7d8a0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.manager","label":"Input➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dda946bb-8643-44fa-a1c6-a7322ebeb8ad"}},{"name":"subflow.title","label":"Input➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0998e59f-7ab7-489e-b150-a0bcb8ce2142","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.business_phone_number","label":"Input➛Business Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"99f65cf2-2e8c-46bd-b44d-03b6db6e8e0b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.mobile_phone_number","label":"Input➛Mobile Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a872557c-b52e-4b5c-a73b-08e53ccf63ab","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.employee_number","label":"Input➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5de46234-e958-4e06-819f-66c17c931f22","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.user_requires_email","label":"Input➛User Requires Email","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1acddc5-5c5f-4bcc-aca0-842f7c1291a6"}}]</label_cache>
+        <label_cache>[{"name":"subflow.user_requires_email","label":"Input➛User Requires Email","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1acddc5-5c5f-4bcc-aca0-842f7c1291a6"}},{"name":"subflow.employee_number","label":"Input➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5de46234-e958-4e06-819f-66c17c931f22","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.mobile_phone_number","label":"Input➛Mobile Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a872557c-b52e-4b5c-a73b-08e53ccf63ab","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.business_phone_number","label":"Input➛Business Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"99f65cf2-2e8c-46bd-b44d-03b6db6e8e0b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.title","label":"Input➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0998e59f-7ab7-489e-b150-a0bcb8ce2142","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.manager","label":"Input➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dda946bb-8643-44fa-a1c6-a7322ebeb8ad"}},{"name":"subflow.department","label":"Input➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"51ff9a48-86f3-4365-a3aa-da9466b7d8a0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.location","label":"Input➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ebe6d7a9-c6cb-45d8-8bab-fbba3741ec81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company","label":"Input➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9491e47-4b74-475b-a118-c5429fcd503b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.last_name","label":"Input➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33eccdbe-d199-4ca2-966c-915d549f3843","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b468be9e-105f-4dc7-bd09-ebde8e98676c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.position_type","label":"Input➛Position Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"position_type","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Casual","value":"casual","order":1.0},{"label":"Consultant","value":"consultant","order":2.0},{"label":"Contractor","value":"contractor","order":3.0},{"label":"Expatriate","value":"expatriate","order":4.0},{"label":"Fixed Term Contract (Fixed Term)","value":"fixed_term_contract_(fixed_term)","order":5.0},{"label":"Regular","value":"regular","order":6.0},{"label":"Seasonal","value":"seasonal","order":7.0},{"label":"Temporary","value":"temporary","order":8.0},{"label":"Trainee (Trainee)","value":"trainee_(trainee)","order":9.0},{"label":"Vendor","value":"vendor","order":10.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"efc6f972-6ab2-4216-9d4a-6eaf2bc11126","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.union_status","label":"Input➛Union Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"u_union_status","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Non-Union","value":"non_union","order":1.0},{"label":"Union","value":"union","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e462d14b-b3e7-405b-9e29-2d77988a4535","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fd57d926-f199-4cfe-b938-b5aea8d33a8a.record","label":"2 - Create Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.employment_start_date","label":"Input➛Employment Start Date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6de60a4b-2256-4783-b44b-15ec5f1a56cf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.nickname","label":"Input➛Nickname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b2d4d875-b02d-4159-9c77-1d84b5b295de","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>a74d4ad61bb57510c16ddb9ebd4bcb30</master_snapshot>
         <name>REQF - New Hire Create User</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7515b95e1b357510c16ddb9ebd4bcbf0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>REQF - New Hire Create User</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_7515b95e1b357510c16ddb9ebd4bcbf0</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:56</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7515b95e1b357510c16ddb9ebd4bcbf0"/>
@@ -1487,10 +1487,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 16:34:09</sys_created_on>
         <sys_id>7157b9121b757510c16ddb9ebd4bcb0a</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-23 17:00:38</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:48:17</sys_updated_on>
         <ui_id>7e36472d-ba1f-4b1e-8e61-8a23dd6e7699</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7157b9121b757510c16ddb9ebd4bcb0a"/>
@@ -1563,10 +1563,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:06:07</sys_created_on>
         <sys_id>856c86961bb57510c16ddb9ebd4bcbf0</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-23 17:00:38</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:48:17</sys_updated_on>
         <ui_id>fd57d926-f199-4cfe-b938-b5aea8d33a8a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=856c86961bb57510c16ddb9ebd4bcbf0"/>
@@ -1603,11 +1603,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:06:07</sys_created_on>
         <sys_id>056c86961bb57510c16ddb9ebd4bcbf2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:39</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>user={{7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record}}^position_type={{subflow.position_type}}^u_union_status={{subflow.union_status}}^work_phone=+1{{subflow.business_phone_number}}^work_mobile=+1{{subflow.mobile_phone_number}}^u_user_requires_email={{subflow.user_requires_email}}^employment_start_date={{subflow.employment_start_date}}^=</value>
+        <value>user={{7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record}}^position_type={{subflow.position_type}}^u_union_status={{subflow.union_status}}^work_phone=+1{{subflow.business_phone_number}}^work_mobile=+1{{subflow.mobile_phone_number}}^u_user_requires_email={{subflow.user_requires_email}}^employment_start_date={{subflow.employment_start_date}}^nickname={{subflow.nickname}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=856c86961bb57510c16ddb9ebd4bcbf0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=856c86961bb57510c16ddb9ebd4bcbf0"/>
@@ -1635,10 +1635,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:09:09</sys_created_on>
         <sys_id>251d46d61bb57510c16ddb9ebd4bcb35</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:56</sys_updated_on>
         <ui_id>d24c2a89-8e5b-448e-886b-2c73325a0b83</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2019,7 +2019,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7515b95e1b357510c16ddb9ebd4bcbf0^sys_idNOT IN9a4b02561bb57510c16ddb9ebd4bcbcb,35642ef11bc67550c16ddb9ebd4bcb62,fd642ef11bc67550c16ddb9ebd4bcb62,b9642ef11bc67550c16ddb9ebd4bcb63,75642ef11bc67550c16ddb9ebd4bcb64,6a4b02561bb57510c16ddb9ebd4bcbd0,f9642ef11bc67550c16ddb9ebd4bcb66,b5642ef11bc67550c16ddb9ebd4bcb67"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7515b95e1b357510c16ddb9ebd4bcbf0^sys_idNOT IN9a4b02561bb57510c16ddb9ebd4bcbcb,9b9ad27e1b463d50c16ddb9ebd4bcb31,db9ad27e1b463d50c16ddb9ebd4bcb32,979ad27e1b463d50c16ddb9ebd4bcb33,539ad27e1b463d50c16ddb9ebd4bcb34,6a4b02561bb57510c16ddb9ebd4bcbd0,d79ad27e1b463d50c16ddb9ebd4bcb36,939ad27e1b463d50c16ddb9ebd4bcb37"/>
     <sys_choice field="position_type" table="var__m_sys_hub_flow_input_7515b95e1b357510c16ddb9ebd4bcbf0">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -2036,9 +2036,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9a4b02561bb57510c16ddb9ebd4bcbcb</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -2052,13 +2052,13 @@
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-10-23 16:49:45</sys_created_on>
+            <sys_created_on>2023-10-26 18:40:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>35642ef11bc67550c16ddb9ebd4bcb62</sys_id>
+            <sys_id>9b9ad27e1b463d50c16ddb9ebd4bcb31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value>contractor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -2072,13 +2072,13 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-10-23 16:49:45</sys_created_on>
+            <sys_created_on>2023-10-26 18:40:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd642ef11bc67550c16ddb9ebd4bcb62</sys_id>
+            <sys_id>db9ad27e1b463d50c16ddb9ebd4bcb32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value>regular</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -2092,13 +2092,13 @@
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-10-23 16:49:45</sys_created_on>
+            <sys_created_on>2023-10-26 18:40:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b9642ef11bc67550c16ddb9ebd4bcb63</sys_id>
+            <sys_id>979ad27e1b463d50c16ddb9ebd4bcb33</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value>temporary</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -2112,13 +2112,13 @@
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-10-23 16:49:45</sys_created_on>
+            <sys_created_on>2023-10-26 18:40:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>75642ef11bc67550c16ddb9ebd4bcb64</sys_id>
+            <sys_id>539ad27e1b463d50c16ddb9ebd4bcb34</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value>trainee_(trainee)</value>
         </sys_choice>
     </sys_choice>
@@ -2138,9 +2138,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6a4b02561bb57510c16ddb9ebd4bcbd0</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -2154,13 +2154,13 @@
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-10-23 16:49:45</sys_created_on>
+            <sys_created_on>2023-10-26 18:40:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f9642ef11bc67550c16ddb9ebd4bcb66</sys_id>
+            <sys_id>d79ad27e1b463d50c16ddb9ebd4bcb36</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value>non_union</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -2174,13 +2174,13 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-10-23 16:49:45</sys_created_on>
+            <sys_created_on>2023-10-26 18:40:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b5642ef11bc67550c16ddb9ebd4bcb67</sys_id>
+            <sys_id>939ad27e1b463d50c16ddb9ebd4bcb37</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:45</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:55</sys_updated_on>
             <value>union</value>
         </sys_choice>
     </sys_choice>
@@ -2237,17 +2237,17 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"f85d8ad61bb57510c16ddb9ebd4bcb73","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="REQF - New Hire Create User">7515b95e1b357510c16ddb9ebd4bcbf0</plan_id>
-        <snapshot>c1e6267d1bc67550c16ddb9ebd4bcb6b</snapshot>
+        <snapshot>5b4c5afe1b463d50c16ddb9ebd4bcb0c</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:10:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f85d8ad61bb57510c16ddb9ebd4bcb73</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:44</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:54</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2260,7 +2260,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>reqf__new_hire_create_user</internal_name>
-        <label_cache>[{"name":"subflow.employment_start_date","label":"Input➛Employment Start Date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6de60a4b-2256-4783-b44b-15ec5f1a56cf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fd57d926-f199-4cfe-b938-b5aea8d33a8a.record","label":"2 - Create Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.union_status","label":"Input➛Union Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"u_union_status","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Non-Union","value":"non_union","order":1.0},{"label":"Union","value":"union","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e462d14b-b3e7-405b-9e29-2d77988a4535","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.position_type","label":"Input➛Position Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"position_type","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Casual","value":"casual","order":1.0},{"label":"Consultant","value":"consultant","order":2.0},{"label":"Contractor","value":"contractor","order":3.0},{"label":"Expatriate","value":"expatriate","order":4.0},{"label":"Fixed Term Contract (Fixed Term)","value":"fixed_term_contract_(fixed_term)","order":5.0},{"label":"Regular","value":"regular","order":6.0},{"label":"Seasonal","value":"seasonal","order":7.0},{"label":"Temporary","value":"temporary","order":8.0},{"label":"Trainee (Trainee)","value":"trainee_(trainee)","order":9.0},{"label":"Vendor","value":"vendor","order":10.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"efc6f972-6ab2-4216-9d4a-6eaf2bc11126","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b468be9e-105f-4dc7-bd09-ebde8e98676c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.last_name","label":"Input➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33eccdbe-d199-4ca2-966c-915d549f3843","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company","label":"Input➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9491e47-4b74-475b-a118-c5429fcd503b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.location","label":"Input➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ebe6d7a9-c6cb-45d8-8bab-fbba3741ec81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.department","label":"Input➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"51ff9a48-86f3-4365-a3aa-da9466b7d8a0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.manager","label":"Input➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dda946bb-8643-44fa-a1c6-a7322ebeb8ad"}},{"name":"subflow.title","label":"Input➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0998e59f-7ab7-489e-b150-a0bcb8ce2142","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.business_phone_number","label":"Input➛Business Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"99f65cf2-2e8c-46bd-b44d-03b6db6e8e0b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.mobile_phone_number","label":"Input➛Mobile Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a872557c-b52e-4b5c-a73b-08e53ccf63ab","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.employee_number","label":"Input➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5de46234-e958-4e06-819f-66c17c931f22","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.user_requires_email","label":"Input➛User Requires Email","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1acddc5-5c5f-4bcc-aca0-842f7c1291a6"}}]</label_cache>
+        <label_cache>[{"name":"subflow.user_requires_email","label":"Input➛User Requires Email","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d1acddc5-5c5f-4bcc-aca0-842f7c1291a6"}},{"name":"subflow.employee_number","label":"Input➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5de46234-e958-4e06-819f-66c17c931f22","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.mobile_phone_number","label":"Input➛Mobile Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a872557c-b52e-4b5c-a73b-08e53ccf63ab","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.business_phone_number","label":"Input➛Business Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"99f65cf2-2e8c-46bd-b44d-03b6db6e8e0b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.title","label":"Input➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0998e59f-7ab7-489e-b150-a0bcb8ce2142","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.manager","label":"Input➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dda946bb-8643-44fa-a1c6-a7322ebeb8ad"}},{"name":"subflow.department","label":"Input➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"51ff9a48-86f3-4365-a3aa-da9466b7d8a0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.location","label":"Input➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ebe6d7a9-c6cb-45d8-8bab-fbba3741ec81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company","label":"Input➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9491e47-4b74-475b-a118-c5429fcd503b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.last_name","label":"Input➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"33eccdbe-d199-4ca2-966c-915d549f3843","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b468be9e-105f-4dc7-bd09-ebde8e98676c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record","label":"1 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.position_type","label":"Input➛Position Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"position_type","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Casual","value":"casual","order":1.0},{"label":"Consultant","value":"consultant","order":2.0},{"label":"Contractor","value":"contractor","order":3.0},{"label":"Expatriate","value":"expatriate","order":4.0},{"label":"Fixed Term Contract (Fixed Term)","value":"fixed_term_contract_(fixed_term)","order":5.0},{"label":"Regular","value":"regular","order":6.0},{"label":"Seasonal","value":"seasonal","order":7.0},{"label":"Temporary","value":"temporary","order":8.0},{"label":"Trainee (Trainee)","value":"trainee_(trainee)","order":9.0},{"label":"Vendor","value":"vendor","order":10.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"efc6f972-6ab2-4216-9d4a-6eaf2bc11126","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.union_status","label":"Input➛Union Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"u_union_status","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Non-Union","value":"non_union","order":1.0},{"label":"Union","value":"union","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e462d14b-b3e7-405b-9e29-2d77988a4535","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"fd57d926-f199-4cfe-b938-b5aea8d33a8a.record","label":"2 - Create Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.employment_start_date","label":"Input➛Employment Start Date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6de60a4b-2256-4783-b44b-15ec5f1a56cf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.nickname","label":"Input➛Nickname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b2d4d875-b02d-4159-9c77-1d84b5b295de","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master>true</master>
         <name>REQF - New Hire Create User</name>
         <natlang/>
@@ -2277,7 +2277,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a74d4ad61bb57510c16ddb9ebd4bcb30</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2285,7 +2285,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:44</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:53</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a74d4ad61bb57510c16ddb9ebd4bcb30"/>
@@ -3735,10 +3735,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:10:10</sys_created_on>
         <sys_id>2c5d8ad61bb57510c16ddb9ebd4bcb5b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:44</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:53</sys_updated_on>
         <ui_id>fd57d926-f199-4cfe-b938-b5aea8d33a8a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2c5d8ad61bb57510c16ddb9ebd4bcb5b"/>
@@ -3775,11 +3775,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:10:10</sys_created_on>
         <sys_id>ac5d8ad61bb57510c16ddb9ebd4bcb5c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:51</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>user={{7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record}}^position_type={{subflow.position_type}}^u_union_status={{subflow.union_status}}^work_phone=+1{{subflow.business_phone_number}}^work_mobile=+1{{subflow.mobile_phone_number}}^u_user_requires_email={{subflow.user_requires_email}}^employment_start_date={{subflow.employment_start_date}}^=</value>
+        <value>user={{7e36472d-ba1f-4b1e-8e61-8a23dd6e7699.record}}^position_type={{subflow.position_type}}^u_union_status={{subflow.union_status}}^work_phone=+1{{subflow.business_phone_number}}^work_mobile=+1{{subflow.mobile_phone_number}}^u_user_requires_email={{subflow.user_requires_email}}^employment_start_date={{subflow.employment_start_date}}^nickname={{subflow.nickname}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2c5d8ad61bb57510c16ddb9ebd4bcb5b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2c5d8ad61bb57510c16ddb9ebd4bcb5b"/>
@@ -3797,10 +3797,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:10:10</sys_created_on>
         <sys_id>685d8ad61bb57510c16ddb9ebd4bcb55</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:44</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
         <ui_id>7e36472d-ba1f-4b1e-8e61-8a23dd6e7699</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=685d8ad61bb57510c16ddb9ebd4bcb55"/>
@@ -3869,10 +3869,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-10-12 18:10:10</sys_created_on>
         <sys_id>ec5d8ad61bb57510c16ddb9ebd4bcb4b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-23 16:49:44</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:40:53</sys_updated_on>
         <ui_id>d24c2a89-8e5b-448e-886b-2c73325a0b83</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4270,9 +4270,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>445d4ad61bb57510c16ddb9ebd4bcbe0</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -4290,9 +4290,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4c5d4ad61bb57510c16ddb9ebd4bcbe3</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value>contractor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -4310,9 +4310,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c45d4ad61bb57510c16ddb9ebd4bcbe6</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value>regular</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -4330,9 +4330,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c05d4ad61bb57510c16ddb9ebd4bcbe8</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value>temporary</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -4350,9 +4350,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>405d4ad61bb57510c16ddb9ebd4bcbe9</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value>trainee_(trainee)</value>
         </sys_choice>
     </sys_choice>
@@ -4372,9 +4372,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1c5d4ad61bb57510c16ddb9ebd4bcbf7</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -4392,9 +4392,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>185d4ad61bb57510c16ddb9ebd4bcbf9</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value>non_union</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -4412,9 +4412,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>945d4ad61bb57510c16ddb9ebd4bcbfa</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-10-23 16:49:43</sys_updated_on>
+            <sys_updated_on>2023-10-26 18:40:52</sys_updated_on>
             <value>union</value>
         </sys_choice>
     </sys_choice>
