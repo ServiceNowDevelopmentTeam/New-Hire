@@ -17,6 +17,7 @@
         <messages/>
         <name>Verify Auto-populated Email</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onSubmit() {
 	
 	//Get the hiring manager 

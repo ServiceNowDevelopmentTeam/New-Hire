@@ -17,6 +17,7 @@
         <messages/>
         <name>set employee number mandatory</name>
         <order>20000</order>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
     //Type appropriate comment here, and begin script below
 	//console.log('isWSFP = ' + g_scratchpad.isWSFP);

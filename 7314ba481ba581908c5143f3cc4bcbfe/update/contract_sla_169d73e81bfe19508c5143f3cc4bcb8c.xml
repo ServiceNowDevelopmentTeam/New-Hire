@@ -22,7 +22,6 @@
         <schedule display_value="6-6 Weekdays">581ec9791b88bc10e7004229bc4bcb2c</schedule>
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
-        <service_commitment>false</service_commitment>
         <set_start_to>work_end</set_start_to>
         <start_condition table="sc_task">request_item.cat_item.delivery_time=javascript:gs.getDurationDate('4 0:0:0')^EQ<item endquery="false" field="request_item.cat_item.delivery_time" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getDurationDate('4 0:0:0')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

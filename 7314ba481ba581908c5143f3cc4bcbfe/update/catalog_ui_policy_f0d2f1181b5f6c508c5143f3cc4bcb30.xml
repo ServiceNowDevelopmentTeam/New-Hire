@@ -6,7 +6,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:8c5c00721b47ac50e7004229bc4bcbd9=true^IO:402b285b1b9bd810e7004229bc4bcb0a!=^EQ</catalog_conditions>
+        <catalog_conditions>IO:8c5c00721b47ac50e7004229bc4bcbd9=true^EQ</catalog_conditions>
         <catalog_item display_value="New Hire Request">09f71b261b46e8108c5143f3cc4bcbb5</catalog_item>
         <conditions/>
         <description/>
@@ -17,6 +17,7 @@
         <model_table/>
         <on_load>true</on_load>
         <order>100</order>
+        <published_ref/>
         <reverse_if_false>false</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -33,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f0d2f1181b5f6c508c5143f3cc4bcb30</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>job title not found = true </sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -41,7 +42,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_ui_policy_f0d2f1181b5f6c508c5143f3cc4bcb30</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-10-25 21:19:57</sys_updated_on>
+        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

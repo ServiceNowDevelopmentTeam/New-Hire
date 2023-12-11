@@ -17,6 +17,7 @@
         <messages/>
         <name>Set full_name</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange() {
    //Type appropriate comment here, and begin script below
 	var firstName = g_form.getValue('new_hire_legal_first_name');

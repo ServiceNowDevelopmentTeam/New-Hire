@@ -17,6 +17,7 @@
         <messages/>
         <name>Auto-Populate Email</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 
 	

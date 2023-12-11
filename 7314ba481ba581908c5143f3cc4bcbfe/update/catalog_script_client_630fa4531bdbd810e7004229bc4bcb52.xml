@@ -17,6 +17,7 @@
         <messages/>
         <name>Alert if pre-requisites are not complete</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 	if (isLoading || newValue == '') {
 		return;
