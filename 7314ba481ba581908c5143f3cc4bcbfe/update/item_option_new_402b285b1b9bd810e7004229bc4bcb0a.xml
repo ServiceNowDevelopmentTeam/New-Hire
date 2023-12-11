@@ -29,7 +29,7 @@ Drug Test &#13;
 Hardware Order&#13;
 Background Check</help_text>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -40,7 +40,7 @@ Background Check</help_text>
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -74,14 +74,14 @@ Background Check</help_text>
         <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
         <sys_created_on>2020-09-22 02:02:37</sys_created_on>
         <sys_id>402b285b1b9bd810e7004229bc4bcb0a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Have you completed all of the applicable pre-requisites for this new Hire</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_402b285b1b9bd810e7004229bc4bcb0a</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
+        <sys_updated_on>2023-10-25 21:16:47</sys_updated_on>
         <table/>
         <tooltip/>
         <type>3</type>

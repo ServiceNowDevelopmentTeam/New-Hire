@@ -5,8 +5,8 @@
         <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>u_union_status</choice_field>
+        <choice_table>sn_employee_profile</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -37,12 +37,12 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>union_non_union</name>
-        <order>1000</order>
+        <order>1100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -71,14 +71,14 @@
         <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
         <sys_created_on>2020-09-22 02:01:36</sys_created_on>
         <sys_id>f8ea681b1b9bd810e7004229bc4bcbb3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Union/Non-Union</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_f8ea681b1b9bd810e7004229bc4bcbb3</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
+        <sys_updated_on>2023-10-25 14:04:30</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

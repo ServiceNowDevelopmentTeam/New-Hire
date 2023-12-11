@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sc_request</collection>
+        <email_layout display_value="APi Non-Standard Layout">6e9c66271ba4751062e50ed2cd4bcbe8</email_layout>
+        <message/>
+        <message_html><![CDATA[<table style="border-collapse: collapse; width: 100%; height: 115.729px;" border="0" cellpadding="0">
+<tbody>
+<tr style="height: 22.3958px;">
+<td style="background: #2a3e6d; width: 100%; text-align: center; vertical-align: middle; color: #fdfdfd; font-family: verdana; font-size: 12pt; padding-top: 10px; padding-bottom: 10px; height: 22.3958px;"><strong>Ticket ${number} account ready</strong></td>
+</tr>
+<tr style="height: 37.3333px;">
+<td style="padding: 10px; width: 100%; height: 37.3333px;">
+<p style="margin: 0in; font-size: 10pt; font-family: Verdana;"><strong>TICKET DESCRIPTION</strong></p>
+<p style="margin: 0in; font-size: 10pt; font-family: Verdana;">${short_description}&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<div style="color: #2a3e6d;"><hr /></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 0in; font-size: 5pt; font-family: Verdana;">&nbsp;</p>
+<p style="margin: 0in; font-size: 10pt; font-family: Verdana;">With the email account ready, you may now <a href="/sp?id=api_emp_taxonomy_topic&amp;topic_id=4d45b2ec1bf961508c5143f3cc4bcbe3">click here</a> to request access to additional applications.<br /><br />If this request still needs attention, ${mail_script:click_here_mailbox_reopen_url} to reopen.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>APi New Hire Account Ready</name>
+        <sms_alternate/>
+        <subject>Ticket ${number} account ready</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-10-17 18:09:24</sys_created_on>
+        <sys_id>791d777b1bbdf910c16ddb9ebd4bcb3e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>APi New Hire Account Ready</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sysevent_email_template_791d777b1bbdf910c16ddb9ebd4bcb3e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-10-17 18:12:52</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
