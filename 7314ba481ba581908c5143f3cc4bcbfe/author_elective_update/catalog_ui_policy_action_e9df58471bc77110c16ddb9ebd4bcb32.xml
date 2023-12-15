@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:a56f10471bc77110c16ddb9ebd4bcb13</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-12-15 21:25:54</sys_created_on>
+        <sys_id>e9df58471bc77110c16ddb9ebd4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>no_middle_name</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e9df58471bc77110c16ddb9ebd4bcb32</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-12-15 21:25:54</sys_updated_on>
+        <table/>
+        <ui_policy display_value="OnLoad">319fa6171b1b1c10e7004229bc4bcb53</ui_policy>
+        <variable>no_middle_name</variable>
+        <variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>catalog_ui_policy_action_e9df58471bc77110c16ddb9ebd4bcb32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:a56f10471bc77110c16ddb9ebd4bcb13</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-12-15 21:25:54</sys_created_on><sys_id>e9df58471bc77110c16ddb9ebd4bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>no_middle_name</sys_name><sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package><sys_policy/><sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope><sys_update_name>catalog_ui_policy_action_e9df58471bc77110c16ddb9ebd4bcb32</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-12-15 21:25:54</sys_updated_on><table/><ui_policy display_value="OnLoad">319fa6171b1b1c10e7004229bc4bcb53</ui_policy><variable>no_middle_name</variable><variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1955092729</payload_hash>
+        <record_name>no_middle_name</record_name>
+        <reverted_from/>
+        <source>6875cbfa1b437110c16ddb9ebd4bcb69</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-12-15 21:25:55</sys_created_on>
+        <sys_id>f3df94471bc77110c16ddb9ebd4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c6f5f233d0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-12-15 21:25:55</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>f7df944774c7711002d689f2f5316aa5</update_guid>
+        <update_guid_history>f7df944774c7711002d689f2f5316aa5:-1955092729</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="no_middle_name">f072284b1bc77110c16ddb9ebd4bcb5a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-12-15 21:37:10</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>173699606f16424084537f9f4f85c400</sys_id>
+        <sys_metadata>e9df58471bc77110c16ddb9ebd4bcb32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>no_middle_name</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_scope_delete display_value="">02bb50b2c2f047da8049e48e2bb1db31</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e9df58471bc77110c16ddb9ebd4bcb32</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e9df58471bc77110c16ddb9ebd4bcb32">f3df94471bc77110c16ddb9ebd4bcba6</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-12-15 21:37:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

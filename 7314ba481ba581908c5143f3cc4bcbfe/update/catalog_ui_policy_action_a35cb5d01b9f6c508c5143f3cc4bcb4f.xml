@@ -25,18 +25,4 @@
         <variable_set/>
         <visible>ignore</visible>
     </catalog_ui_policy_action>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
-        <claim_timestamp>1816d58a3670000001</claim_timestamp>
-        <metadata_update_name>catalog_ui_policy_action_a35cb5d01b9f6c508c5143f3cc4bcb4f</metadata_update_name>
-        <previous_claim_app_version>1.0.1</previous_claim_app_version>
-        <previous_claim_name>New Hire</previous_claim_name>
-        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-16 16:28:54</sys_created_on>
-        <sys_id>773e9ab21b88d11062e50ed2cd4bcba2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
-    </sys_claim>
 </record_update>
