@@ -23,7 +23,9 @@
     if (isLoading || newValue == '') {
         g_form.setMandatory('area_manager', false);
         g_form.setDisplay('area_manager', false);
-        return;
+		if(newValue == ''){
+			return;
+		}
     }
 
     var companies = [
@@ -54,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ffc533e1b9cc69462e50ed2cd4bcbc6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Show/Hide Area Manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -62,7 +64,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_script_client_3ffc533e1b9cc69462e50ed2cd4bcbc6</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-02-15 20:03:16</sys_updated_on>
+        <sys_updated_on>2024-02-26 21:21:49</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
