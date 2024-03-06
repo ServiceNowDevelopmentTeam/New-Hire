@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item/>
+        <catalog_item display_value="New Hire Request">09f71b261b46e8108c5143f3cc4bcbb5</catalog_item>
         <catalog_variable>IO:290453d21bc8a450e7004229bc4bcbf1</catalog_variable>
         <cleared>false</cleared>
-        <disabled>ignore</disabled>
+        <disabled>true</disabled>
         <field/>
         <mandatory>false</mandatory>
-        <order>200</order>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-02-16 21:16:20</sys_created_on>
-        <sys_id>90d9b0571b140e9462e50ed2cd4bcb57</sys_id>
+        <sys_created_on>2024-03-06 14:22:13</sys_created_on>
+        <sys_id>65315ddd1bf4861062e50ed2cd4bcb37</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>mobile_phone_number</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_90d9b0571b140e9462e50ed2cd4bcb57</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_65315ddd1bf4861062e50ed2cd4bcb37</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-03-06 14:20:29</sys_updated_on>
+        <sys_updated_on>2024-03-06 14:22:37</sys_updated_on>
         <table/>
-        <ui_policy display_value="No company phone">4ab978171b140e9462e50ed2cd4bcbef</ui_policy>
+        <ui_policy display_value="No mobile phone">d81191dd1bf4861062e50ed2cd4bcbec</ui_policy>
         <variable>mobile_phone_number</variable>
-        <variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
+        <variable_set/>
         <visible>ignore</visible>
     </catalog_ui_policy_action>
 </record_update>

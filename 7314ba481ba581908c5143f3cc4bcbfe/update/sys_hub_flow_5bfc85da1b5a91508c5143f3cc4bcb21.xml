@@ -3628,14 +3628,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>5bfc85da1b5a91508c5143f3cc4bcb21</sys_id>
         <latest_snapshot>843455521bda91508c5143f3cc4bcb09</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch5-12-01-2023_12-11-2023_2006.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch6-01-11-2024_01-22-2024_2201.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5bfc85da1b5a91508c5143f3cc4bcb21^sys_idNOT IN6c34d5521bda91508c5143f3cc4bcb4d"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"6c34d5521bda91508c5143f3cc4bcb4d","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</plan_id>
-        <snapshot>10243d361b633990c16ddb9ebd4bcba2</snapshot>
+        <snapshot>f5210f6a1b208290c16ddb9ebd4bcbb0</snapshot>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-10-04 18:09:41</sys_created_on>
         <sys_domain>global</sys_domain>
