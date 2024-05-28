@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:7c457cfe1b120e5062e50ed2cd4bcbf2LIKE33678c3e1bb12854df31da49cc4bcb5a^EQ</condition>
+        <guide display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="APi Connect (ServiceNow) Access Request">88c3d53c1be8c21062e50ed2cd4bcbd5</item>
+        <order/>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-23 18:42:23</sys_created_on>
+        <sys_id>98c87b161b9a8a5062e50ed2cd4bcb18</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>88c3d53c1be8c21062e50ed2cd4bcbd5</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_98c87b161b9a8a5062e50ed2cd4bcb18</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-24 18:20:24</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

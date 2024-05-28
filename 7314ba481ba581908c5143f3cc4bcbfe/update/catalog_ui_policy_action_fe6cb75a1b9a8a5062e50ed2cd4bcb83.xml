@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:665b7fd61b9a8a5062e50ed2cd4bcbc6</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-23 18:58:30</sys_created_on>
+        <sys_id>fe6cb75a1b9a8a5062e50ed2cd4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>need_any_computer_accessories</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_fe6cb75a1b9a8a5062e50ed2cd4bcb83</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-23 18:58:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Computer Accessories If Computer Needs Reassign">840c7f1a1b9a8a5062e50ed2cd4bcb12</ui_policy>
+        <variable>need_any_computer_accessories</variable>
+        <variable_set display_value="Information Technology">071caa8a1b524a5062e50ed2cd4bcb98</variable_set>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

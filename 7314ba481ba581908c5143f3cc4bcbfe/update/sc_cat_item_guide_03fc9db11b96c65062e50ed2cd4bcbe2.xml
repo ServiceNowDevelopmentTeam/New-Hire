@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide">
+    <sc_cat_item_guide action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <cascade>true</cascade>
+        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <include_items>false</include_items>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta>new hire, onboard, hire, employee, contractor, offer, job</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>New Hire Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <order_to_cart>false</order_to_cart>
+        <ordered_item_link/>
+        <owner display_value="James Benagh">037a34211b12c250c16ddb9ebd4bcb7f</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=03fc9db11b96c65062e50ed2cd4bcbe2&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <sequencing_process display_value="New Hire Request process order">2988d6841be2829062e50ed2cd4bcb3c</sequencing_process>
+        <short_description>Onboard a team member or independent contractor</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_guide</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-21 18:06:20</sys_created_on>
+        <sys_id>03fc9db11b96c65062e50ed2cd4bcbe2</sys_id>
+        <sys_mod_count>85</sys_mod_count>
+        <sys_name>New Hire Request</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_guide_03fc9db11b96c65062e50ed2cd4bcbe2</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-28 22:26:09</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <two_step>false</two_step>
+        <type>item</type>
+        <u_additional_info/>
+        <u_additional_info_completed/>
+        <u_additional_info_updated/>
+        <u_approval_condition/>
+        <u_cdw_item>false</u_cdw_item>
+        <u_cdw_item_number/>
+        <u_conditional_approvals>false</u_conditional_approvals>
+        <u_contains_approvals>false</u_contains_approvals>
+        <u_custom_additional_info>false</u_custom_additional_info>
+        <u_custom_additional_info_completed>false</u_custom_additional_info_completed>
+        <u_custom_additional_info_updated>false</u_custom_additional_info_updated>
+        <u_custom_info>false</u_custom_info>
+        <u_custom_info_completed>false</u_custom_info_completed>
+        <u_custom_info_updated>false</u_custom_info_updated>
+        <u_custom_signature>false</u_custom_signature>
+        <u_custom_subject>false</u_custom_subject>
+        <u_custom_subject_completed>false</u_custom_subject_completed>
+        <u_custom_subject_updated>false</u_custom_subject_updated>
+        <u_custom_variables>false</u_custom_variables>
+        <u_info/>
+        <u_info_completed/>
+        <u_info_updated/>
+        <u_is_multiple_approval>false</u_is_multiple_approval>
+        <u_is_not_multiple_approver_conditional>true</u_is_not_multiple_approver_conditional>
+        <u_multiple_approval_condition/>
+        <u_signature/>
+        <u_subject/>
+        <u_subject_completed/>
+        <u_subject_updated/>
+        <u_table>sc_req_item</u_table>
+        <u_variables/>
+        <use_sc_layout>true</use_sc_layout>
+        <validator/>
+        <vendor/>
+        <version>85</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_guide>
+    <sys_translated_text action="delete_multiple" query="documentkey=03fc9db11b96c65062e50ed2cd4bcbe2"/>
+    <fx_price action="delete_multiple" query="id=03fc9db11b96c65062e50ed2cd4bcbe2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>03fc9db11b96c65062e50ed2cd4bcbe2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-21 18:06:21</sys_created_on>
+        <sys_id>706d59f11b96c65062e50ed2cd4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-21 18:06:21</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>18fa12cdfa60000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_guide_03fc9db11b96c65062e50ed2cd4bcbe2</metadata_update_name>
+        <previous_claim_app_version>1.2.0</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-22 16:40:23</sys_created_on>
+        <sys_id>ef43dec61bde0a5062e50ed2cd4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-22 16:40:23</sys_updated_on>
+    </sys_claim>
+</record_update>

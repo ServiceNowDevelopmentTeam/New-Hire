@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:7c457cfe1b120e5062e50ed2cd4bcbf2LIKEf0840b6a1b58b850e7004229bc4bcbd3^EQ</condition>
+        <guide display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Astea Access Request">8cb8e26a1b1478508c5143f3cc4bcb52</item>
+        <order/>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-23 18:37:54</sys_created_on>
+        <sys_id>6ba77f921b9a8a5062e50ed2cd4bcb7f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>8cb8e26a1b1478508c5143f3cc4bcb52</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_6ba77f921b9a8a5062e50ed2cd4bcb7f</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-24 18:19:16</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

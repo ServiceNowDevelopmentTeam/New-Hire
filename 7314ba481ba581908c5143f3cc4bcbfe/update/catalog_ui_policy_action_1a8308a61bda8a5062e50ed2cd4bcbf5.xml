@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</catalog_item>
+        <catalog_variable>IO:51ff735e1b9a8a5062e50ed2cd4bcb83</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-23 19:29:29</sys_created_on>
+        <sys_id>1a8308a61bda8a5062e50ed2cd4bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>select_team_member_to_delegate_to</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1a8308a61bda8a5062e50ed2cd4bcbf5</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-28 01:11:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Team Member Delegate Field Unless Choosing to Delegate">8d4380a61bda8a5062e50ed2cd4bcb94</ui_policy>
+        <variable>select_team_member_to_delegate_to</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
