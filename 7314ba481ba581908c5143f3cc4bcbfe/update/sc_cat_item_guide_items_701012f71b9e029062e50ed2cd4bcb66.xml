@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
     <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
-        <condition>IO:463ff31e1b9a8a5062e50ed2cd4bcb5a!=continue_form^123TEXTQUERY321=sda^EQ</condition>
+        <condition>IO:463ff31e1b9a8a5062e50ed2cd4bcb5a=team_member_supervisor^EQ</condition>
         <guide display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
         <item display_value="Supervisor To-Do">3680c97e1b520e5062e50ed2cd4bcbbc</item>
-        <order/>
+        <order>15</order>
         <quantity>1</quantity>
         <requested_by/>
         <requested_for/>
@@ -13,14 +13,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 02:55:50</sys_created_on>
         <sys_id>701012f71b9e029062e50ed2cd4bcb66</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>3680c97e1b520e5062e50ed2cd4bcbbc</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sc_cat_item_guide_items_701012f71b9e029062e50ed2cd4bcb66</sys_update_name>
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-28 23:16:00</sys_updated_on>
+        <sys_updated_on>2024-05-30 16:28:19</sys_updated_on>
         <use_sc_layout>true</use_sc_layout>
     </sc_cat_item_guide_items>
 </record_update>

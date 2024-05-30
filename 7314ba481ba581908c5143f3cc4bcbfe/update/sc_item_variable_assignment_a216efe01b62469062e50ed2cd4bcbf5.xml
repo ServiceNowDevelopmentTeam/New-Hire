@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable>
+        <item_variable display_value="Requested For">cf3f1f3f1bd26d508c5143f3cc4bcb45</item_variable>
+        <rule display_value="Apple iPhone 14 Pro 128GB">68de9b681b22469062e50ed2cd4bcb50</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-30 17:07:08</sys_created_on>
+        <sys_id>a216efe01b62469062e50ed2cd4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cf3f1f3f1bd26d508c5143f3cc4bcb45</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_a216efe01b62469062e50ed2cd4bcbf5</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-30 17:07:08</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+</record_update>
