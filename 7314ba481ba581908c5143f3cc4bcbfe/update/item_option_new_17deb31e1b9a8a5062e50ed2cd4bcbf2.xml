@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</cat_item>
         <category/>
@@ -77,14 +77,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-23 19:10:12</sys_created_on>
         <sys_id>17deb31e1b9a8a5062e50ed2cd4bcbf2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>You have the option to continue ordering computers, devices, and access, or this can be delegated to another team member. </sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_17deb31e1b9a8a5062e50ed2cd4bcbf2</sys_update_name>
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-23 19:22:21</sys_updated_on>
+        <sys_updated_on>2024-06-02 01:37:07</sys_updated_on>
         <table/>
         <tooltip/>
         <type>17</type>

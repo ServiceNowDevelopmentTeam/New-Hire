@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition><![CDATA[var now = new GlideDateTime();
+var day = now.getDayOfWeekLocalTime();
+var answer = !(day == 6 || day == 7);
+answer;]]></condition>
+        <conditional>true</conditional>
+        <entered_time>1970-01-01 06:00:10</entered_time>
+        <max_drift/>
+        <name>New Hire Request Daily Reminder</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="James Benagh">037a34211b12c250c16ddb9ebd4bcb7f</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-06-03 02:16:52</run_start>
+        <run_time>1970-01-01 12:00:10</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var newEmailCat = '0fd8efb81b8325108c5143f3cc4bcbfa';
+var encQue = 'active=true^order_guide=03fc9db11b96c65062e50ed2cd4bcbe2';
+var hireRequest = new GlideRecord('sc_request');
+hireRequest.addEncodedQuery(encQue);
+hireRequest.query();
+while (hireRequest.next()) {
+	var emailReq = new GlideRecord("sc_req_item");
+	emailReq.addQuery('request', hireRequest.sys_id);
+	emailReq.addQuery('cat_item', newEmailCat);
+	emailReq.query();
+	if(emailReq.next()) {
+		gs.eventQueue("new_hire_request_update", hireRequest, hireRequest.opened_by.sys_id, emailReq.variables.supervisor.sys_id);
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-06-03 02:25:32</sys_created_on>
+        <sys_id>9bb0c9fd1bae4a9062e50ed2cd4bcbd2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Hire Request Daily Reminder</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sysauto_script_9bb0c9fd1bae4a9062e50ed2cd4bcbd2</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-03 02:31:18</sys_updated_on>
+        <time_zone>US/Central</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

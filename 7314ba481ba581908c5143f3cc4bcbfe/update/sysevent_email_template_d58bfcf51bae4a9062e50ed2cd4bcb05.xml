@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sc_request</collection>
+        <email_layout display_value="APi Default Layout">2848484a1b9a255062e50ed2cd4bcb4f</email_layout>
+        <message/>
+        <message_html><![CDATA[<table style="border-collapse: collapse; width: 100%;" border="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background: #2a3e6d; width: 100%; text-align: center; vertical-align: middle; color: #fdfdfd; font-family: verdana; font-size: 12pt; padding-top: 10px; padding-bottom: 10px;"><strong>Ticket ${number} opened</strong></td>
+</tr>
+<tr>
+<td style="padding: 10px; width: 100%;">
+<p style="margin: 0in; font-size: 10pt; font-family: Verdana;"><strong>TICKET DESCRIPTION</strong></p>
+<p style="margin: 0in; font-size: 10pt; font-family: Verdana;">${short_description}&nbsp;<br /><br />${mail_script:new_hire_og_status_report}</p>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>APi New Hire Request Opened</name>
+        <sms_alternate/>
+        <subject>New Hire ${number} opened</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-06-03 01:54:04</sys_created_on>
+        <sys_id>d58bfcf51bae4a9062e50ed2cd4bcb05</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>APi New Hire Request Opened</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sysevent_email_template_d58bfcf51bae4a9062e50ed2cd4bcb05</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-03 01:54:47</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

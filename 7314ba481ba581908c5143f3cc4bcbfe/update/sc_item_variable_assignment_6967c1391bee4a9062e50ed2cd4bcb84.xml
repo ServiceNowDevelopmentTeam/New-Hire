@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable>
+        <item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable>
+        <rule display_value="HQ Work Space Setup Request">fdee23d51be60a9062e50ed2cd4bcb8e</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-06-03 02:46:04</sys_created_on>
+        <sys_id>6967c1391bee4a9062e50ed2cd4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_6967c1391bee4a9062e50ed2cd4bcb84</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-03 02:46:04</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+</record_update>

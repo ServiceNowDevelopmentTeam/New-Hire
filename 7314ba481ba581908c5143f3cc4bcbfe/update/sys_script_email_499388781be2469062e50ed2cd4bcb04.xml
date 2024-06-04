@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>new_hire_og_status_report</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var emailReq = new GlideRecord("sc_req_item");
+    emailReq.addQuery('request', current.sys_id);
+    emailReq.query();
+    template.print('<table border="0">');
+    template.print("<tr>");
+    template.print("<td><b>" + "Requested Items" + "</b></td>");
+    template.print("<td><b>" + "Status" + "</b></td>");
+    template.print("</tr>");
+    while (emailReq.next()) {
+        template.print("<tr>");
+        template.print("<td>" + emailReq.cat_item.name + "</td>");
+        template.print("<td>" + emailReq.state.getDisplayValue() + "</td>");
+        template.print("</tr>");
+    }
+	template.print('</table>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-30 19:16:07</sys_created_on>
+        <sys_id>499388781be2469062e50ed2cd4bcb04</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>new_hire_og_status_report</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sys_script_email_499388781be2469062e50ed2cd4bcb04</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-03 01:55:33</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_request">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>New Hire OG Request Closed Notification</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+var newEmailCat = '0fd8efb81b8325108c5143f3cc4bcbfa';
+var emailReq = new GlideRecord("sc_req_item");
+emailReq.addQuery('request', current.sys_id);
+emailReq.addQuery('cat_item', newEmailCat);
+emailReq.query();
+while(emailReq.next()) {
+	gs.eventQueue("new_hire_request_closed", current, current.opened_by.sys_id, emailReq.variables.supervisor.sys_id);
+}
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-06-03 03:05:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d42b893d1bee4a9062e50ed2cd4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Hire OG Request Closed Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sys_script_d42b893d1bee4a9062e50ed2cd4bcbca</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-03 03:05:04</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d42b893d1bee4a9062e50ed2cd4bcbca"/>
+</record_update>

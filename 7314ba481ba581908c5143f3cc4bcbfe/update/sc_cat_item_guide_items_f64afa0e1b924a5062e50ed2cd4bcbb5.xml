@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
     <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
-        <condition/>
+        <condition>IO:04185ca01ba2069062e50ed2cd4bcb72=yes^EQ</condition>
         <guide display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
         <item display_value="New Email Account">0fd8efb81b8325108c5143f3cc4bcbfa</item>
@@ -13,14 +13,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-22 19:31:12</sys_created_on>
         <sys_id>f64afa0e1b924a5062e50ed2cd4bcbb5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>0fd8efb81b8325108c5143f3cc4bcbfa</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sc_cat_item_guide_items_f64afa0e1b924a5062e50ed2cd4bcbb5</sys_update_name>
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-30 15:33:03</sys_updated_on>
+        <sys_updated_on>2024-06-02 01:46:19</sys_updated_on>
         <use_sc_layout>true</use_sc_layout>
     </sc_cat_item_guide_items>
 </record_update>
