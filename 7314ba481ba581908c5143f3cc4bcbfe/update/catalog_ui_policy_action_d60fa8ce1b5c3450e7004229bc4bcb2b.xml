@@ -20,7 +20,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <table/>
-        <ui_policy display_value="if prereq is yes">ab2531981b5f6c508c5143f3cc4bcbee</ui_policy>
+        <ui_policy display_value="init (was : &quot;when prereq = yes:)">ab2531981b5f6c508c5143f3cc4bcbee</ui_policy>
         <variable>user_requires_email</variable>
         <variable_set/>
         <visible>true</visible>

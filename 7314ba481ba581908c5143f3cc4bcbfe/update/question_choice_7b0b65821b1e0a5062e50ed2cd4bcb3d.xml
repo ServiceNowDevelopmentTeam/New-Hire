@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>600</order>
+        <published_ref/>
+        <question display_value="Type of Worker">ec9a6c1b1b9bd810e7004229bc4bcb65</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-22 13:44:37</sys_created_on>
+        <sys_id>7b0b65821b1e0a5062e50ed2cd4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Seasonal</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>question_choice_7b0b65821b1e0a5062e50ed2cd4bcb3d</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-05-22 13:44:37</sys_updated_on>
+        <text>Seasonal</text>
+        <value>Seasonal</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=7b0b65821b1e0a5062e50ed2cd4bcb3d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>7b0b65821b1e0a5062e50ed2cd4bcb3d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-22 13:44:37</sys_created_on>
+        <sys_id>741ba1821b1e0a5062e50ed2cd4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-05-22 13:44:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>7b0b65821b1e0a5062e50ed2cd4bcb3d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-22 13:44:37</sys_created_on>
+        <sys_id>3c1ba1821b1e0a5062e50ed2cd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-05-22 13:44:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

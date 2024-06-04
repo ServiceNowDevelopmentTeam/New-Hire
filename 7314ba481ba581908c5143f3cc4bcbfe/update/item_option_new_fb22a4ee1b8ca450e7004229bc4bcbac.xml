@@ -47,7 +47,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Human Resources:</question_text>
+        <question_text>Team Member Referral Candidate</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -71,14 +71,14 @@
         <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
         <sys_created_on>2020-10-27 00:15:15</sys_created_on>
         <sys_id>fb22a4ee1b8ca450e7004229bc4bcbac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Human Resources:</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Team Member Referral Candidate</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_fb22a4ee1b8ca450e7004229bc4bcbac</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-05-22 13:46:55</sys_updated_on>
         <table/>
         <tooltip/>
         <type>19</type>
@@ -88,7 +88,7 @@
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Human Resources">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
+        <variable_set display_value="Team Member Referral Candidate">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

@@ -22,7 +22,7 @@
         <table/>
         <ui_policy display_value="Show LDP Options">8682e8ee1b8ca450e7004229bc4bcbd0</ui_policy>
         <variable>leadership_program_type</variable>
-        <variable_set display_value="Human Resources">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
+        <variable_set display_value="Team Member Referral Candidate">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
         <visible>true</visible>
     </catalog_ui_policy_action>
     <sys_claim action="INSERT_OR_UPDATE">

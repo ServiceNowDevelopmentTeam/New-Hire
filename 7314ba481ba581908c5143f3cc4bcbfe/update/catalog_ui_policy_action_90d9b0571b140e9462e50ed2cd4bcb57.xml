@@ -22,7 +22,7 @@
         <table/>
         <ui_policy display_value="No company phone">4ab978171b140e9462e50ed2cd4bcbef</ui_policy>
         <variable>mobile_phone_number</variable>
-        <variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
+        <variable_set display_value="Employee/Contractor New Hire">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
         <visible>ignore</visible>
     </catalog_ui_policy_action>
 </record_update>

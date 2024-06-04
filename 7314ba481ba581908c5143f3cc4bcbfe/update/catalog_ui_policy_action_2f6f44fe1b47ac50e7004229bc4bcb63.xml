@@ -22,7 +22,7 @@
         <table/>
         <ui_policy display_value="job title not found">de2d883a1b47ac50e7004229bc4bcba9</ui_policy>
         <variable>job_title</variable>
-        <variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
+        <variable_set display_value="Employee/Contractor New Hire">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
         <visible>false</visible>
     </catalog_ui_policy_action>
     <sys_claim action="INSERT_OR_UPDATE">

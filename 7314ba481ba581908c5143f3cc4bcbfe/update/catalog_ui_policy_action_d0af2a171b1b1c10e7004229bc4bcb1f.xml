@@ -22,7 +22,7 @@
         <table/>
         <ui_policy display_value="OnLoad">319fa6171b1b1c10e7004229bc4bcb53</ui_policy>
         <variable>new_email_address</variable>
-        <variable_set display_value="Employee/Contractor">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
+        <variable_set display_value="Employee/Contractor New Hire">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
         <visible>false</visible>
     </catalog_ui_policy_action>
     <sys_claim action="INSERT_OR_UPDATE">

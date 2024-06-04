@@ -45,7 +45,8 @@
         <sys_updated_on>2022-09-29 18:57:28</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
-        <variable_set display_value="Human Resources">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
+        <va_supported>true</va_supported>
+        <variable_set display_value="Team Member Referral Candidate">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
         <view/>
     </catalog_ui_policy>
     <sys_claim action="INSERT_OR_UPDATE">

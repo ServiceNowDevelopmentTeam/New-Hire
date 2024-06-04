@@ -20,7 +20,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-12-21 15:04:16</sys_updated_on>
         <table/>
-        <ui_policy display_value="If prereq is not yes hide ">c09ded501b5f6c508c5143f3cc4bcb9d</ui_policy>
+        <ui_policy display_value="Default False Init...( was : If prereq is not yes hide)">c09ded501b5f6c508c5143f3cc4bcb9d</ui_policy>
         <variable>new_hire_preferred_or_nickname</variable>
         <variable_set/>
         <visible>false</visible>
