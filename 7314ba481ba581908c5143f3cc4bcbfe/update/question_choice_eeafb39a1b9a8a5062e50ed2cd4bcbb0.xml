@@ -4,7 +4,7 @@
         <misc>0</misc>
         <order>200</order>
         <published_ref/>
-        <question display_value="Choose how to handle ordering computers, devices, and access:">463ff31e1b9a8a5062e50ed2cd4bcb5a</question>
+        <question display_value="Choose how to handle ordering computers, devices, and access">463ff31e1b9a8a5062e50ed2cd4bcb5a</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:cfb2782c1b32c21062e50ed2cd4bcb72</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-11 14:20:10</sys_created_on>
+        <sys_id>1ef2b06c1b32c21062e50ed2cd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_a_computer</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1ef2b06c1b32c21062e50ed2cd4bcb49</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:20:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show computer bundles if computer needed">08d23c2c1b32c21062e50ed2cd4bcb37</ui_policy>
+        <variable>select_a_computer</variable>
+        <variable_set display_value="Information Technology">071caa8a1b524a5062e50ed2cd4bcb98</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_children">
+    <sc_cat_item_children action="INSERT_OR_UPDATE">
+        <child display_value="Lenovo Lenovo ThinkVision T24i-30 - LED monitor - Full H (SHI - 63CFMAR1US)">83facc8b1be6ce9062e50ed2cd4bcb64</child>
+        <order>100</order>
+        <parent display_value="test">5c1f1fb51baa8a9062e50ed2cd4bcbd5</parent>
+        <quantity>1</quantity>
+        <sys_class_name>sc_cat_item_children</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-11 18:50:06</sys_created_on>
+        <sys_id>6ec079241b76c21062e50ed2cd4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lenovo Lenovo ThinkVision T24i-30 - LED monitor - Full H (SHI - 63CFMAR1US).test</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_children_6ec079241b76c21062e50ed2cd4bcb11</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-11 18:50:06</sys_updated_on>
+    </sc_cat_item_children>
+</record_update>
