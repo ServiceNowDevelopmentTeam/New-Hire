@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sox_role" table="sc_req_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sox_role</element>
+            <name>sc_req_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-12 18:18:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sox_role</sys_name>
+            <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+            <sys_update_name>sys_choice_sc_req_item_sox_role</sys_update_name>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-12 18:18:06</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can create and submit expense reports and cash advances if those features are used by the user's company.</hint>
+            <inactive>false</inactive>
+            <label>Expense User</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:34:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-12 20:09:16</sys_updated_on>
+            <value>Expense User</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can approve expense reports within an assigned group.</hint>
+            <inactive>false</inactive>
+            <label>Expense Approver</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-12 20:09:26</sys_updated_on>
+            <value>Expense Approver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can approve payment requests.  Can modify some fields(if configured to allow Approver modifications).  Invoice&gt;Approve Payment Requests</hint>
+            <inactive>false</inactive>
+            <label>Invoice Approver</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:48:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-12 20:10:01</sys_updated_on>
+            <value>Invoice Approver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can create, edit, and submit payment requests.  This is the Invoice Owner.  Invoice&gt;Create New Payment Request.  Invoice&gt;Vie Payment Requests</hint>
+            <inactive>false</inactive>
+            <label>Invoice User</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:47:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-12 20:10:03</sys_updated_on>
+            <value>Invoice User</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense Reporting</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can access the Budget module in the Concur Insight (formerly Analysis/Intelligence) data model.</hint>
+            <inactive>false</inactive>
+            <label>Budget Role for Cognos</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:36:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:36:49</sys_updated_on>
+            <value>Budget Role for Cognos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can add, edit, and remove Account Codes for Expense Types.  Can add, edit, and remove Email Reminders.  Can activate Supplier Portal.  Administration&gt;Invoice Admin.  Can verify invoices sent to Client Managed Invoice Capture.</hint>
+            <inactive>false</inactive>
+            <label>Client Managed Capture Verifier</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:55:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:55:08</sys_updated_on>
+            <value>Client Managed Capture Verifier</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense Reporting</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role:   ·  Can use Analysis/Intelligence to view data for reports submitted at all hierarchical levels within their assigned Groups (as well as any data not Group-related)  ·  Are assigned the Business license type, which restricts </hint>
+            <inactive>false</inactive>
+            <label>Cognos Business Author</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:37:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:37:22</sys_updated_on>
+            <value>Cognos Business Author</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense Reporting</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role:   ·  Can use Analysis/Intelligence to view data for reports submitted at all hierarchical levels within their assigned Groups (as well as any data not Group-related)  ·  Are assigned the Consumer license type, which further re</hint>
+            <inactive>false</inactive>
+            <label>Cognos Consumer</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:37:40</sys_updated_on>
+            <value>Cognos Consumer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense Reporting</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role:   · Can use Analysis/Intelligence to view data for reports submitted at all hierarchical levels (no group assignment required)  ·  Are assigned the Professional license type, which allows access to all features</hint>
+            <inactive>false</inactive>
+            <label>Cognos Professional Author</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:37:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:37:07</sys_updated_on>
+            <value>Cognos Professional Author</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can update the Company Info section of the My Concur page.</hint>
+            <inactive>false</inactive>
+            <label>Company Info Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:31:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:55:32</sys_updated_on>
+            <value>Company Info Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense Reporting</dependent_value>
+            <element>sox_role</element>
+            <hint>This role is used by companies using the Reporting Database that wish to consolidate the data from the current version and previous versions.  The user assigned this role:   ·  Maps expense types and custom fields to a single consolidated definition ·  Ca</hint>
+            <inactive>false</inactive>
+            <label>Consolidation Configuration Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:44:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:44:28</sys_updated_on>
+            <value>Consolidation Configuration Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense Reporting</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can view the Best Practices Dashboard.  NOTE: This role is not associated with any of the Cognos (Analysis or Intelligence) roles.</hint>
+            <inactive>false</inactive>
+            <label>Dashboard User</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:44:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:44:44</sys_updated_on>
+            <value>Dashboard User</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can add and manage employees, including assigning roles, delegates, and Expense/Payment preferences. The user can only assign the basic user roles (Expense User, Travel User), using the check boxes on the User Details page. The</hint>
+            <inactive>false</inactive>
+            <label>Employee Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:32:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:32:14</sys_updated_on>
+            <value>Employee Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can manage users, delegates, and preferences via user profiles.  •	There is also a read-only version of this role called Employee Administrator (Read Only)•	There is also a version of this role that can manage profiles but cannot add new profiles called E</hint>
+            <inactive>false</inactive>
+            <label>Employee Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:47:09</sys_updated_on>
+            <value>Employee Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can:  ·  Assign and unassign company cards ·  Map expense types to merchant category codes</hint>
+            <inactive>false</inactive>
+            <label>Expense Company Card Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:32:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:32:50</sys_updated_on>
+            <value>Expense Company Card Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can fully manage (add, edit, delete):  ·  Vendor list items ·  Authorized approvers ·  Audit rules ·  Account codes ·  Exceptions ·  Personal and company car rates ·  Receipt handling, including receipt limits, payment hold, an</hint>
+            <inactive>false</inactive>
+            <label>Expense Configuration Administrator (Restricted)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:33:07</sys_updated_on>
+            <value>Expense Configuration Administrator (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role:  ·  Can view and update expense reports within Expense Processor ·  Cannot delete expense reports  The Access for Processor field limits the reports the processor can view to these options: ·  Display all reports excluding ret</hint>
+            <inactive>false</inactive>
+            <label>Expense Processor</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:33:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:33:24</sys_updated_on>
+            <value>Expense Processor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role:  ·  Can view expense reports within Expense Processor ·  Cannot update or delete expense reports</hint>
+            <inactive>false</inactive>
+            <label>Expense Processor (Audit)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:34:03</sys_updated_on>
+            <value>Expense Processor (Audit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can log on to Expense and act as a proxy user for other employees within an assigned group.</hint>
+            <inactive>false</inactive>
+            <label>Expense Proxy Logon</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:34:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:34:15</sys_updated_on>
+            <value>Expense Proxy Logon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can view details of imports, extracts, and archive jobs in the Concur system.  Administration&gt;Expense Tools&gt;Imports/Extract Monitor.</hint>
+            <inactive>false</inactive>
+            <label>Import/Extract Monitor</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:47:43</sys_updated_on>
+            <value>Import/Extract Monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>A user assigned this role can view:  ·  Details of import, extract, archive, and reporting consolidation jobs · Job schedule ·  System logs</hint>
+            <inactive>false</inactive>
+            <label>Import/Extract Monitor (Restricted)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:34:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:34:41</sys_updated_on>
+            <value>Import/Extract Monitor (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can create, assign, and reassign payment requests, and can restore deleted payment requests.  Invoice&gt;Assign Requests.  Invoice&gt;Deleted Reports</hint>
+            <inactive>false</inactive>
+            <label>Invoice AP User</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:48:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:48:31</sys_updated_on>
+            <value>Invoice AP User</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can add, edit, and remove authorized approvers and their authority limits.  Can add, edit, and remove Invoice Audit Rules.  Can add, edit, and remove Invoice Expense Types.</hint>
+            <inactive>false</inactive>
+            <label>Invoice Configuration Administrator (Restricted)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:54:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:54:55</sys_updated_on>
+            <value>Invoice Configuration Administrator (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can view and edit payment requestrs (may not delete requests)  Invoice&gt;Process Requests.  Can create , assign, and reassign payment requests, and can restore deleted payment requests.  Invoice&gt;Assign Requests.  Invoice&gt;Deleted Requests</hint>
+            <inactive>false</inactive>
+            <label>Invoice Processor</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:48:45</sys_updated_on>
+            <value>Invoice Processor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>This is a read-only version of the Invoice Processor.  Can view payment requests (cannot edit or delete payment requests).  Invoice&gt;Process Requests</hint>
+            <inactive>false</inactive>
+            <label>Invoice Processor (Audit)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:50:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:50:20</sys_updated_on>
+            <value>Invoice Processor (Audit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can view, edit, and delete payment requests.  Invoice&gt;Process Reuqests</hint>
+            <inactive>false</inactive>
+            <label>Invoice Processor Manager</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:49:00</sys_updated_on>
+            <value>Invoice Processor Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can emulate Invoice Users.  Can create, edit, and submit payment requests.  Cannot access an employee"s approval queue.  This role should only be granted to back-office personnel - never to invoice users (this is not a delegate role).  Click on Invoice ta</hint>
+            <inactive>false</inactive>
+            <label>Invoice Proxy Logon</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:50:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:50:38</sys_updated_on>
+            <value>Invoice Proxy Logon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can match unapproved and approved vendors.  Can upload Vendor On-Demand import (for emergency vendor loads).  Can deactivate vendors.  Invoice&gt;Vendor Manager</hint>
+            <inactive>false</inactive>
+            <label>Invoice Vendor Manager</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:52:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:52:11</sys_updated_on>
+            <value>Invoice Vendor Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>A user assigned this role can fully manage (add, edit, delete) Expense Pay functionality:  ·  Funding Accounts ·  Batch Configurations ·  Card Programs ·  Expense Pay Settings  In addition, a user assigned this role can view the following Expense Pay deta</hint>
+            <inactive>false</inactive>
+            <label>Reimbursement Manager (Payment Manager)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:34:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:34:57</sys_updated_on>
+            <value>Reimbursement Manager (Payment Manager)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can assign user permissions (some of which are group-aware).  Has access to Expense, Invoice, and Reporting roles.  Administration &gt; Company Admin &gt; User Permissions</hint>
+            <inactive>false</inactive>
+            <label>Role Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:47:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:47:21</sys_updated_on>
+            <value>Role Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>A user assigned this role is granted access to the Expense, Invoice, and Request tabs through User Permissions.</hint>
+            <inactive>false</inactive>
+            <label>Role Administrator (Permission Administrator)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:35:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:35:14</sys_updated_on>
+            <value>Role Administrator (Permission Administrator)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can add, edit, and remove custom lists and custom list items in List Management, Can view the configuration changes log.  Administration&gt;Invoice Admin</hint>
+            <inactive>false</inactive>
+            <label>Shared Configuration Administrator (Restricted)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:47:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:47:32</sys_updated_on>
+            <value>Shared Configuration Administrator (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can:  ·  View, add, edit, and delete custom list items ·  View the configuration change log</hint>
+            <inactive>false</inactive>
+            <label>Shared Configuration Administrator (Restricted)</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:35:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:35:30</sys_updated_on>
+            <value>Shared Configuration Administrator (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>This role is used by companies that track tax (value added tax; VAT).  The user assigned this role can fully manage (add, edit, delete):  · Tax configurations · Rates</hint>
+            <inactive>false</inactive>
+            <label>Tax Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:35:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:35:43</sys_updated_on>
+            <value>Tax Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>This role allows the user to access the Training Administration tool to configure client-preferred Training landing page and the contents and contact information that displays. NOTE: Assigning this role on any tab applies the role across all associated pr</hint>
+            <inactive>false</inactive>
+            <label>Training Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:35:57</sys_updated_on>
+            <value>Training Administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can access Concur. The user requires an additional role (Expense User, Travel User, etc.) to access Concur's products.</hint>
+            <inactive>false</inactive>
+            <label>Travel and Expense User</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:36:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-06-05 15:36:11</sys_updated_on>
+            <value>Travel and Expense User</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

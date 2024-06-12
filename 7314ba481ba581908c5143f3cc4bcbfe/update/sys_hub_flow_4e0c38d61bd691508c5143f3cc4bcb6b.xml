@@ -4203,7 +4203,7 @@
         <inputs/>
         <order>28</order>
         <parent_ui_id/>
-        <subflow display_value="REQF - New Hire Create User">a74d4ad61bb57510c16ddb9ebd4bcb30</subflow>
+        <subflow display_value="PROF - Create User">a74d4ad61bb57510c16ddb9ebd4bcb30</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -13264,7 +13264,7 @@ A conflicting termination request with the same name or similar as this requeste
         <inputs/>
         <order>28</order>
         <parent_ui_id/>
-        <subflow display_value="REQF - New Hire Create User">a74d4ad61bb57510c16ddb9ebd4bcb30</subflow>
+        <subflow display_value="PROF - Create User">a74d4ad61bb57510c16ddb9ebd4bcb30</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
