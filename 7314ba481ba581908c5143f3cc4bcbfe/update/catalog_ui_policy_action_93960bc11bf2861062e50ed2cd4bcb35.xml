@@ -2,27 +2,27 @@
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</catalog_item>
         <catalog_variable>IO:eb013a8e1b524a5062e50ed2cd4bcb17</catalog_variable>
-        <cleared>true</cleared>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
-        <mandatory>ignore</mandatory>
+        <mandatory>false</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
-        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
-        <sys_created_on>2024-05-28 15:37:20</sys_created_on>
-        <sys_id>7a4ef4481bea429062e50ed2cd4bcb1c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-13 14:22:16</sys_created_on>
+        <sys_id>93960bc11bf2861062e50ed2cd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>will_this_team_member_need_a_work_space_at_the_hq_campus</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_7a4ef4481bea429062e50ed2cd4bcb1c</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_93960bc11bf2861062e50ed2cd4bcb35</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-13 14:18:39</sys_updated_on>
+        <sys_updated_on>2024-06-13 14:22:16</sys_updated_on>
         <table/>
-        <ui_policy display_value="Show IT Section If Choose To Fill Out">e5424c261bda8a5062e50ed2cd4bcbb4</ui_policy>
+        <ui_policy display_value="Hide workspace setup if not HQ location">b6e50b811bf2861062e50ed2cd4bcb38</ui_policy>
         <variable>will_this_team_member_need_a_work_space_at_the_hq_campus</variable>
         <variable_set/>
-        <visible>ignore</visible>
+        <visible>false</visible>
     </catalog_ui_policy_action>
 </record_update>
