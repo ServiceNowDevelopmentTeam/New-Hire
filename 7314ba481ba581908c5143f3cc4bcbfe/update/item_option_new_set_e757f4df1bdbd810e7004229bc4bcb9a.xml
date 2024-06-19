@@ -13,18 +13,18 @@
         <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
         <sys_created_on>2020-09-22 02:56:12</sys_created_on>
         <sys_id>e757f4df1bdbd810e7004229bc4bcb9a</sys_id>
-        <sys_mod_count>88</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_name>Employee/Contractor New Hire</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_set_e757f4df1bdbd810e7004229bc4bcb9a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-05-30 16:13:10</sys_updated_on>
+        <sys_updated_on>2024-06-19 15:12:09</sys_updated_on>
         <title>Employee/Contractor New Hire</title>
         <type>one_to_one</type>
         <u_cdw_variables>false</u_cdw_variables>
-        <version>87</version>
+        <version>93</version>
         <write_roles/>
     </item_option_new_set>
     <sys_claim action="INSERT_OR_UPDATE">

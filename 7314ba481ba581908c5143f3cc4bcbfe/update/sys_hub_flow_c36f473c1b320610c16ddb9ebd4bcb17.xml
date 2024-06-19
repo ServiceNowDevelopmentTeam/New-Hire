@@ -4,14 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=241000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=156902000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>set_user_emailupnid_if_devtest</internal_name>
-        <label_cache>[{"name":"subflow.user.last_name","label":"Input➛User➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"subflow.user.first_name","label":"Input➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"subflow.user","label":"Input➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7ece445e-3da6-4e89-8daf-733183ab65e4","uiTypeLabel":"Reference"}},{"name":"8eda2569-72f5-4ef2-a364-241d8d9c6a51.property_value","label":"1 - Get System Property➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.user_sys_id","label":"Flow Variables➛User Sys Id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08cf881a-85ed-4443-a2d9-6a715633d87c"}},{"name":"subflow.user.sys_id","label":"Input➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"subflow.user.last_name","label":"Input➛User➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"subflow.user.first_name","label":"Input➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"subflow.user","label":"Input➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7ece445e-3da6-4e89-8daf-733183ab65e4","uiTypeLabel":"Reference"}},{"name":"8eda2569-72f5-4ef2-a364-241d8d9c6a51.property_value","label":"1 - Get System Property➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}}]</label_cache>
         <master_snapshot>c650d77c1b320610c16ddb9ebd4bcb47</master_snapshot>
         <name>Set user email/upn/id if dev/test</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c36f473c1b320610c16ddb9ebd4bcb17</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Set user email/upn/id if dev/test</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_c36f473c1b320610c16ddb9ebd4bcb17</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:06</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:09</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c36f473c1b320610c16ddb9ebd4bcb17"/>
@@ -155,16 +155,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id>d039be22-90dc-4a9d-9b94-521b80ca19ae</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:24:36</sys_created_on>
         <sys_id>6400937c1b320610c16ddb9ebd4bcb1b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-06-13 13:23:03</sys_updated_on>
+        <sys_updated_on>2024-06-14 16:06:00</sys_updated_on>
         <ui_id>d7faaebe-9fdc-4c6c-9090-b6fde618401e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6400937c1b320610c16ddb9ebd4bcb1b"/>
@@ -213,11 +213,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:24:36</sys_created_on>
         <sys_id>ec00937c1b320610c16ddb9ebd4bcb1c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:24:36</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:56:30</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>email={{subflow.user.first_name}}.{{subflow.user.last_name}}@example.com^u_user_principal_name={{subflow.user.first_name}}.{{subflow.user.last_name}}@example.com^user_name={{subflow.user.first_name}}.{{subflow.user.last_name}}</value>
+        <value>email={{flow_variable.user_sys_id}}@example.com^u_user_principal_name={{flow_variable.user_sys_id}}@example.com^user_name={{flow_variable.user_sys_id}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6400937c1b320610c16ddb9ebd4bcb1b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6400937c1b320610c16ddb9ebd4bcb1b"/>
@@ -235,10 +235,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:24:35</sys_created_on>
         <sys_id>ec00937c1b320610c16ddb9ebd4bcb0e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-06-13 13:23:03</sys_updated_on>
+        <sys_updated_on>2024-06-14 16:06:00</sys_updated_on>
         <ui_id>8eda2569-72f5-4ef2-a364-241d8d9c6a51</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ec00937c1b320610c16ddb9ebd4bcb0e"/>
@@ -260,7 +260,54 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=ec00937c1b320610c16ddb9ebd4bcb0e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec00937c1b320610c16ddb9ebd4bcb0e"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT INac00937c1b320610c16ddb9ebd4bcb12"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN45d56ce11b368610c16ddb9ebd4bcb12,ac00937c1b320610c16ddb9ebd4bcb12"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">89d56ce11b368610c16ddb9ebd4bcb11</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>user_sys_id</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-14 15:56:30</sys_created_on>
+        <sys_id>45d56ce11b368610c16ddb9ebd4bcb12</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-14 15:57:09</sys_updated_on>
+        <ui_id>6e4f6669-249f-4e92-b31f-7821ca348514</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=45d56ce11b368610c16ddb9ebd4bcb12"/>
+    <sys_element_mapping action="delete_multiple" query="id=45d56ce11b368610c16ddb9ebd4bcb12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user_sys_id</field>
+        <id>45d56ce11b368610c16ddb9ebd4bcb12</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-14 15:56:30</sys_created_on>
+        <sys_id>09d56ce11b368610c16ddb9ebd4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-14 15:56:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_c36f473c1b320610c16ddb9ebd4bcb17</table>
+        <value>{{subflow.user.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=45d56ce11b368610c16ddb9ebd4bcb12"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=45d56ce11b368610c16ddb9ebd4bcb12"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">6000937c1b320610c16ddb9ebd4bcb12</block>
@@ -276,7 +323,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -284,10 +331,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:24:35</sys_created_on>
         <sys_id>ac00937c1b320610c16ddb9ebd4bcb12</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:06</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:09</sys_updated_on>
         <ui_id>d039be22-90dc-4a9d-9b94-521b80ca19ae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -307,6 +354,7 @@
         <value>dev or test</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_c36f473c1b320610c16ddb9ebd4bcb17^id=ac00937c1b320610c16ddb9ebd4bcb12"/>
     <sys_element_mapping action="delete_multiple" query="id=ac00937c1b320610c16ddb9ebd4bcb12"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -335,7 +383,90 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ac00937c1b320610c16ddb9ebd4bcb12"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ac00937c1b320610c16ddb9ebd4bcb12"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c36f473c1b320610c16ddb9ebd4bcb17"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=c36f473c1b320610c16ddb9ebd4bcb17"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN7cd52ce11b368610c16ddb9ebd4bcbfb"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=08cf881a-85ed-4443-a2d9-6a715633d87c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User Sys Id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</model>
+        <model_id>c36f473c1b320610c16ddb9ebd4bcb17</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_c36f473c1b320610c16ddb9ebd4bcb17</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-14 15:56:30</sys_created_on>
+        <sys_id>7cd52ce11b368610c16ddb9ebd4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-14 15:56:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN2400537c1b320610c16ddb9ebd4bcbf8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>user</element>
@@ -375,7 +506,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>set_user_emailupnid_if_devtest</internal_name>
-        <label_cache>[{"name":"subflow.user.last_name","label":"Input➛User➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"subflow.user.first_name","label":"Input➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"subflow.user","label":"Input➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7ece445e-3da6-4e89-8daf-733183ab65e4","uiTypeLabel":"Reference"}},{"name":"8eda2569-72f5-4ef2-a364-241d8d9c6a51.property_value","label":"1 - Get System Property➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.user_sys_id","label":"Flow Variables➛User Sys Id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08cf881a-85ed-4443-a2d9-6a715633d87c"}},{"name":"subflow.user.sys_id","label":"Input➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"subflow.user.last_name","label":"Input➛User➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"subflow.user.first_name","label":"Input➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"subflow.user","label":"Input➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7ece445e-3da6-4e89-8daf-733183ab65e4","uiTypeLabel":"Reference"}},{"name":"8eda2569-72f5-4ef2-a364-241d8d9c6a51.property_value","label":"1 - Get System Property➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}}]</label_cache>
         <master>true</master>
         <name>Set user email/upn/id if dev/test</name>
         <natlang/>
@@ -392,7 +523,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c650d77c1b320610c16ddb9ebd4bcb47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -400,7 +531,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:04</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:08</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=c650d77c1b320610c16ddb9ebd4bcb47"/>
@@ -522,10 +653,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:26:05</sys_created_on>
         <sys_id>9650d77c1b320610c16ddb9ebd4bcba1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:05</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:07</sys_updated_on>
         <ui_id>8eda2569-72f5-4ef2-a364-241d8d9c6a51</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9650d77c1b320610c16ddb9ebd4bcba1"/>
@@ -555,16 +686,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Set user email/upn/id if dev/test">c650d77c1b320610c16ddb9ebd4bcb47</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id>d039be22-90dc-4a9d-9b94-521b80ca19ae</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:26:05</sys_created_on>
         <sys_id>9a50d77c1b320610c16ddb9ebd4bcba8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:05</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:08</sys_updated_on>
         <ui_id>d7faaebe-9fdc-4c6c-9090-b6fde618401e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a50d77c1b320610c16ddb9ebd4bcba8"/>
@@ -613,16 +744,63 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:26:05</sys_created_on>
         <sys_id>9e50d77c1b320610c16ddb9ebd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:05</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:07</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>email={{subflow.user.first_name}}.{{subflow.user.last_name}}@example.com^u_user_principal_name={{subflow.user.first_name}}.{{subflow.user.last_name}}@example.com^user_name={{subflow.user.first_name}}.{{subflow.user.last_name}}</value>
+        <value>email={{flow_variable.user_sys_id}}@example.com^u_user_principal_name={{flow_variable.user_sys_id}}@example.com^user_name={{flow_variable.user_sys_id}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9a50d77c1b320610c16ddb9ebd4bcba8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a50d77c1b320610c16ddb9ebd4bcba8"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT INde50d77c1b320610c16ddb9ebd4bcb94"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT INc6f5a0251b368610c16ddb9ebd4bcb99,de50d77c1b320610c16ddb9ebd4bcb94"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">89d56ce11b368610c16ddb9ebd4bcb11</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Set user email/upn/id if dev/test">c650d77c1b320610c16ddb9ebd4bcb47</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>user_sys_id</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-14 15:57:07</sys_created_on>
+        <sys_id>c6f5a0251b368610c16ddb9ebd4bcb99</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-14 15:57:07</sys_updated_on>
+        <ui_id>6e4f6669-249f-4e92-b31f-7821ca348514</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c6f5a0251b368610c16ddb9ebd4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="id=c6f5a0251b368610c16ddb9ebd4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user_sys_id</field>
+        <id>c6f5a0251b368610c16ddb9ebd4bcb99</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-14 15:57:07</sys_created_on>
+        <sys_id>0af5a0251b368610c16ddb9ebd4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-14 15:57:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_c650d77c1b320610c16ddb9ebd4bcb47</table>
+        <value>{{subflow.user.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c6f5a0251b368610c16ddb9ebd4bcb99"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c6f5a0251b368610c16ddb9ebd4bcb99"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">6000937c1b320610c16ddb9ebd4bcb12</block>
@@ -638,7 +816,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -646,10 +824,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:26:04</sys_created_on>
         <sys_id>de50d77c1b320610c16ddb9ebd4bcb94</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:04</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:08</sys_updated_on>
         <ui_id>d039be22-90dc-4a9d-9b94-521b80ca19ae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -669,6 +847,7 @@
         <value>dev or test</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_c650d77c1b320610c16ddb9ebd4bcb47^id=de50d77c1b320610c16ddb9ebd4bcb94"/>
     <sys_element_mapping action="delete_multiple" query="id=de50d77c1b320610c16ddb9ebd4bcb94"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -697,7 +876,90 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=de50d77c1b320610c16ddb9ebd4bcb94"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=de50d77c1b320610c16ddb9ebd4bcb94"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c650d77c1b320610c16ddb9ebd4bcb47"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=c650d77c1b320610c16ddb9ebd4bcb47"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT IN79f5a0251b368610c16ddb9ebd4bcb6b"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=08cf881a-85ed-4443-a2d9-6a715633d87c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User Sys Id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Set user email/upn/id if dev/test">c650d77c1b320610c16ddb9ebd4bcb47</model>
+        <model_id>c650d77c1b320610c16ddb9ebd4bcb47</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_c650d77c1b320610c16ddb9ebd4bcb47</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-14 15:57:07</sys_created_on>
+        <sys_id>79f5a0251b368610c16ddb9ebd4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-14 15:57:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT IN9650d77c1b320610c16ddb9ebd4bcb8e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>user</element>
@@ -735,16 +997,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"2250d77c1b320610c16ddb9ebd4bcbcb","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</plan_id>
-        <snapshot>d719fe8d1b72861062e50ed2cd4bcba8</snapshot>
+        <snapshot>cc0824e51b368610c16ddb9ebd4bcbc9</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:26:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2250d77c1b320610c16ddb9ebd4bcbcb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-12 20:26:05</sys_updated_on>
+        <sys_updated_on>2024-06-14 15:57:09</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
