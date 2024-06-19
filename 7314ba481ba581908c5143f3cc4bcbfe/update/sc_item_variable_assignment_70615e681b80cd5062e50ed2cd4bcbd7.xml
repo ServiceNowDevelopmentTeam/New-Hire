@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <guide_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</guide_variable>
+        <item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable>
+        <rule display_value="Astea Access Request">818823661b7bf0508c5143f3cc4bcb60</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-22 19:35:24</sys_created_on>
+        <sys_id>70615e681b80cd5062e50ed2cd4bcbd7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_70615e681b80cd5062e50ed2cd4bcbd7</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:50:34</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>1903242d8150000001</claim_timestamp>
+        <metadata_update_name>sc_item_variable_assignment_70615e681b80cd5062e50ed2cd4bcbd7</metadata_update_name>
+        <previous_claim_app_version>2.0.0</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-19 20:49:19</sys_created_on>
+        <sys_id>47c813831bb6461062e50ed2cd4bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:49:19</sys_updated_on>
+    </sys_claim>
+</record_update>
