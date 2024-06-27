@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <inactive>false</inactive>
+        <inactive>true</inactive>
         <misc>0</misc>
-        <order>100</order>
+        <order>300</order>
         <published_ref/>
-        <question display_value="Request Type">6873468f1bbe061062e50ed2cd4bcb13</question>
+        <question display_value="Office License Selection">18315b281bee069062e50ed2cd4bcb67</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-06-19 14:37:29</sys_created_on>
-        <sys_id>62a34e8f1bbe061062e50ed2cd4bcb3c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>New Access</sys_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-30 15:37:47</sys_created_on>
+        <sys_id>e6a1d7681bee069062e50ed2cd4bcb37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Unsure</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name>question_choice_62a34e8f1bbe061062e50ed2cd4bcb3c</sys_update_name>
+        <sys_update_name>question_choice_e6a1d7681bee069062e50ed2cd4bcb37</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-25 18:46:28</sys_updated_on>
-        <text>New Access</text>
-        <value>new</value>
+        <sys_updated_on>2024-06-27 19:04:33</sys_updated_on>
+        <text>Unsure</text>
+        <value>Unsure</value>
     </question_choice>
-    <fx_price action="delete_multiple" query="id=62a34e8f1bbe061062e50ed2cd4bcb3c"/>
+    <fx_price action="delete_multiple" query="id=e6a1d7681bee069062e50ed2cd4bcb37"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>misc</field>
-        <id>62a34e8f1bbe061062e50ed2cd4bcb3c</id>
+        <id>e6a1d7681bee069062e50ed2cd4bcb37</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-06-19 14:37:30</sys_created_on>
-        <sys_id>9cb34e8f1bbe061062e50ed2cd4bcbc1</sys_id>
+        <sys_created_on>2024-06-27 19:04:08</sys_created_on>
+        <sys_id>c07d04711b4f025062e50ed2cd4bcb33</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-19 14:37:30</sys_updated_on>
+        <sys_updated_on>2024-06-27 19:04:08</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
@@ -43,16 +43,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_misc</field>
-        <id>62a34e8f1bbe061062e50ed2cd4bcb3c</id>
+        <id>e6a1d7681bee069062e50ed2cd4bcb37</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-06-19 14:37:30</sys_created_on>
-        <sys_id>54b34e8f1bbe061062e50ed2cd4bcbc1</sys_id>
+        <sys_created_on>2024-06-27 19:04:08</sys_created_on>
+        <sys_id>c47d04711b4f025062e50ed2cd4bcb34</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-19 14:37:30</sys_updated_on>
+        <sys_updated_on>2024-06-27 19:04:08</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
