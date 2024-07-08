@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="People Team Request Type">153090951b1f421062e50ed2cd4bcb96</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-08 16:16:34</sys_created_on>
+        <sys_id>b890d0951b1f421062e50ed2cd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Member Update</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>question_choice_b890d0951b1f421062e50ed2cd4bcbb2</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-08 16:16:34</sys_updated_on>
+        <text>Team Member Update</text>
+        <value>Team Member Update</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b890d0951b1f421062e50ed2cd4bcbb2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>b890d0951b1f421062e50ed2cd4bcbb2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-08 16:16:34</sys_created_on>
+        <sys_id>f890d0951b1f421062e50ed2cd4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-08 16:16:34</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>b890d0951b1f421062e50ed2cd4bcbb2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-08 16:16:34</sys_created_on>
+        <sys_id>b090d0951b1f421062e50ed2cd4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-08 16:16:34</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

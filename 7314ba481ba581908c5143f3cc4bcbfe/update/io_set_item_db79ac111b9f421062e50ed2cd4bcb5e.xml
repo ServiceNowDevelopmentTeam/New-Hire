@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>-10</order>
+        <sc_cat_item display_value="People Team Request">9559de421b124a5062e50ed2cd4bcb20</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-08 18:05:25</sys_created_on>
+        <sys_id>db79ac111b9f421062e50ed2cd4bcb5e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>People Team Request Type.People Team Request</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>io_set_item_db79ac111b9f421062e50ed2cd4bcb5e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-08 18:05:37</sys_updated_on>
+        <variable_set display_value="People Team Request Type">3d20dcd11b1f421062e50ed2cd4bcb17</variable_set>
+    </io_set_item>
+</record_update>

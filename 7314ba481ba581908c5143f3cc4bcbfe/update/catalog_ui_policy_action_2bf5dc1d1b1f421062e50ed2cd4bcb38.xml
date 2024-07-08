@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:153090951b1f421062e50ed2cd4bcb96</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-08 16:40:18</sys_created_on>
+        <sys_id>2bf5dc1d1b1f421062e50ed2cd4bcb38</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>peopleteam_request_type</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2bf5dc1d1b1f421062e50ed2cd4bcb38</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-08 16:43:38</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Request type visible for ITIL">59e51c1d1b1f421062e50ed2cd4bcb1d</ui_policy>
+        <variable>peopleteam_request_type</variable>
+        <variable_set display_value="People Team Request Type">3d20dcd11b1f421062e50ed2cd4bcb17</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
