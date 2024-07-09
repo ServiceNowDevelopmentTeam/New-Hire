@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="New Team Member(No Email)">7ea8c1211bd3c21062e50ed2cd4bcb12</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-09 15:00:40</sys_created_on>
+        <sys_id>b6c8c1211bd3c21062e50ed2cd4bcb6f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Employee/Contractor New Hire.New Team Member</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>io_set_item_b6c8c1211bd3c21062e50ed2cd4bcb6f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-09 15:00:40</sys_updated_on>
+        <variable_set display_value="Employee/Contractor New Hire">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
+    </io_set_item>
+</record_update>
