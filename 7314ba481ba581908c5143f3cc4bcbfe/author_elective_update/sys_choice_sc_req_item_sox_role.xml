@@ -246,44 +246,6 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Expense</dependent_value>
             <element>sox_role</element>
-            <hint>The user assigned this role can add and manage employees, including assigning roles, delegates, and Expense/Payment preferences. The user can only assign the basic user roles (Expense User, Travel User), using the check boxes on the User Details page. The</hint>
-            <inactive>false</inactive>
-            <label>Employee Administrator</label>
-            <language>en</language>
-            <name>sc_req_item</name>
-            <sequence>100</sequence>
-            <synonyms/>
-            <sys_created_by>John.Schwab</sys_created_by>
-            <sys_created_on>2024-06-05 15:32:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>John.Schwab</sys_updated_by>
-            <sys_updated_on>2024-06-05 15:32:14</sys_updated_on>
-            <value>Employee Administrator</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Invoice</dependent_value>
-            <element>sox_role</element>
-            <hint>Can manage users, delegates, and preferences via user profiles.  •	There is also a read-only version of this role called Employee Administrator (Read Only)•	There is also a version of this role that can manage profiles but cannot add new profiles called E</hint>
-            <inactive>false</inactive>
-            <label>Employee Administrator</label>
-            <language>en</language>
-            <name>sc_req_item</name>
-            <sequence>100</sequence>
-            <synonyms/>
-            <sys_created_by>John.Schwab</sys_created_by>
-            <sys_created_on>2024-06-05 15:47:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>John.Schwab</sys_updated_by>
-            <sys_updated_on>2024-06-05 15:47:09</sys_updated_on>
-            <value>Employee Administrator</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Expense</dependent_value>
-            <element>sox_role</element>
             <hint>The user assigned this role can:  ·  Assign and unassign company cards ·  Map expense types to merchant category codes</hint>
             <inactive>false</inactive>
             <label>Expense Company Card Administrator</label>
@@ -318,6 +280,25 @@
             <sys_updated_by>John.Schwab</sys_updated_by>
             <sys_updated_on>2024-06-05 15:33:07</sys_updated_on>
             <value>Expense Configuration Administrator (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Expense</dependent_value>
+            <element>sox_role</element>
+            <hint>The user assigned this role can add and manage employees, including assigning roles, delegates, and Expense/Payment preferences. The user can only assign the basic user roles (Expense User, Travel User), using the check boxes on the User Details page. The</hint>
+            <inactive>false</inactive>
+            <label>Expense Employee Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:32:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-07-15 20:25:46</sys_updated_on>
+            <value>Expense Employee Administrator</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Expense</dependent_value>
@@ -451,6 +432,25 @@
             <sys_updated_by>John.Schwab</sys_updated_by>
             <sys_updated_on>2024-06-05 15:54:55</sys_updated_on>
             <value>Invoice Configuration Administrator (Restricted)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Invoice</dependent_value>
+            <element>sox_role</element>
+            <hint>Can manage users, delegates, and preferences via user profiles.  •	There is also a read-only version of this role called Employee Administrator (Read Only)•	There is also a version of this role that can manage profiles but cannot add new profiles called E</hint>
+            <inactive>false</inactive>
+            <label>Invoice Employee Administrator</label>
+            <language>en</language>
+            <name>sc_req_item</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>John.Schwab</sys_created_by>
+            <sys_created_on>2024-06-05 15:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-07-15 20:25:42</sys_updated_on>
+            <value>Invoice Employee Administrator</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Invoice</dependent_value>

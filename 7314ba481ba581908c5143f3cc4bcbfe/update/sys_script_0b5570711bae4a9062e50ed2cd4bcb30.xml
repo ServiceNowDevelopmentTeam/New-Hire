@@ -29,42 +29,43 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-  var newEmailCat = "0fd8efb81b8325108c5143f3cc4bcbfa";
-  var peopleTeamCat = "9559de421b124a5062e50ed2cd4bcb20";
-  var noEmailCat = "9559de421b124a5062e50ed2cd4bcb20";
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var newEmailCat = "0fd8efb81b8325108c5143f3cc4bcbfa";
+    var peopleTeamCat = "9559de421b124a5062e50ed2cd4bcb20";
+    var noEmailCat = "7ea8c1211bd3c21062e50ed2cd4bcb12";
 
-  var fName;
-  var lName;
-  var hireDate;
-  var emailReq = new GlideRecord("sc_req_item");
-  emailReq.addQuery("request", current.sys_id);
-  emailReq.addQuery("cat_item", newEmailCat);
-  emailReq.addOrQuery("cat_item", noEmailCat);
-  emailReq.query();
-  if (emailReq.next()) {
-    fName = emailReq.variables.new_hire_legal_first_name;
-    lName = emailReq.variables.new_hire_legal_last_name;
-  }
-  var peopleReq = new GlideRecord("sc_req_item");
-  peopleReq.addQuery("request", current.sys_id);
-  peopleReq.addQuery("cat_item", peopleTeamCat);
-  peopleReq.query();
-  if (peopleReq.next()) {
-    hireDate = peopleReq.variables.hire_date;
-  }
-  current.short_description =
-    "New Hire Request - " + fName + " " + lName + " - " + hireDate;
-  current.update();
-})(current, previous);
-]]></script>
+    var fName;
+    var lName;
+    var hireDate;
+    var query = 'request=' + current.sys_id.toString() +
+        '^cat_item' + newEmailCat +
+        '^ORcat_item' + noEmailCat +
+        '^ORcat_item' + peopleTeamCat;
+    var emailReq = new GlideRecord("sc_req_item");
+    emailReq.addEncodedQuery(query);
+    emailReq.query();
+    if (emailReq.next()) {
+        fName = emailReq.variables.new_hire_legal_first_name.toString();
+        lName = emailReq.variables.new_hire_legal_last_name.toString();
+    }
+    var peopleReq = new GlideRecord("sc_req_item");
+    peopleReq.addQuery("request", current.sys_id);
+    peopleReq.addQuery("cat_item", peopleTeamCat);
+    peopleReq.query();
+    if (peopleReq.next()) {
+        hireDate = peopleReq.variables.hire_date;
+    }
+    current.short_description =
+        "New Hire Request - " + fName + " " + lName + " - " + hireDate;
+    current.update();
+})(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-06-03 01:27:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b5570711bae4a9062e50ed2cd4bcb30</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>New Hire OG Request Update Description</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -72,7 +73,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_script_0b5570711bae4a9062e50ed2cd4bcb30</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:34:20</sys_updated_on>
+        <sys_updated_on>2024-07-16 14:20:38</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
