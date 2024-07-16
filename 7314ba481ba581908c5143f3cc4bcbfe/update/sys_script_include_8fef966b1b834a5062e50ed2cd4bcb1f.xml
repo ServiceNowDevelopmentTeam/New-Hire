@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.wsfp_company</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>wsfp_company</name>
+        <script><![CDATA[var wsfp_company = Class.create();
+wsfp_company.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    type: 'wsfp_company',
+
+	findWSFP: function(company_id){
+		var id = this.getParameter('company_id') || company_id;
+		var gr = new GlideRecord('core_company');
+		gr.addQuery('sys_id', id);
+		gr.query();
+		if(gr.next()){
+			if(gr.sys_id == '98b5d89f1b021050f5a3635bbc4bcb8d' || gr.parent == '98b5d89f1b021050f5a3635bbc4bcb8d'){
+				return true;
+			}
+		}
+		return false;
+	},
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-07-03 16:18:35</sys_created_on>
+        <sys_id>8fef966b1b834a5062e50ed2cd4bcb1f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>wsfp_company</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sys_script_include_8fef966b1b834a5062e50ed2cd4bcb1f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-16 15:59:45</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>190bc456ded0000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_8fef966b1b834a5062e50ed2cd4bcb1f</metadata_update_name>
+        <previous_claim_app_version>2.0.9</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-16 15:59:45</sys_created_on>
+        <sys_id>587999f71b5bca10c16ddb9ebd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-16 15:59:45</sys_updated_on>
+    </sys_claim>
+</record_update>
