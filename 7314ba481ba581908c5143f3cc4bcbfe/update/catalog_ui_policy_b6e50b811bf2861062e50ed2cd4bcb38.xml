@@ -6,7 +6,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:463ff31e1b9a8a5062e50ed2cd4bcb5a!=continue_form^NQIO:9e55e0131b9bd810e7004229bc4bcb8e!=115cbda31bb659508db03375cc4bcbcf^IO:9e55e0131b9bd810e7004229bc4bcb8e!=b5fbcdc81b2134508c5143f3cc4bcb4d^IO:9e55e0131b9bd810e7004229bc4bcb8e!=71fbcdc81b2134508c5143f3cc4bcb45^EQ</catalog_conditions>
+        <catalog_conditions>IO:4b22641b1b5bd810e7004229bc4bcbe6=64b51c9f1b021050f5a3635bbc4bcb11^ORIO:4b22641b1b5bd810e7004229bc4bcbe6=811312e51b53659046b60ed5604bcba5^ORIO:4b22641b1b5bd810e7004229bc4bcbe6=98b5d89f1b021050f5a3635bbc4bcb8d^IO:463ff31e1b9a8a5062e50ed2cd4bcb5a=continue_form^EQ</catalog_conditions>
         <catalog_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</catalog_item>
         <conditions/>
         <description/>
@@ -27,22 +27,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Hide workspace setup if not HQ location</short_description>
+        <short_description>Show workspace setup if HQ location</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-13 14:21:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6e50b811bf2861062e50ed2cd4bcb38</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Hide workspace setup if not HQ location</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Show workspace setup if HQ location</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_ui_policy_b6e50b811bf2861062e50ed2cd4bcb38</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-13 14:21:55</sys_updated_on>
+        <sys_updated_on>2024-07-17 16:30:08</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>
