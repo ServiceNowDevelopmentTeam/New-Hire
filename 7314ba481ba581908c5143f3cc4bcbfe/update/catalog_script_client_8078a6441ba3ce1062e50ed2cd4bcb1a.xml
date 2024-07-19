@@ -20,10 +20,10 @@
         <published_ref/>
         <script><![CDATA[function onLoad() {
    var requestTypeField = 'request_type';
-   var newType = 'New Setup';
-
+   var newType = 'new';
+   
    //if it's an order guide, then set the value of the request type field
-   if(g_form.isOrderGuide()) {
+   if(spUtil.isOrderGuide()) {
       g_form.setValue(requestTypeField, newType);
    }
    
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8078a6441ba3ce1062e50ed2cd4bcb1a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Set request type if order guide</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_script_client_8078a6441ba3ce1062e50ed2cd4bcb1a</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-17 16:23:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 19:54:25</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>1</ui_type>

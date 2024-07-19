@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Request Type">aeebdebb1bde029062e50ed2cd4bcb31</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-28 03:47:58</sys_created_on>
+        <sys_id>ee0c96bb1bde029062e50ed2cd4bcbdb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Moving desks</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>question_choice_ee0c96bb1bde029062e50ed2cd4bcbdb</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-19 19:48:37</sys_updated_on>
+        <text>Moving desks</text>
+        <value>modify</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ee0c96bb1bde029062e50ed2cd4bcbdb"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>ee0c96bb1bde029062e50ed2cd4bcbdb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-28 03:47:59</sys_created_on>
+        <sys_id>670c92fb1bde029062e50ed2cd4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-05-28 03:47:59</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>ee0c96bb1bde029062e50ed2cd4bcbdb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-28 03:47:59</sys_created_on>
+        <sys_id>2f0c92fb1bde029062e50ed2cd4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-05-28 03:47:59</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>190cc85caed0000001</claim_timestamp>
+        <metadata_update_name>question_choice_ee0c96bb1bde029062e50ed2cd4bcbdb</metadata_update_name>
+        <previous_claim_app_version>2.0.14</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-19 19:43:58</sys_created_on>
+        <sys_id>9a8961701bab825062e50ed2cd4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-19 19:43:58</sys_updated_on>
+    </sys_claim>
+</record_update>

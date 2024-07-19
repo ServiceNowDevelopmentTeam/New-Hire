@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="HQ Work Space Setup Request">3b7ada3b1bde029062e50ed2cd4bcb8d</catalog_item>
+        <catalog_variable>IO:4779b2941baac29062e50ed2cd4bcb93</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-29 19:21:43</sys_created_on>
+        <sys_id>005b32581baac29062e50ed2cd4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>neighboring_team_member_s2</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_005b32581baac29062e50ed2cd4bcb87</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-19 19:53:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if request type is not empty*">573bb6181baac29062e50ed2cd4bcbad</ui_policy>
+        <variable>neighboring_team_member_s2</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>190cc8e7ba50000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_005b32581baac29062e50ed2cd4bcb87</metadata_update_name>
+        <previous_claim_app_version>2.0.14</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-19 19:53:28</sys_created_on>
+        <sys_id>55bbe9701bab825062e50ed2cd4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-19 19:53:28</sys_updated_on>
+    </sys_claim>
+</record_update>
