@@ -4,14 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3706183000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5018716000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>people_team_request</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for.company.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company➛Parent","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"core_company","column_name":"parent"},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.company","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"company"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.requested_for.name","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
+        <label_cache>[{"name":"eeca6428-f54f-42c7-a37d-142f9367123f.peopleteam_request_type","label":"1 - Get Catalog Variables➛peopleteam_request_type","reference":"","reference_display":"peopleteam_request_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Inter-Company Transfer","value":"Inter-Company Transfer","order":100.0},{"label":"New Hire","value":"New Hire","order":100.0},{"label":"Team Member Update","value":"Team Member Update","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item.requested_for.company.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company➛Parent","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"core_company","column_name":"parent"},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.company","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"company"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.requested_for.name","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
         <master_snapshot>da6562881b26829062e50ed2cd4bcbb5</master_snapshot>
         <name>REQF - People Team Request - S</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db79a9841bee429062e50ed2cd4bcb6f</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>REQF - People Team Request - S</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_db79a9841bee429062e50ed2cd4bcb6f</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:24</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=db79a9841bee429062e50ed2cd4bcb6f"/>
@@ -85,10 +85,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>d85d690c1bee429062e50ed2cd4bcb4c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -173,14 +173,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:15</sys_created_on>
         <sys_id>585d690c1bee429062e50ed2cd4bcb45</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -257,14 +257,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:15</sys_created_on>
         <sys_id>c85d690c1bee429062e50ed2cd4bcb3e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -296,10 +296,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>105d690c1bee429062e50ed2cd4bcb7c</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:24:41</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
         <ui_id>0b455135-9b5b-476c-b56b-1cbdaaa2b41a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=105d690c1bee429062e50ed2cd4bcb7c"/>
@@ -371,10 +371,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>505d690c1bee429062e50ed2cd4bcb73</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:24:41</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <ui_id>3ee8b096-85e0-4a3d-9473-09d31f654948</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=505d690c1bee429062e50ed2cd4bcb73"/>
@@ -423,11 +423,11 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>985d690c1bee429062e50ed2cd4bcb74</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-28 19:02:16</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:49:43</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>short_description=People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}</value>
+        <value>short_description={{eeca6428-f54f-42c7-a37d-142f9367123f.peopleteam_request_type}} - People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=505d690c1bee429062e50ed2cd4bcb73"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=505d690c1bee429062e50ed2cd4bcb73"/>
@@ -446,10 +446,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>945d690c1bee429062e50ed2cd4bcb52</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:24:41</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <ui_id>eeca6428-f54f-42c7-a37d-142f9367123f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=945d690c1bee429062e50ed2cd4bcb52"/>
@@ -461,10 +461,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>d05d690c1bee429062e50ed2cd4bcb55</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-28 19:02:16</sys_updated_on>
-        <value>3781add11b457cd08c5143f3cc4bcbdd:item_option_new,9947ae711b0d78d0e7004229bc4bcbe2:item_option_new,001ffc221bc9fcd0e7004229bc4bcb60:item_option_new,d420268a1b124a5062e50ed2cd4bcb50:item_option_new,19a22a4e1b124a5062e50ed2cd4bcbca:item_option_new,55e4ee021b524a5062e50ed2cd4bcb5e:item_option_new,17e66ac21b524a5062e50ed2cd4bcb59:item_option_new,465b660a1b524a5062e50ed2cd4bcb14:item_option_new,b8bbea0a1b524a5062e50ed2cd4bcb0d:item_option_new</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:49:42</sys_updated_on>
+        <value>3781add11b457cd08c5143f3cc4bcbdd:item_option_new,9947ae711b0d78d0e7004229bc4bcbe2:item_option_new,001ffc221bc9fcd0e7004229bc4bcb60:item_option_new,d420268a1b124a5062e50ed2cd4bcb50:item_option_new,19a22a4e1b124a5062e50ed2cd4bcbca:item_option_new,55e4ee021b524a5062e50ed2cd4bcb5e:item_option_new,17e66ac21b524a5062e50ed2cd4bcb59:item_option_new,465b660a1b524a5062e50ed2cd4bcb14:item_option_new,b8bbea0a1b524a5062e50ed2cd4bcb0d:item_option_new,153090951b1f421062e50ed2cd4bcb96:item_option_new</value>
         <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -536,10 +536,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-14 19:08:03</sys_created_on>
         <sys_id>32a11d251bf68610c16ddb9ebd4bcb82</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:24</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
         <ui_id>a7617858-0936-4df1-91c9-2f0d6073b33c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32a11d251bf68610c16ddb9ebd4bcb82"/>
@@ -683,10 +683,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:00:21</sys_created_on>
         <sys_id>3bc36ec41b26829062e50ed2cd4bcbb7</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
         <ui_id>894d94d6-6567-4331-9992-8e3348de94fd</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3bc36ec41b26829062e50ed2cd4bcbb7"/>
@@ -855,10 +855,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:13:48</sys_created_on>
         <sys_id>7b132a711b5f061062e50ed2cd4bcb97</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <ui_id>ac1f0933-5272-4311-943f-2269340056b5</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b132a711b5f061062e50ed2cd4bcb97"/>
@@ -878,16 +878,28 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7b132a711b5f061062e50ed2cd4bcb97"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request</field>
+        <id>7b132a711b5f061062e50ed2cd4bcb97</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-22 20:09:09</sys_created_on>
+        <sys_id>941c897d1b670650c16ddb9ebd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-22 20:09:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_589e9a501b2ac29062e50ed2cd4bcb3d</table>
+        <value>{{Service Catalog_1.request_item.request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>short_description</field>
         <id>7b132a711b5f061062e50ed2cd4bcb97</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:13:48</sys_created_on>
         <sys_id>c0236a711b5f061062e50ed2cd4bcb1c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:13:48</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:49:43</sys_updated_on>
         <table>var__m_sys_hub_flow_input_589e9a501b2ac29062e50ed2cd4bcb3d</table>
-        <value>People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}{{Service Catalog_1.request_item.request}}</value>
+        <value>{{eeca6428-f54f-42c7-a37d-142f9367123f.peopleteam_request_type}} - People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}{{Service Catalog_1.request_item.request}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>wait_for_completion</field>
@@ -1011,10 +1023,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:22:23</sys_created_on>
         <sys_id>3a6863691b8b025062e50ed2cd4bcbbc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
         <ui_id>1146401c-b8dd-4f49-93c2-a6e7c9324628</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1125,7 +1137,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>people_team_request</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for.company.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company➛Parent","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"core_company","column_name":"parent"},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.company","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"company"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.requested_for.name","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
+        <label_cache>[{"name":"eeca6428-f54f-42c7-a37d-142f9367123f.peopleteam_request_type","label":"1 - Get Catalog Variables➛peopleteam_request_type","reference":"","reference_display":"peopleteam_request_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Inter-Company Transfer","value":"Inter-Company Transfer","order":100.0},{"label":"New Hire","value":"New Hire","order":100.0},{"label":"Team Member Update","value":"Team Member Update","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item.requested_for.company.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company➛Parent","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"core_company","column_name":"parent"},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.requested_for.company","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"company"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request.requested_for.name","label":"Trigger - Service Catalog➛Requested Item Record➛Request➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"}]</label_cache>
         <master>true</master>
         <name>REQF - People Team Request - S</name>
         <natlang/>
@@ -1142,7 +1154,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da6562881b26829062e50ed2cd4bcbb5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1150,7 +1162,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:21</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=da6562881b26829062e50ed2cd4bcbb5"/>
@@ -1165,10 +1177,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:23</sys_created_on>
         <sys_id>7265a2881b26829062e50ed2cd4bcb29</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1253,14 +1265,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:21</sys_created_on>
         <sys_id>d26562881b26829062e50ed2cd4bcbb8</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1337,14 +1349,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:21</sys_created_on>
         <sys_id>ea6562881b26829062e50ed2cd4bcbd8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:19</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1376,10 +1388,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>226562881b26829062e50ed2cd4bcbe9</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>eeca6428-f54f-42c7-a37d-142f9367123f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=226562881b26829062e50ed2cd4bcbe9"/>
@@ -1391,10 +1403,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>a66562881b26829062e50ed2cd4bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-28 23:07:22</sys_updated_on>
-        <value>3781add11b457cd08c5143f3cc4bcbdd:item_option_new,9947ae711b0d78d0e7004229bc4bcbe2:item_option_new,001ffc221bc9fcd0e7004229bc4bcb60:item_option_new,d420268a1b124a5062e50ed2cd4bcb50:item_option_new,19a22a4e1b124a5062e50ed2cd4bcbca:item_option_new,55e4ee021b524a5062e50ed2cd4bcb5e:item_option_new,17e66ac21b524a5062e50ed2cd4bcb59:item_option_new,465b660a1b524a5062e50ed2cd4bcb14:item_option_new,b8bbea0a1b524a5062e50ed2cd4bcb0d:item_option_new</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
+        <value>3781add11b457cd08c5143f3cc4bcbdd:item_option_new,9947ae711b0d78d0e7004229bc4bcbe2:item_option_new,001ffc221bc9fcd0e7004229bc4bcb60:item_option_new,d420268a1b124a5062e50ed2cd4bcb50:item_option_new,19a22a4e1b124a5062e50ed2cd4bcbca:item_option_new,55e4ee021b524a5062e50ed2cd4bcb5e:item_option_new,17e66ac21b524a5062e50ed2cd4bcb59:item_option_new,465b660a1b524a5062e50ed2cd4bcb14:item_option_new,b8bbea0a1b524a5062e50ed2cd4bcb0d:item_option_new,153090951b1f421062e50ed2cd4bcb96:item_option_new</value>
         <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1465,10 +1477,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>7265a2881b26829062e50ed2cd4bcb16</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>0b455135-9b5b-476c-b56b-1cbdaaa2b41a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7265a2881b26829062e50ed2cd4bcb16"/>
@@ -1540,10 +1552,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>ee65a2881b26829062e50ed2cd4bcb0a</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>3ee8b096-85e0-4a3d-9473-09d31f654948</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee65a2881b26829062e50ed2cd4bcb0a"/>
@@ -1592,11 +1604,11 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>e665a2881b26829062e50ed2cd4bcb0c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-05-28 23:07:22</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>short_description=People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}</value>
+        <value>short_description={{eeca6428-f54f-42c7-a37d-142f9367123f.peopleteam_request_type}} - People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ee65a2881b26829062e50ed2cd4bcb0a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee65a2881b26829062e50ed2cd4bcb0a"/>
@@ -1616,10 +1628,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:15:19</sys_created_on>
         <sys_id>0a73e2b11b5f061062e50ed2cd4bcb67</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>ac1f0933-5272-4311-943f-2269340056b5</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a73e2b11b5f061062e50ed2cd4bcb67"/>
@@ -1639,16 +1651,28 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0a73e2b11b5f061062e50ed2cd4bcb67"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request</field>
+        <id>0a73e2b11b5f061062e50ed2cd4bcb67</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-22 20:09:38</sys_created_on>
+        <sys_id>df2c41bd1b670650c16ddb9ebd4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-22 20:09:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_589e9a501b2ac29062e50ed2cd4bcb3d</table>
+        <value>{{Service Catalog_1.request_item.request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>short_description</field>
         <id>0a73e2b11b5f061062e50ed2cd4bcb67</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:15:19</sys_created_on>
         <sys_id>8e73e2b11b5f061062e50ed2cd4bcb76</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:19</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
         <table>var__m_sys_hub_flow_input_589e9a501b2ac29062e50ed2cd4bcb3d</table>
-        <value>People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}{{Service Catalog_1.request_item.request}}</value>
+        <value>{{eeca6428-f54f-42c7-a37d-142f9367123f.peopleteam_request_type}} - People Team Request - {{Service Catalog_1.request_item.request.requested_for.name}}{{Service Catalog_1.request_item.request}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>wait_for_completion</field>
@@ -1763,10 +1787,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-14 19:08:30</sys_created_on>
         <sys_id>19c191651bf68610c16ddb9ebd4bcbd0</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:21</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>a7617858-0936-4df1-91c9-2f0d6073b33c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19c191651bf68610c16ddb9ebd4bcbd0"/>
@@ -1910,10 +1934,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:23</sys_created_on>
         <sys_id>3e65a2881b26829062e50ed2cd4bcb29</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>894d94d6-6567-4331-9992-8e3348de94fd</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e65a2881b26829062e50ed2cd4bcb29"/>
@@ -2091,10 +2115,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:28:40</sys_created_on>
         <sys_id>7ad9afa91b8b025062e50ed2cd4bcbb5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
         <ui_id>1146401c-b8dd-4f49-93c2-a6e7c9324628</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2203,17 +2227,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"2f65a2881b26829062e50ed2cd4bcbdd","name":"plan","plan_signature":null}}</plan>
         <plan_id>db79a9841bee429062e50ed2cd4bcb6f</plan_id>
-        <snapshot>c395ee751b5f061062e50ed2cd4bcbc8</snapshot>
+        <snapshot>da6562881b26829062e50ed2cd4bcbb5</snapshot>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2f65a2881b26829062e50ed2cd4bcbdd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:23</sys_updated_on>
+        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
         <trigger display_value="">6765a2881b26829062e50ed2cd4bcbdd</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=db79a9841bee429062e50ed2cd4bcb6f"/>
