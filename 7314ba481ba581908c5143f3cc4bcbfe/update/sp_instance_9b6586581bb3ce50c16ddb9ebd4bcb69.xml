@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description>Click into a Request Item number to leave a comment.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">804383501bc8f11062e50ed2cd4bcb9b</sp_column>
+        <sp_widget display_value="Click into a Request Item number to leav">149582981bb3ce50c16ddb9ebd4bcbfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-30 18:45:02</sys_created_on>
+        <sys_id>9b6586581bb3ce50c16ddb9ebd4bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Click into a Request Item number to leave a comment.</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sp_instance_9b6586581bb3ce50c16ddb9ebd4bcb69</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-30 18:45:27</sys_updated_on>
+        <title>Click into a Request Item number to leave a comment.</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b6586581bb3ce50c16ddb9ebd4bcb69"/>
+</record_update>
