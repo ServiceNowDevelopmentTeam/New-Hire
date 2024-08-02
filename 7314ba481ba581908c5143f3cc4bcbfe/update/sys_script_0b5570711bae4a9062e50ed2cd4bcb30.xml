@@ -37,13 +37,12 @@
     var fName;
     var lName;
     var hireDate;
-    var query = 'request=' + current.sys_id.toString() +
-        '^cat_item' + newEmailCat +
-        '^ORcat_item' + noEmailCat +
-        '^ORcat_item' + peopleTeamCat;
     var emailReq = new GlideRecord("sc_req_item");
-    emailReq.addEncodedQuery(query);
-    emailReq.query();
+	emailReq.addQuery('request',current.sys_id.toString());
+	emailReq.addQuery('cat_item',newEmailCat);
+	emailReq.addOrCondition('cat_item',noEmailCat);
+	emailReq.addOrCondition('cat_item',peopleTeamCat);
+
     if (emailReq.next()) {
         fName = emailReq.variables.new_hire_legal_first_name.toString();
         lName = emailReq.variables.new_hire_legal_last_name.toString();
@@ -65,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b5570711bae4a9062e50ed2cd4bcb30</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>New Hire OG Request Update Description</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -73,7 +72,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_script_0b5570711bae4a9062e50ed2cd4bcb30</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-16 14:20:38</sys_updated_on>
+        <sys_updated_on>2024-08-02 20:23:04</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
