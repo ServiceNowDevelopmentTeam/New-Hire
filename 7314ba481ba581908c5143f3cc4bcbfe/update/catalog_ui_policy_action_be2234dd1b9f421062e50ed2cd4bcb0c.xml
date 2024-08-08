@@ -22,7 +22,7 @@
         <table/>
         <ui_policy display_value="If Auto Allowance">e41270dd1b9f421062e50ed2cd4bcb92</ui_policy>
         <variable>monthly_auto_amount</variable>
-        <variable_set display_value="Team Member Merit">789ea8591b9f421062e50ed2cd4bcb95</variable_set>
+        <variable_set display_value="Team Member Compensation">789ea8591b9f421062e50ed2cd4bcb95</variable_set>
         <visible>true</visible>
     </catalog_ui_policy_action>
 </record_update>

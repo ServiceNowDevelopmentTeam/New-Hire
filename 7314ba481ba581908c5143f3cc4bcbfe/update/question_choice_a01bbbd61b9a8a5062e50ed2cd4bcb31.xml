@@ -4,7 +4,7 @@
         <misc>0</misc>
         <order>400</order>
         <published_ref/>
-        <question display_value="Do You Need a Computer?">f6b2fa821b924a5062e50ed2cd4bcbbf</question>
+        <question display_value="Does this team member need a computer or tablet?">f6b2fa821b924a5062e50ed2cd4bcbbf</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>

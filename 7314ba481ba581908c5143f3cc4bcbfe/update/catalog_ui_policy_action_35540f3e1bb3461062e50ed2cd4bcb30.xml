@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:cbd20bba1bb3461062e50ed2cd4bcbf7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-08-07 17:44:22</sys_created_on>
+        <sys_id>35540f3e1bb3461062e50ed2cd4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new_phone_number</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_35540f3e1bb3461062e50ed2cd4bcb30</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-08-07 17:44:22</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if change type is phone">0144033e1bb3461062e50ed2cd4bcb83</ui_policy>
+        <variable>new_phone_number</variable>
+        <variable_set display_value="Personal Info Variable Set">665243ba1bb3461062e50ed2cd4bcba1</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

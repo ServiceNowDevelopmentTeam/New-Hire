@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Personal Information Change Request">60a18f3a1bb3461062e50ed2cd4bcb71</sc_cat_item>
+        <sc_category display_value="Human Resources">c40d85081b3f701062e50ed2cd4bcbe3</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-08-07 17:33:16</sys_created_on>
+        <sys_id>30d1437a1bb3461062e50ed2cd4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources.Personal Information Change Request</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_category_30d1437a1bb3461062e50ed2cd4bcbd7</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-08-07 17:33:16</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
