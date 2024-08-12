@@ -46,7 +46,7 @@
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>
-        <variable_set display_value="Team Member Merit">789ea8591b9f421062e50ed2cd4bcb95</variable_set>
+        <variable_set display_value="Team Member Compensation">789ea8591b9f421062e50ed2cd4bcb95</variable_set>
         <view/>
     </catalog_ui_policy>
 </record_update>

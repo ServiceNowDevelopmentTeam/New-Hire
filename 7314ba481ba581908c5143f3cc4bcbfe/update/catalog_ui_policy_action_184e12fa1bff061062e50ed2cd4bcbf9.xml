@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</catalog_item>
+        <catalog_variable>IO:e6c1fa021b924a5062e50ed2cd4bcba9</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-08-07 14:58:27</sys_created_on>
+        <sys_id>184e12fa1bff061062e50ed2cd4bcbf9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>will_this_team_member_have_a_company_mobile_phone</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_184e12fa1bff061062e50ed2cd4bcbf9</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-08-07 14:59:16</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide mobile phone question">304dd67a1bff061062e50ed2cd4bcb98</ui_policy>
+        <variable>will_this_team_member_have_a_company_mobile_phone</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

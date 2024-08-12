@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
     <sc_item_variable_assignment action="INSERT_OR_UPDATE">
         <active>false</active>
-        <guide_variable display_value="Hire Date">d11ae4971b9bd810e7004229bc4bcbb4</guide_variable>
+        <guide_variable display_value="Start Date">d11ae4971b9bd810e7004229bc4bcbb4</guide_variable>
         <item_variable display_value="Hire Date">d420268a1b124a5062e50ed2cd4bcb50</item_variable>
         <rule display_value="People Team Request">d35d54de1b5a4a5062e50ed2cd4bcb37</rule>
         <sys_class_name>sc_item_variable_assignment</sys_class_name>

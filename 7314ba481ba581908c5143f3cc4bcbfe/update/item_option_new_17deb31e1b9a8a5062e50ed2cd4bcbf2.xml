@@ -42,7 +42,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>delegate_label</name>
-        <order>110</order>
+        <order>95</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -77,14 +77,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-23 19:10:12</sys_created_on>
         <sys_id>17deb31e1b9a8a5062e50ed2cd4bcbf2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>You have the option to continue ordering computers, devices, and access, or this can be delegated to another team member. </sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_17deb31e1b9a8a5062e50ed2cd4bcbf2</sys_update_name>
-        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
-        <sys_updated_on>2024-06-02 01:37:07</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-08-07 14:25:41</sys_updated_on>
         <table/>
         <tooltip/>
         <type>17</type>
