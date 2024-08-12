@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5bfc85da1b5a91508c5143f3cc4bcb21</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Segment Distribution List Picker</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_5bfc85da1b5a91508c5143f3cc4bcb21</sys_update_name>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-06-12 16:50:19</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-08-08 21:28:09</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5bfc85da1b5a91508c5143f3cc4bcb21"/>
@@ -1734,7 +1734,7 @@
         <sys_created_on>2022-10-04 17:42:30</sys_created_on>
         <sys_id>aafd0d921b9a91508c5143f3cc4bcbdb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Company/Segment</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -1757,7 +1757,7 @@
         <sys_created_on>2022-10-04 17:39:24</sys_created_on>
         <sys_id>bc4dcd121b9a91508c5143f3cc4bcbbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Department</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -1780,7 +1780,7 @@
         <sys_created_on>2022-10-04 18:01:57</sys_created_on>
         <sys_id>db625d5a1b9a91508c5143f3cc4bcb00</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Employee Type</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -1805,7 +1805,7 @@
         <sys_created_on>2022-10-04 17:40:46</sys_created_on>
         <sys_id>c19d4d521b9a91508c5143f3cc4bcb3c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Sucess</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -1828,7 +1828,7 @@
         <sys_created_on>2022-10-04 17:40:46</sys_created_on>
         <sys_id>c59d4d521b9a91508c5143f3cc4bcb3f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Distribution List</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -3572,7 +3572,7 @@
         <sys_created_on>2022-10-04 18:09:39</sys_created_on>
         <sys_id>043455521bda91508c5143f3cc4bcbba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Department</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -3595,7 +3595,7 @@
         <sys_created_on>2022-10-04 18:09:39</sys_created_on>
         <sys_id>083455521bda91508c5143f3cc4bcb78</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Company/Segment</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -3618,7 +3618,7 @@
         <sys_created_on>2022-10-04 18:09:39</sys_created_on>
         <sys_id>c03455521bda91508c5143f3cc4bcbb2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Employee Type</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -3643,7 +3643,7 @@
         <sys_created_on>2022-10-04 18:09:39</sys_created_on>
         <sys_id>003455521bda91508c5143f3cc4bcbf2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Distribution List</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -3666,7 +3666,7 @@
         <sys_created_on>2022-10-04 18:09:39</sys_created_on>
         <sys_id>403455521bda91508c5143f3cc4bcbea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Sucess</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -3680,14 +3680,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>5bfc85da1b5a91508c5143f3cc4bcb21</sys_id>
         <latest_snapshot>843455521bda91508c5143f3cc4bcb09</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch9-hotfix2-06-11-2024_06-14-2024_2108.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch9-hotfix2a-06-19-2024_07-11-2024_1609.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5bfc85da1b5a91508c5143f3cc4bcb21^sys_idNOT IN6c34d5521bda91508c5143f3cc4bcb4d"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"6c34d5521bda91508c5143f3cc4bcb4d","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</plan_id>
-        <snapshot>4adf0a841b23ce1062e50ed2cd4bcb1a</snapshot>
+        <snapshot>1e68092893485a106836bfc01bba10aa</snapshot>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-10-04 18:09:41</sys_created_on>
         <sys_domain>global</sys_domain>

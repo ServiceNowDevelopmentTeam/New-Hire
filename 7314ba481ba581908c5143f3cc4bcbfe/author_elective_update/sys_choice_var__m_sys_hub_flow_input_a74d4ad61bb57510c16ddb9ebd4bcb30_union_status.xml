@@ -5,15 +5,15 @@
             <name>var__m_sys_hub_flow_input_a74d4ad61bb57510c16ddb9ebd4bcb30</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2023-12-11 15:34:04</sys_created_on>
+            <sys_created_on>2023-12-12 13:19:28</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
+            <sys_name>union_status</sys_name>
             <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
             <sys_policy/>
             <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_choice_var__m_sys_hub_flow_input_a74d4ad61bb57510c16ddb9ebd4bcb30_union_status</sys_update_name>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2023-12-11 15:34:04</sys_updated_on>
+            <sys_updated_on>2023-12-12 13:19:28</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -29,9 +29,9 @@
             <sys_created_on>2023-10-12 18:10:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>15</sys_mod_count>
-            <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2024-01-08 16:43:03</sys_updated_on>
+            <sys_mod_count>21</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-07-10 15:51:54</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,9 +48,9 @@
             <sys_created_on>2023-10-12 18:10:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>15</sys_mod_count>
-            <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2024-01-08 16:43:03</sys_updated_on>
+            <sys_mod_count>21</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-07-10 15:51:54</sys_updated_on>
             <value>non_union</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,9 +67,9 @@
             <sys_created_on>2023-10-12 18:10:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>15</sys_mod_count>
-            <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2024-01-08 16:43:03</sys_updated_on>
+            <sys_mod_count>21</sys_mod_count>
+            <sys_updated_by>John.Schwab</sys_updated_by>
+            <sys_updated_on>2024-07-10 15:51:54</sys_updated_on>
             <value>union</value>
         </sys_choice>
     </sys_choice>

@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e44fe4e41b32c21062e50ed2cd4bcb44</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Synchronize New Hire Order Guide with Item Bundles</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_e44fe4e41b32c21062e50ed2cd4bcb44</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-11 18:47:15</sys_updated_on>
+        <sys_updated_on>2024-07-19 16:56:59</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e44fe4e41b32c21062e50ed2cd4bcb44"/>
@@ -762,7 +762,7 @@
         <sys_created_on>2024-06-11 14:09:16</sys_created_on>
         <sys_id>f080f0681b32c21062e50ed2cd4bcb8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Bundle Parent</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
@@ -1536,7 +1536,7 @@
         <sys_created_on>2024-06-11 15:58:59</sys_created_on>
         <sys_id>04a945e41bb2c21062e50ed2cd4bcbd0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Bundle Parent</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
