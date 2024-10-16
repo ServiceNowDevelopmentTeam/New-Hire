@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="test">5c1f1fb51baa8a9062e50ed2cd4bcbd5</sc_cat_item>
+        <sc_category display_value="Bundles">439fa0281b32c21062e50ed2cd4bcb00</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-11 14:05:43</sys_created_on>
+        <sys_id>b4bf24281b32c21062e50ed2cd4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bundles.test</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_category_b4bf24281b32c21062e50ed2cd4bcb20</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:05:43</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sc_cat_item_category_b4bf24281b32c21062e50ed2cd4bcb20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="test">5c1f1fb51baa8a9062e50ed2cd4bcbd5</sc_cat_item><sc_category display_value="Bundles">439fa0281b32c21062e50ed2cd4bcb00</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2024-06-11 14:05:43</sys_created_on><sys_id>b4bf24281b32c21062e50ed2cd4bcb20</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bundles.test</sys_name><sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package><sys_policy/><sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope><sys_update_name>sc_cat_item_category_b4bf24281b32c21062e50ed2cd4bcb20</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2024-06-11 14:05:43</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1884895995</payload_hash>
+        <record_name>Bundles.test</record_name>
+        <reverted_from/>
+        <source>4528a5e91b898a50c16ddb9ebd4bcb70</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-11 14:05:43</sys_created_on>
+        <sys_id>b8bf24281b32c21062e50ed2cd4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190079e740d0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:05:43</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>bcbf24287232c2106850d5deddc1e723</update_guid>
+        <update_guid_history>bcbf24287232c2106850d5deddc1e723:-1884895995</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bundles.test">f3861bdc1be7025062e50ed2cd4bcbd6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-07-18 14:23:20</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>03591a18da08443c80f782cbb7e26a90</sys_id>
+        <sys_metadata>b4bf24281b32c21062e50ed2cd4bcb20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bundles.test</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_scope_delete display_value="">02bb50b2c2f047da8049e48e2bb1db31</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_b4bf24281b32c21062e50ed2cd4bcb20</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_b4bf24281b32c21062e50ed2cd4bcb20">b8bf24281b32c21062e50ed2cd4bcb24</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-07-18 14:23:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5018716000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8829822000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -38,7 +38,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_db79a9841bee429062e50ed2cd4bcb6f</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-08-08 21:28:22</sys_updated_on>
+        <sys_updated_on>2024-09-16 15:22:03</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=db79a9841bee429062e50ed2cd4bcb6f"/>
@@ -85,10 +85,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>d85d690c1bee429062e50ed2cd4bcb4c</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:20</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -173,14 +173,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:15</sys_created_on>
         <sys_id>585d690c1bee429062e50ed2cd4bcb45</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -257,14 +257,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:15</sys_created_on>
         <sys_id>c85d690c1bee429062e50ed2cd4bcb3e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -296,10 +296,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>105d690c1bee429062e50ed2cd4bcb7c</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-08-12 19:18:54</sys_updated_on>
+        <sys_updated_on>2024-09-08 00:22:11</sys_updated_on>
         <ui_id>0b455135-9b5b-476c-b56b-1cbdaaa2b41a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=105d690c1bee429062e50ed2cd4bcb7c"/>
@@ -371,10 +371,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>505d690c1bee429062e50ed2cd4bcb73</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-08-12 19:18:54</sys_updated_on>
+        <sys_updated_on>2024-09-08 00:22:11</sys_updated_on>
         <ui_id>3ee8b096-85e0-4a3d-9473-09d31f654948</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=505d690c1bee429062e50ed2cd4bcb73"/>
@@ -446,10 +446,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 19:02:16</sys_created_on>
         <sys_id>945d690c1bee429062e50ed2cd4bcb52</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-08-12 19:18:54</sys_updated_on>
+        <sys_updated_on>2024-09-08 00:22:11</sys_updated_on>
         <ui_id>eeca6428-f54f-42c7-a37d-142f9367123f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=945d690c1bee429062e50ed2cd4bcb52"/>
@@ -530,16 +530,16 @@
         <inputs/>
         <order>7</order>
         <parent_ui_id/>
-        <subflow display_value="Close RITM/Req">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
+        <subflow display_value="Close RITM/REQ">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-14 19:08:03</sys_created_on>
         <sys_id>32a11d251bf68610c16ddb9ebd4bcb82</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:21</sys_updated_on>
         <ui_id>a7617858-0936-4df1-91c9-2f0d6073b33c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32a11d251bf68610c16ddb9ebd4bcb82"/>
@@ -555,7 +555,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-06-14 19:08:03</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">32a11d251bf68610c16ddb9ebd4bcb83</variable>
+        <variable display_value="wait_for_completion">32a11d251bf68610c16ddb9ebd4bcb83</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=32a11d251bf68610c16ddb9ebd4bcb82"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -609,7 +609,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">32a11d251bf68610c16ddb9ebd4bcb82</model>
@@ -635,14 +635,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-14 19:08:03</sys_created_on>
         <sys_id>32a11d251bf68610c16ddb9ebd4bcb83</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:13:49</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -671,10 +671,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:00:21</sys_created_on>
         <sys_id>3bc36ec41b26829062e50ed2cd4bcbb7</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:21</sys_updated_on>
         <ui_id>894d94d6-6567-4331-9992-8e3348de94fd</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3bc36ec41b26829062e50ed2cd4bcbb7"/>
@@ -690,7 +690,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-28 23:00:24</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">84d36ec41b26829062e50ed2cd4bcbb9</variable>
+        <variable display_value="wait_for_completion">84d36ec41b26829062e50ed2cd4bcbb9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3bc36ec41b26829062e50ed2cd4bcbb7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -756,7 +756,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">3bc36ec41b26829062e50ed2cd4bcbb7</model>
@@ -782,14 +782,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:00:21</sys_created_on>
         <sys_id>84d36ec41b26829062e50ed2cd4bcbb9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:13:48</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:28:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -831,10 +831,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:13:48</sys_created_on>
         <sys_id>7b132a711b5f061062e50ed2cd4bcb97</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:20</sys_updated_on>
         <ui_id>ac1f0933-5272-4311-943f-2269340056b5</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b132a711b5f061062e50ed2cd4bcb97"/>
@@ -850,7 +850,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-07-10 16:13:48</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">ff132a711b5f061062e50ed2cd4bcb98</variable>
+        <variable display_value="wait_for_completion">ff132a711b5f061062e50ed2cd4bcb98</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7b132a711b5f061062e50ed2cd4bcb97"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -916,7 +916,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">7b132a711b5f061062e50ed2cd4bcb97</model>
@@ -942,14 +942,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:13:48</sys_created_on>
         <sys_id>ff132a711b5f061062e50ed2cd4bcb98</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:13:48</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:28:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -966,7 +966,7 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=db79a9841bee429062e50ed2cd4bcb6f^sys_idNOT IN3a6863691b8b025062e50ed2cd4bcbbc"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">f26863691b8b025062e50ed2cd4bcbbb</block>
+        <block display_value="">4e8c3b3c87a85e906b4c21b9cebb35bf</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -987,10 +987,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:22:23</sys_created_on>
         <sys_id>3a6863691b8b025062e50ed2cd4bcbbc</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:57</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:21</sys_updated_on>
         <ui_id>1146401c-b8dd-4f49-93c2-a6e7c9324628</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1004,10 +1004,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:22:23</sys_created_on>
         <sys_id>766863691b8b025062e50ed2cd4bcbc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-27 16:22:23</sys_updated_on>
-        <value>company and parent not jamar</value>
+        <sys_updated_on>2024-09-07 23:29:00</sys_updated_on>
+        <value>company or parent is wsfp</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3a6863691b8b025062e50ed2cd4bcbbc"/>
@@ -1017,11 +1017,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:22:23</sys_created_on>
         <sys_id>f26863691b8b025062e50ed2cd4bcbc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-27 16:22:23</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:00</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Service Catalog_1.request_item.requested_for.company}}!=58b5d89f1b021050f5a3635bbc4bcbb4^{{Service Catalog_1.request_item.requested_for.company.parent}}!=58b5d89f1b021050f5a3635bbc4bcbb4</value>
+        <value>{{Service Catalog_1.request_item.requested_for.company}}=98b5d89f1b021050f5a3635bbc4bcb8d^NQ{{Service Catalog_1.request_item.requested_for.company.parent}}=98b5d89f1b021050f5a3635bbc4bcb8d</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1118,7 +1118,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da6562881b26829062e50ed2cd4bcbb5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1126,7 +1126,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:19</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=da6562881b26829062e50ed2cd4bcbb5"/>
@@ -1141,10 +1141,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:23</sys_created_on>
         <sys_id>7265a2881b26829062e50ed2cd4bcb29</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:20</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1229,14 +1229,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:21</sys_created_on>
         <sys_id>d26562881b26829062e50ed2cd4bcbb8</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1313,14 +1313,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:21</sys_created_on>
         <sys_id>ea6562881b26829062e50ed2cd4bcbd8</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1352,10 +1352,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>226562881b26829062e50ed2cd4bcbe9</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>eeca6428-f54f-42c7-a37d-142f9367123f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=226562881b26829062e50ed2cd4bcbe9"/>
@@ -1441,10 +1441,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>7265a2881b26829062e50ed2cd4bcb16</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>0b455135-9b5b-476c-b56b-1cbdaaa2b41a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7265a2881b26829062e50ed2cd4bcb16"/>
@@ -1516,10 +1516,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:22</sys_created_on>
         <sys_id>ee65a2881b26829062e50ed2cd4bcb0a</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>3ee8b096-85e0-4a3d-9473-09d31f654948</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee65a2881b26829062e50ed2cd4bcb0a"/>
@@ -1592,10 +1592,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:15:19</sys_created_on>
         <sys_id>0a73e2b11b5f061062e50ed2cd4bcb67</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>ac1f0933-5272-4311-943f-2269340056b5</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a73e2b11b5f061062e50ed2cd4bcb67"/>
@@ -1611,7 +1611,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-07-10 16:15:19</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">0a73e2b11b5f061062e50ed2cd4bcb68</variable>
+        <variable display_value="wait_for_completion">0a73e2b11b5f061062e50ed2cd4bcb68</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0a73e2b11b5f061062e50ed2cd4bcb67"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1677,7 +1677,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">0a73e2b11b5f061062e50ed2cd4bcb67</model>
@@ -1703,14 +1703,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-07-10 16:15:19</sys_created_on>
         <sys_id>0a73e2b11b5f061062e50ed2cd4bcb68</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1733,16 +1733,16 @@
         <inputs/>
         <order>7</order>
         <parent_ui_id/>
-        <subflow display_value="Close RITM/Req">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
+        <subflow display_value="Close RITM/REQ">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-14 19:08:30</sys_created_on>
         <sys_id>19c191651bf68610c16ddb9ebd4bcbd0</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>a7617858-0936-4df1-91c9-2f0d6073b33c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19c191651bf68610c16ddb9ebd4bcbd0"/>
@@ -1758,7 +1758,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-06-14 19:08:30</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">d1c191651bf68610c16ddb9ebd4bcbd1</variable>
+        <variable display_value="wait_for_completion">d1c191651bf68610c16ddb9ebd4bcbd1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=19c191651bf68610c16ddb9ebd4bcbd0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1812,7 +1812,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">19c191651bf68610c16ddb9ebd4bcbd0</model>
@@ -1838,14 +1838,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-14 19:08:30</sys_created_on>
         <sys_id>d1c191651bf68610c16ddb9ebd4bcbd1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1874,10 +1874,10 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:23</sys_created_on>
         <sys_id>3e65a2881b26829062e50ed2cd4bcb29</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>894d94d6-6567-4331-9992-8e3348de94fd</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e65a2881b26829062e50ed2cd4bcb29"/>
@@ -1893,7 +1893,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-28 23:07:23</sys_updated_on>
         <value>1</value>
-        <variable display_value="Wait For Completion">3e65a2881b26829062e50ed2cd4bcb2a</variable>
+        <variable display_value="wait_for_completion">3e65a2881b26829062e50ed2cd4bcb2a</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3e65a2881b26829062e50ed2cd4bcb29"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1959,7 +1959,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">3e65a2881b26829062e50ed2cd4bcb29</model>
@@ -1985,14 +1985,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:23</sys_created_on>
         <sys_id>3e65a2881b26829062e50ed2cd4bcb2a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-10 16:15:20</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2022,7 +2022,7 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=da6562881b26829062e50ed2cd4bcbb5^sys_idNOT IN7ad9afa91b8b025062e50ed2cd4bcbb5"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">f26863691b8b025062e50ed2cd4bcbbb</block>
+        <block display_value="">4e8c3b3c87a85e906b4c21b9cebb35bf</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2043,10 +2043,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:28:40</sys_created_on>
         <sys_id>7ad9afa91b8b025062e50ed2cd4bcbb5</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:54</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <ui_id>1146401c-b8dd-4f49-93c2-a6e7c9324628</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2060,10 +2060,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:28:40</sys_created_on>
         <sys_id>7ad9afa91b8b025062e50ed2cd4bcbb9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-27 16:28:40</sys_updated_on>
-        <value>company and parent not jamar</value>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
+        <value>company or parent is wsfp</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7ad9afa91b8b025062e50ed2cd4bcbb5"/>
@@ -2073,11 +2073,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-27 16:28:40</sys_created_on>
         <sys_id>f6d9afa91b8b025062e50ed2cd4bcbb9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-06-27 16:28:40</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:18</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Service Catalog_1.request_item.requested_for.company}}!=58b5d89f1b021050f5a3635bbc4bcbb4^{{Service Catalog_1.request_item.requested_for.company.parent}}!=58b5d89f1b021050f5a3635bbc4bcbb4</value>
+        <value>{{Service Catalog_1.request_item.requested_for.company}}=98b5d89f1b021050f5a3635bbc4bcb8d^NQ{{Service Catalog_1.request_item.requested_for.company.parent}}=98b5d89f1b021050f5a3635bbc4bcb8d</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2155,17 +2155,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"2f65a2881b26829062e50ed2cd4bcbdd","name":"plan","plan_signature":null}}</plan>
         <plan_id>db79a9841bee429062e50ed2cd4bcb6f</plan_id>
-        <snapshot>8df981e893485a106836bfc01bba10b9</snapshot>
+        <snapshot>09b8444997acde902e853cf3a253afcc</snapshot>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-28 23:07:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2f65a2881b26829062e50ed2cd4bcbdd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-25 20:50:56</sys_updated_on>
+        <sys_updated_on>2024-09-07 23:29:20</sys_updated_on>
         <trigger display_value="">6765a2881b26829062e50ed2cd4bcbdd</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=db79a9841bee429062e50ed2cd4bcb6f"/>

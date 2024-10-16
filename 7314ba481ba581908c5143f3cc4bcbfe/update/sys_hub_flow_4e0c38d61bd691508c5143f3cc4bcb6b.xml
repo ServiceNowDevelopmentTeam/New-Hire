@@ -38,7 +38,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_4e0c38d61bd691508c5143f3cc4bcb6b</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-08-08 21:28:04</sys_updated_on>
+        <sys_updated_on>2024-09-16 15:21:47</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4e0c38d61bd691508c5143f3cc4bcb6b"/>
@@ -4885,7 +4885,7 @@
         <inputs/>
         <order>74</order>
         <parent_ui_id/>
-        <subflow display_value="Close RITM/Req">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
+        <subflow display_value="Close RITM/REQ">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -12607,7 +12607,7 @@ A conflicting termination request with the same name or similar as this requeste
         <inputs/>
         <order>74</order>
         <parent_ui_id/>
-        <subflow display_value="Close RITM/Req">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
+        <subflow display_value="Close RITM/REQ">77f4edc51bb73d5062e50ed2cd4bcb1f</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

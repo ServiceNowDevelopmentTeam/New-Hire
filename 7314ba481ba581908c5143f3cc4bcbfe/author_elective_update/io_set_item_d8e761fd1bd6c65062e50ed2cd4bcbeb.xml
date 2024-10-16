@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>400</order>
+        <sc_cat_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-21 18:52:11</sys_created_on>
+        <sys_id>d8e761fd1bd6c65062e50ed2cd4bcbeb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Team Member Referral Candidate.New Hire Request</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-22 16:50:02</sys_updated_on>
+        <variable_set display_value="Team Member Referral Candidate">2a41246e1b8ca450e7004229bc4bcb6a</variable_set>
+    </io_set_item>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>18fa135b3a70000001</claim_timestamp>
+        <metadata_update_name>io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb</metadata_update_name>
+        <previous_claim_app_version>1.2.0</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-22 16:50:02</sys_created_on>
+        <sys_id>7485520e1bde0a5062e50ed2cd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-22 16:50:02</sys_updated_on>
+    </sys_claim>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>400</order><sc_cat_item display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>james.benagh@glidefast.com</sys_created_by><sys_created_on>2024-05-21 18:52:11</sys_created_on><sys_id>d8e761fd1bd6c65062e50ed2cd4bcbeb</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Team Member Referral Candidate.New Hire Request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope><sys_update_name>io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb</sys_update_name><sys_updated_by>james.benagh@glidefast.com</sys_updated_by><sys_updated_on>2024-05-22 16:50:02</sys_updated_on><variable_set display_value="Team Member Referral Candidate">2a41246e1b8ca450e7004229bc4bcb6a</variable_set></io_set_item><sys_claim action="INSERT_OR_UPDATE"><claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope><claim_timestamp>18fa135b3a70000001</claim_timestamp><metadata_update_name>io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb</metadata_update_name><previous_claim_app_version>1.2.0</previous_claim_app_version><previous_claim_name>New Hire</previous_claim_name><previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope><sys_created_by>james.benagh@glidefast.com</sys_created_by><sys_created_on>2024-05-22 16:50:02</sys_created_on><sys_id>7485520e1bde0a5062e50ed2cd4bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>james.benagh@glidefast.com</sys_updated_by><sys_updated_on>2024-05-22 16:50:02</sys_updated_on></sys_claim></record_update>]]></payload>
+        <payload_hash>-873385339</payload_hash>
+        <record_name>03fc9db11b96c65062e50ed2cd4bcbe2</record_name>
+        <reverted_from/>
+        <source>32dc99b11b96c65062e50ed2cd4bcb76</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-22 16:50:02</sys_created_on>
+        <sys_id>3485520e1bde0a5062e50ed2cd4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fa135b4dd0000001</sys_recorded_at>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-22 16:50:02</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>7885520edfde0a50d283f134af1d9b2e</update_guid>
+        <update_guid_history>7885520edfde0a50d283f134af1d9b2e:-873385339,c16865fda6d6c650277adb6f7f1a4f8b:-260873189,24e761fdbcd6c650bd3b3ce35d43defa:1811838718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Hire Request">99b5960e1bde0a5062e50ed2cd4bcb62</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-22 16:50:53</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>b6bf3c68a7ea4dd49b7150b2f375ac11</sys_id>
+        <sys_metadata>d8e761fd1bd6c65062e50ed2cd4bcbeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Member Referral Candidate.New Hire Request</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_scope_delete display_value="">02bb50b2c2f047da8049e48e2bb1db31</sys_scope_delete>
+        <sys_update_name>io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb</sys_update_name>
+        <sys_update_version display_value="io_set_item_d8e761fd1bd6c65062e50ed2cd4bcbeb">3485520e1bde0a5062e50ed2cd4bcb2f</sys_update_version>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-22 16:50:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

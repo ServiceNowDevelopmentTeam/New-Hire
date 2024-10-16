@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[api.controller=function($scope, spUtil) {
-  /* widget controller */
-  var c = this;
+        <client_script><![CDATA[api.controller = function($scope, spUtil) {
+    /* widget controller */
+    var c = this;
 
-  //this.document.getElementById("id-header-stage").remove();
-  /*
+    //this.document.getElementById("id-header-stage").remove();
+    /*
   if(document.getElementById("id-header-stage")){
 	document.getElementById("id-header-stage").innerHTML = 'State';
   }*/
 
-  //find the a ritm
-  /*
+    //find the a ritm
+    /*
   if(document.getElementById("id-header-number")){
 	var head = document.getElementById("id-header-number");
 	//console.log(head.nextElementSibling.innerHTML);
@@ -27,30 +27,87 @@
 	//console.log(nextHeader.innterHTML);
   }*/
 
-	//if(document.getElementById("id-header-stage")){
-	//	document.getElementById("id-header-stage").innerHTML = "<td header=\"id-header-stage\" class=\"wrapper-md ng-binding ng-scope\" ng-if=\"::options.display_quantity === 'true'\">test</td>";
-	
-	
-		var parentTable = document.querySelector("#x6fb0f4029f8332002528d4b4232e70f6 > div.panel.panel-default.ng-scope > div:nth-child(3) > table");
-		var headers = parentTable.childNodes[3].getElementsByTagName('th');
-		var headerNames = [];
-		var stageLocation = 0;
-		for (var i = 0; i < headers.length; i++) {
-			if(headers[i].innerText == "test" || headers[i].innerText == "Stage") {
-				headers[i].innerText = "State";
-				stageLocation = i;
-				break;
-			}
-		}
-		var rows = parentTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr')
-		for (var i = 0; i < rows.length; i++) {
-			var cells = rows[i].getElementsByTagName('td');
-			cells[stageLocation].innerText = "test";
-		}
-	//}
-  //<td header="id-header-quantity" class="wrapper-md ng-binding ng-scope" ng-if="::options.display_quantity === 'true'">1</td>
-  
-};]]></client_script>
+    //if(document.getElementById("id-header-stage")){
+    //	document.getElementById("id-header-stage").innerHTML = "<td header=\"id-header-stage\" class=\"wrapper-md ng-binding ng-scope\" ng-if=\"::options.display_quantity === 'true'\">test</td>";
+
+
+
+    var parentTable = document.querySelector("#x6fb0f4029f8332002528d4b4232e70f6 > div.panel.panel-default.ng-scope > div:nth-child(3) > table");
+    var headers = parentTable.childNodes[3].getElementsByTagName('th');
+    var headerNames = [];
+    var stageLocation = 0;
+    for (var i = 0; i < headers.length; i++) {
+        if (headers[i].innerText == "test???" || headers[i].innerText == "Stage") {
+            headers[i].innerText = "State";
+            stageLocation = i;
+            break;
+        }
+    }
+
+    var pairs_num = [];
+    var pairs_val = [];
+
+    var rows = parentTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    for (var i = 0; i < rows.length; i++) {
+
+        var temp_ritm = 'x';
+        var cells = rows[i].getElementsByTagName('td');
+        for (var x = 0; x < cells.length; x++) {
+            if (cells[stageLocation].innerText.includes("RITM")) {
+                temp_ritm = cells[stageLocation].innerText;
+                console.log('temp ritm? ' + temp_ritm);
+
+                //cells[stageLocation+3].innerText = "test";
+                pairs_num.push(temp_ritm);
+                c.server.get({
+                    parameter1: temp_ritm,
+                    parameter2: i,
+                    action: "getState"
+                }).then(function(response1) {
+                    var pos_x = response1.data.pos;
+                    var response = response1.data.rstate;
+
+                    //var loc_r = response.data.rval;
+                    //pairs_num.push(loc_r);
+                    pairs_val.push(response);
+                    //alert("Received data from server" + c.data.schedList.toString());
+                    //console.log('recieved date :' + response);
+                    //console.log("recieved position : " + pos_x);
+
+                    var cells2 = rows[pos_x].getElementsByTagName('td');
+                    for (var x2 = 0; x2 < cells.length; x2++) {
+                        if (cells2[stageLocation].innerText.includes("RITM")) {
+                            cells2[stageLocation + 2].innerText = response.toString();
+                        }
+                    }
+
+                    //cells[stageLocation+3].innerText = response.toString();
+                    //this.runAgain(pairs_num, pairs_val, stagelocation);
+                });
+
+            }
+        }
+
+        //console.log('temp ritm2? ' + temp_ritm);
+        /*
+        for(var y = 0; y < cells.length; y++){
+        	if(!cells[stageLocation].innerText.includes("RITM")){
+        		cells[stageLocation].innerText = temp_ritm.toString();
+        	}
+        }*/
+
+        //cells[stageLocation].innerText = "test???";
+    }
+
+
+
+
+    //}
+    //<td header="id-header-quantity" class="wrapper-md ng-binding ng-scope" ng-if="::options.display_quantity === 'true'">1</td>
+
+};
+
+]]></client_script>
         <controller_as>c</controller_as>
         <css/>
         <data_table>sp_instance</data_table>
@@ -66,7 +123,7 @@
 }]]></link>
         <name>Order Status Modifications</name>
         <option_schema/>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
   /* populate the 'data' object */
@@ -74,20 +131,48 @@
 
 	//id is used in url
 	//var request_id = $sp.getParameter('sys_id');
+
+	if (input && input.action == "getState") {
+		data.rval = input.parameter1;
+		//gs.addInfoMessage("Received Parameter: "+ input.parmameter1)
+		var gr = new GlideRecord('sc_req_item');
+		gr.addQuery('number', input.parameter1);
+		gr.query();
+		if(gr.next()){
+			data.rstate = gr.getDisplayValue('state');//gr.state;
+			data.pos = input.parameter2;
+		}
+		else{
+			data.rstate = 'query failed';
+		}
+		
+		/*
+		var incList = [];
+
+		var inc = new GlideRecord("incident");
+		inc.setLimit(5);
+		inc.query();
+		while(inc.next()) {
+
+		incList.push(inc.number + '');
+
+		}
+		data.incList = incList;*/
+	}
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2024-07-24 15:25:20</sys_created_on>
         <sys_id>272e5ade1b2f4a5062e50ed2cd4bcba6</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>107</sys_mod_count>
         <sys_name>Order Status Modifications</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sp_widget_272e5ade1b2f4a5062e50ed2cd4bcba6</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-08-07 20:40:56</sys_updated_on>
+        <sys_updated_on>2024-08-27 18:59:27</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default"  ng-if="data.showWidget">
 </div>]]></template>
     </sp_widget>

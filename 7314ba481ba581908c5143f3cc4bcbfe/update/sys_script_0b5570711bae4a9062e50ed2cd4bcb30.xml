@@ -34,24 +34,26 @@
     var peopleTeamCat = "9559de421b124a5062e50ed2cd4bcb20";
     var noEmailCat = "7ea8c1211bd3c21062e50ed2cd4bcb12";
 
-    var fName;
-    var lName;
+    var fName = "";
+    var lName = "";
     var hireDate;
     var returningField = 'returning_employee';
     var emailReq = new GlideRecord("sc_req_item");
 	emailReq.addQuery('request',current.sys_id.toString());
-	emailReq.addQuery('cat_item',newEmailCat);
-	emailReq.addOrCondition('cat_item',noEmailCat);
-	emailReq.addOrCondition('cat_item',peopleTeamCat);
+    var queryCondition = emailReq.addQuery('cat_item',newEmailCat);
+	queryCondition.addOrCondition('cat_item',noEmailCat);
+	queryCondition.addOrCondition('cat_item',peopleTeamCat);
     emailReq.query();
 
     if (emailReq.next()) {
         gs.info("emailReq found");
-        fName = emailReq.variables.new_hire_legal_first_name.toString();
-        lName = emailReq.variables.new_hire_legal_last_name.toString();
-		if(!fName || !lName){
+        var first = emailReq.variables.new_hire_legal_first_name;
+        var last = emailReq.variables.new_hire_legal_last_name;
+        fName = gs.nil(first) ? "" : first.toString();
+        lName = gs.nil(last) ? "" : last.toString();
+		if(gs.nil(fName) || gs.nil(lName)){
             gs.info("no name found");
-			if(emailReq.variables[returningField]){
+			if(!gs.nil(emailReq.variables[returningField])){
                 gs.info("returning employee found");
                 var userGr = new GlideRecord('sys_user');
                 userGr.get(emailReq.variables[returningField].toString());
@@ -59,7 +61,7 @@
                 lName = userGr.last_name.toString();
             }
 		}
-        if(!fName || !lName){
+        if(gs.nil(fName) || gs.nil(lName)){
             gs.info("no name found still");
             fName = "user";
             lName = "error";
@@ -75,9 +77,10 @@
             hireDate = peopleReq.variables.hire_return_date;
         }
     }
-    current.short_description =
-        "New Hire Request - " + fName + " " + lName + " - " + hireDate;
-        gs.info("short description set to: " + current.short_description);
+
+    var sd = "New Hire Request - " + fName + " " + lName + " - " + hireDate;
+    gs.info("short description set to: " + current.short_description);
+	current.short_description = sd;
     current.update();
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -86,7 +89,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b5570711bae4a9062e50ed2cd4bcb30</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>New Hire OG Request Update Description</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -94,7 +97,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_script_0b5570711bae4a9062e50ed2cd4bcb30</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-08-08 21:15:12</sys_updated_on>
+        <sys_updated_on>2024-09-07 16:22:10</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

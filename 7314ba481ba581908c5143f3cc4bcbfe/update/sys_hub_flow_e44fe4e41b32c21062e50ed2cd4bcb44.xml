@@ -38,7 +38,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_e44fe4e41b32c21062e50ed2cd4bcb44</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-07-19 16:56:59</sys_updated_on>
+        <sys_updated_on>2024-09-16 15:22:04</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e44fe4e41b32c21062e50ed2cd4bcb44"/>
@@ -161,10 +161,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 16:07:14</sys_created_on>
         <sys_id>308b09681bb2c21062e50ed2cd4bcbab</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 14:15:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 13:50:15</sys_updated_on>
         <ui_id>e1e01715-ecbe-4f8d-9910-494fd831da6e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=308b09681bb2c21062e50ed2cd4bcbab"/>
@@ -224,10 +224,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 14:11:31</sys_created_on>
         <sys_id>b10130a81b32c21062e50ed2cd4bcbe0</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 14:15:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 13:50:15</sys_updated_on>
         <ui_id>76717285-e1cb-44d3-99c2-83939a4bb11e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b10130a81b32c21062e50ed2cd4bcbe0"/>
@@ -287,10 +287,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 16:03:13</sys_created_on>
         <sys_id>de9a09281bb2c21062e50ed2cd4bcb65</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 14:15:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 13:50:15</sys_updated_on>
         <ui_id>69f5c33a-0bc3-4bba-9c68-771fc54574c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=de9a09281bb2c21062e50ed2cd4bcb65"/>
@@ -350,10 +350,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 16:07:14</sys_created_on>
         <sys_id>f88b09681bb2c21062e50ed2cd4bcbb4</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 14:15:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 13:50:15</sys_updated_on>
         <ui_id>405b6210-9073-4b49-98eb-3eeaed211c04</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f88b09681bb2c21062e50ed2cd4bcbb4"/>
@@ -387,10 +387,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 14:31:22</sys_created_on>
         <sys_id>fc9538601b72c21062e50ed2cd4bcb97</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 14:15:53</sys_updated_on>
+        <sys_updated_on>2024-09-07 13:50:15</sys_updated_on>
         <ui_id>f93ad559-d49e-4c6f-b432-0dab720cb4e2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fc9538601b72c21062e50ed2cd4bcb97"/>
@@ -766,7 +766,7 @@
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e44fe4e41b32c21062e50ed2cd4bcb44_bundle_parent_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-06-11 14:09:16</sys_updated_on>
         <url/>
@@ -1540,7 +1540,7 @@
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_339945e41bb2c21062e50ed2cd4bcb9b_bundle_parent_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-06-11 15:58:59</sys_updated_on>
         <url/>
@@ -1552,14 +1552,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>e44fe4e41b32c21062e50ed2cd4bcb44</sys_id>
         <latest_snapshot>339945e41bb2c21062e50ed2cd4bcb9b</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch9-hotfix2-06-11-2024_06-14-2024_2108.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch9-hotfix2a-06-19-2024_07-11-2024_1609.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e44fe4e41b32c21062e50ed2cd4bcb44^sys_idNOT IN58a985e41bb2c21062e50ed2cd4bcb37"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"58a985e41bb2c21062e50ed2cd4bcb37","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</plan_id>
-        <snapshot>1ed4575c1be7025062e50ed2cd4bcbef</snapshot>
+        <snapshot>d818353c87ac1e906b4c21b9cebb353b</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 15:59:00</sys_created_on>
         <sys_domain>global</sys_domain>

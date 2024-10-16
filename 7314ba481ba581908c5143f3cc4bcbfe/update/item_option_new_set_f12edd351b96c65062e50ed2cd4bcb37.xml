@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>employee_contractor</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-21 18:09:59</sys_created_on>
+        <sys_id>f12edd351b96c65062e50ed2cd4bcb37</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Employee/Contractor</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>item_option_new_set_f12edd351b96c65062e50ed2cd4bcb37</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-10 20:58:13</sys_updated_on>
+        <title>Employee/Contractor</title>
+        <type>one_to_one</type>
+        <u_cdw_variables>false</u_cdw_variables>
+        <version>4</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>192783997030000001</claim_timestamp>
+        <metadata_update_name>item_option_new_set_f12edd351b96c65062e50ed2cd4bcb37</metadata_update_name>
+        <previous_claim_app_version>3.0.3</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-10 20:58:13</sys_created_on>
+        <sys_id>877655ebfb01de50e070fff26eefdce2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-10 20:58:13</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Email Account">0fd8efb81b8325108c5143f3cc4bcbfa</catalog_item>
+        <catalog_variable>IO:c8f5ac9f1b5bd810e7004229bc4bcb34</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-05-29 20:03:23</sys_created_on>
+        <sys_id>ded4c3581beac29062e50ed2cd4bcbd4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>new_hire_legal_last_name</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ded4c3581beac29062e50ed2cd4bcbd4</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-09-06 20:30:34</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Init">9e2347941beac29062e50ed2cd4bcb8f</ui_policy>
+        <variable>new_hire_legal_last_name</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>191c9080fd60000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_ded4c3581beac29062e50ed2cd4bcbd4</metadata_update_name>
+        <previous_claim_app_version>3.0.1</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-09-06 20:30:34</sys_created_on>
+        <sys_id>221a066433605a109b1810919e5c7ba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-09-06 20:30:34</sys_updated_on>
+    </sys_claim>
+</record_update>

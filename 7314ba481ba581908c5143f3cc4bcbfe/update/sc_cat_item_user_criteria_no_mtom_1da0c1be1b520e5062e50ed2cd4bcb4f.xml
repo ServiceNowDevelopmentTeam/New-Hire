@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Supervisor To-Do">3680c97e1b520e5062e50ed2cd4bcbbc</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-24 18:34:41</sys_created_on>
+        <sys_id>1da0c1be1b520e5062e50ed2cd4bcb4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Supervisor To-Do.SNC External</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_1da0c1be1b520e5062e50ed2cd4bcb4f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-10 20:58:11</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
+        <claim_timestamp>192783991ec0000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_user_criteria_no_mtom_1da0c1be1b520e5062e50ed2cd4bcb4f</metadata_update_name>
+        <previous_claim_app_version>3.0.3</previous_claim_app_version>
+        <previous_claim_name>New Hire</previous_claim_name>
+        <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-10 20:58:11</sys_created_on>
+        <sys_id>ba7655ebfb01de50e070fff26eefdc7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-10 20:58:11</sys_updated_on>
+    </sys_claim>
+</record_update>

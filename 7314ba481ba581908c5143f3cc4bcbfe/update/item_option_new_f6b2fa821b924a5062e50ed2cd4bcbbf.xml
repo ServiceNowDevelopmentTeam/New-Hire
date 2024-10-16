@@ -47,7 +47,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Does this team member need a computer or tablet?</question_text>
+        <question_text>Does this team member need a computer?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,14 +77,14 @@
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-22 18:58:19</sys_created_on>
         <sys_id>f6b2fa821b924a5062e50ed2cd4bcbbf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Does this team member need a computer or tablet?</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Does this team member need a computer?</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>item_option_new_f6b2fa821b924a5062e50ed2cd4bcbbf</sys_update_name>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-08-07 19:08:01</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-09-06 15:46:02</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

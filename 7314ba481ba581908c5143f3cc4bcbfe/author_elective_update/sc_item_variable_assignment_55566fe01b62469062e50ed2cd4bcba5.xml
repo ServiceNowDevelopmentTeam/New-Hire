@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="DELETE">
+        <active>true</active>
+        <guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable>
+        <item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable>
+        <rule display_value="Reset Laptop Request">38ba73d61b9a8a5062e50ed2cd4bcb10</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-30 17:08:01</sys_created_on>
+        <sys_id>55566fe01b62469062e50ed2cd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_55566fe01b62469062e50ed2cd4bcba5</sys_update_name>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-30 17:08:01</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sc_item_variable_assignment_55566fe01b62469062e50ed2cd4bcba5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment"><sc_item_variable_assignment action="INSERT_OR_UPDATE"><active>true</active><guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable><item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable><rule display_value="Reset Laptop Request">38ba73d61b9a8a5062e50ed2cd4bcb10</rule><sys_class_name>sc_item_variable_assignment</sys_class_name><sys_created_by>james.benagh@glidefast.com</sys_created_by><sys_created_on>2024-05-30 17:08:01</sys_created_on><sys_id>55566fe01b62469062e50ed2cd4bcba5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name><sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package><sys_policy/><sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope><sys_update_name>sc_item_variable_assignment_55566fe01b62469062e50ed2cd4bcba5</sys_update_name><sys_updated_by>james.benagh@glidefast.com</sys_updated_by><sys_updated_on>2024-05-30 17:08:01</sys_updated_on><type>order_guide_variable</type><value/></sc_item_variable_assignment></record_update>]]></payload>
+        <payload_hash>38995245</payload_hash>
+        <record_name>6680d3441ba274108c5143f3cc4bcb39</record_name>
+        <reverted_from/>
+        <source>32dc99b11b96c65062e50ed2cd4bcb76</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-30 17:08:01</sys_created_on>
+        <sys_id>5656e3241b62469062e50ed2cd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fca790ba70000001</sys_recorded_at>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-05-30 17:08:01</sys_updated_on>
+        <type>Item Variable Assignment</type>
+        <update_guid>5a56e324f66246905ac02f218ca99ecc</update_guid>
+        <update_guid_history>5a56e324f66246905ac02f218ca99ecc:38995245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Requested For">2ace6f951be60a9062e50ed2cd4bcb75</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-06-02 01:40:21</sys_created_on>
+        <sys_db_object display_value="" name="sc_item_variable_assignment">sc_item_variable_assignment</sys_db_object>
+        <sys_id>05252d646dc5446d8b992ee0a69b4f19</sys_id>
+        <sys_metadata>55566fe01b62469062e50ed2cd4bcba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_scope_delete display_value="">02bb50b2c2f047da8049e48e2bb1db31</sys_scope_delete>
+        <sys_update_name>sc_item_variable_assignment_55566fe01b62469062e50ed2cd4bcba5</sys_update_name>
+        <sys_update_version display_value="sc_item_variable_assignment_55566fe01b62469062e50ed2cd4bcba5">5656e3241b62469062e50ed2cd4bcbcd</sys_update_version>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-02 01:40:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment">
+    <sc_item_variable_assignment action="DELETE">
+        <active>false</active>
+        <guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable>
+        <item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable>
+        <rule display_value="WebApps Access Request">ba79bb561b9a8a5062e50ed2cd4bcba6</rule>
+        <sys_class_name>sc_item_variable_assignment</sys_class_name>
+        <sys_created_by>james.benagh@glidefast.com</sys_created_by>
+        <sys_created_on>2024-05-30 17:11:13</sys_created_on>
+        <sys_id>8817e7641b62469062e50ed2cd4bcb1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_update_name>sc_item_variable_assignment_8817e7641b62469062e50ed2cd4bcb1b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:50:34</sys_updated_on>
+        <type>order_guide_variable</type>
+        <value/>
+    </sc_item_variable_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sc_item_variable_assignment_8817e7641b62469062e50ed2cd4bcb1b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_item_variable_assignment"><sc_item_variable_assignment action="INSERT_OR_UPDATE"><active>false</active><guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable><item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable><rule display_value="WebApps Access Request">ba79bb561b9a8a5062e50ed2cd4bcba6</rule><sys_class_name>sc_item_variable_assignment</sys_class_name><sys_created_by>james.benagh@glidefast.com</sys_created_by><sys_created_on>2024-05-30 17:11:13</sys_created_on><sys_id>8817e7641b62469062e50ed2cd4bcb1b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name><sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package><sys_policy/><sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope><sys_update_name>sc_item_variable_assignment_8817e7641b62469062e50ed2cd4bcb1b</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2024-06-19 20:50:34</sys_updated_on><type>order_guide_variable</type><value/></sc_item_variable_assignment></record_update>]]></payload>
+        <payload_hash>2090775353</payload_hash>
+        <record_name>6680d3441ba274108c5143f3cc4bcb39</record_name>
+        <reverted_from/>
+        <source>4528a5e91b898a50c16ddb9ebd4bcb70</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-19 20:50:34</sys_created_on>
+        <sys_id>49199b831bb6461062e50ed2cd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1903243f9d40000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-19 20:50:34</sys_updated_on>
+        <type>Item Variable Assignment</type>
+        <update_guid>cd199b8396b64610d98276a0ec81b8a3</update_guid>
+        <update_guid_history>cd199b8396b64610d98276a0ec81b8a3:2090775353,4117a7646562469099dd457ba44c9def:1742484934</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Requested For">4da1a5dbfb749e10e070fff26eefdc03</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-09-27 16:52:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_item_variable_assignment">sc_item_variable_assignment</sys_db_object>
+        <sys_id>2885a8521bd44abaa8868f2f6959d0e4</sys_id>
+        <sys_metadata>8817e7641b62469062e50ed2cd4bcb1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6680d3441ba274108c5143f3cc4bcb39</sys_name>
+        <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_scope_delete display_value="">02bb50b2c2f047da8049e48e2bb1db31</sys_scope_delete>
+        <sys_update_name>sc_item_variable_assignment_8817e7641b62469062e50ed2cd4bcb1b</sys_update_name>
+        <sys_update_version display_value="sc_item_variable_assignment_8817e7641b62469062e50ed2cd4bcb1b">49199b831bb6461062e50ed2cd4bcba4</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:52:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
