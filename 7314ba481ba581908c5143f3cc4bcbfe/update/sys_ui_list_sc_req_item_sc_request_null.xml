@@ -151,16 +151,16 @@
     </sys_ui_list>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
-        <claim_timestamp>19296b8d8ab0000001</claim_timestamp>
+        <claim_timestamp>1929c72cf6e0000001</claim_timestamp>
         <metadata_update_name>sys_ui_list_sc_req_item_sc_request_null</metadata_update_name>
-        <previous_claim_app_version>3.0.4</previous_claim_app_version>
+        <previous_claim_app_version>3.0.5</previous_claim_app_version>
         <previous_claim_name>New Hire</previous_claim_name>
         <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-10-16 19:05:49</sys_created_on>
-        <sys_id>cb46f755331dda909b1810919e5c7b88</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 21:47:02</sys_created_on>
+        <sys_id>aec4e9f1fb991a90e070fff26eefdc4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-10-16 19:05:49</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 21:47:02</sys_updated_on>
     </sys_claim>
 </record_update>
