@@ -121,16 +121,16 @@
     </sys_ui_list>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</claim_owner_scope>
-        <claim_timestamp>1929c72ce500000001</claim_timestamp>
+        <claim_timestamp>192a0f4c4080000001</claim_timestamp>
         <metadata_update_name>sys_ui_list_sys_script_null</metadata_update_name>
-        <previous_claim_app_version>3.0.5</previous_claim_app_version>
+        <previous_claim_app_version>3.0.7</previous_claim_app_version>
         <previous_claim_name>New Hire</previous_claim_name>
         <previous_claim_scope>7314ba481ba581908c5143f3cc4bcbfe</previous_claim_scope>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-17 21:47:02</sys_created_on>
-        <sys_id>62c4a9f1fb991a90e070fff26eefdcdb</sys_id>
+        <sys_created_on>2024-10-18 18:47:28</sys_created_on>
+        <sys_id>3d45c686fb5d5a90e070fff26eefdcc4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 21:47:02</sys_updated_on>
+        <sys_updated_on>2024-10-18 18:47:28</sys_updated_on>
     </sys_claim>
 </record_update>
