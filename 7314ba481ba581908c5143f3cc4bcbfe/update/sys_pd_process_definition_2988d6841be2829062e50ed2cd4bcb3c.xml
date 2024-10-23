@@ -4,11 +4,16 @@
         <active>true</active>
         <description/>
         <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
         <label>New Hire Sequence - Current</label>
         <name>new_hire_request_process_order</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot display_value="new_hire_request_process_order">c2e222e51b5bc21062e50ed2cd4bcbb4</snapshot>
+        <start_non_blocking>false</start_non_blocking>
         <status>published</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
@@ -43,11 +48,16 @@
         <active>true</active>
         <description/>
         <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
         <label>New Hire Sequence - Current</label>
         <name>new_hire_request_process_order</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot display_value="new_hire_request_process_order">c2e222e51b5bc21062e50ed2cd4bcbb4</snapshot>
+        <start_non_blocking>false</start_non_blocking>
         <status>published</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
@@ -73,6 +83,7 @@
         <name>lane_1</name>
         <order>1</order>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
         <start_rule_vars/>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
@@ -93,6 +104,7 @@
         <name>new_stage</name>
         <order>2</order>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
         <start_rule_vars/>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
@@ -134,6 +146,7 @@
         <order>1</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -144,6 +157,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-06-03 03:22:04</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=3188d6841be2829062e50ed2cd4bcbf4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -255,6 +269,7 @@
         <order>1</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -265,6 +280,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-07-09 21:33:56</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=436c8e50436ca2f0436cc4c0436c9740"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -390,6 +406,7 @@
         <order>2</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -400,6 +417,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-07-09 21:33:56</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=6b594206b5fe306b589a06b5a5306b58"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -497,6 +515,7 @@
         <order>2</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -507,6 +526,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=f5881a841be2829062e50ed2cd4bcb0a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -618,6 +638,7 @@
         <order>3</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -628,6 +649,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb23"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -739,6 +761,7 @@
         <order>4</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -749,6 +772,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb46"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -860,6 +884,7 @@
         <order>5</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -870,6 +895,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=b453710b456440b4585d0b452500b455"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -995,6 +1021,7 @@
         <order>6</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1005,6 +1032,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb4b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1116,6 +1144,7 @@
         <order>7</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1126,6 +1155,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb50"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1237,6 +1267,7 @@
         <order>8</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1247,6 +1278,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb41"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1358,6 +1390,7 @@
         <order>9</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1368,6 +1401,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb3c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1479,6 +1513,7 @@
         <order>10</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1489,6 +1524,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb37"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1600,6 +1636,7 @@
         <order>11</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1610,6 +1647,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb32"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1721,6 +1759,7 @@
         <order>12</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1731,6 +1770,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb2d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1842,6 +1882,7 @@
         <order>13</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1852,6 +1893,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c6881a841be2829062e50ed2cd4bcb28"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1963,6 +2005,7 @@
         <order>14</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -1973,6 +2016,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=3188d6841be2829062e50ed2cd4bcbf9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2084,6 +2128,7 @@
         <order>15</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2094,6 +2139,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=f5881a841be2829062e50ed2cd4bcb1e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2205,6 +2251,7 @@
         <order>16</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2215,6 +2262,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=f5881a841be2829062e50ed2cd4bcb19"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2326,6 +2374,7 @@
         <order>17</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2336,6 +2385,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=f5881a841be2829062e50ed2cd4bcb0f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2447,6 +2497,7 @@
         <order>18</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2457,6 +2508,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=f5881a841be2829062e50ed2cd4bcb14"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2568,6 +2620,7 @@
         <order>19</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2578,6 +2631,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=3188d6841be2829062e50ed2cd4bcbea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2689,6 +2743,7 @@
         <order>20</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2699,6 +2754,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:16</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=7988d6841be2829062e50ed2cd4bcbe2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2810,6 +2866,7 @@
         <order>21</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2820,6 +2877,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:17:15</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=3188d6841be2829062e50ed2cd4bcbef"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2931,6 +2989,7 @@
         <order>22</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -2941,6 +3000,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:55:26</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=6cdc2b706cdc63906cdca0a06cdc3b40"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3066,6 +3126,7 @@
         <order>23</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -3076,6 +3137,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:55:30</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=61556b70615501c061554df061558570"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3201,6 +3263,7 @@
         <order>24</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -3211,6 +3274,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:55:33</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=562d3fa0562d49f0562d9640562d4cd0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3336,6 +3400,7 @@
         <order>25</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -3346,6 +3411,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:55:38</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=493648404936a4604936d88049361d00"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3471,6 +3537,7 @@
         <order>26</order>
         <outputs/>
         <process_definition display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -3481,6 +3548,7 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 17:55:20</sys_updated_on>
         <type_vals/>
+        <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=e4b8830e4bcd10e4b33c0e4bbf60e4b5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3591,14 +3659,13 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_95c3602a77a13010dc9fbebc9f5a9955^id=e4b8830e4bcd10e4b33c0e4bbf60e4b5"/>
-    <sys_pd_swim_lane action="delete_multiple" query="process_definition=2988d6841be2829062e50ed2cd4bcb3c"/>
-    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=2988d6841be2829062e50ed2cd4bcb3c"/>
     <sys_pd_snapshot action="delete_multiple" query="sys_id=c2e222e51b5bc21062e50ed2cd4bcbb4^sys_idNOT INc2e222e51b5bc21062e50ed2cd4bcbb4"/>
     <sys_pd_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <derivatives>{"table":"sys_pd_snapshot","id":"c2e222e51b5bc21062e50ed2cd4bcbb4","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
         <name>new_hire_request_process_order</name>
         <process_definition>{"table":"sys_pd_snapshot","id":"c2e222e51b5bc21062e50ed2cd4bcbb4","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
+        <process_dependencies/>
         <process_plan>{"table":"sys_pd_snapshot","id":"c2e222e51b5bc21062e50ed2cd4bcbb4","name":"process_plan","type":"com.snc.process_flow.engine.ProcessPlan"}</process_plan>
         <source display_value="New Hire Sequence - Current">2988d6841be2829062e50ed2cd4bcb3c</source>
         <sys_created_by>Terry.Lillo</sys_created_by>

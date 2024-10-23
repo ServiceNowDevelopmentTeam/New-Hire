@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>false</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-09-08 00:15:53</sys_updated_on>
         <table/>
         <ui_policy display_value="Show Computer Accessories If Computer Needs Reassign">840c7f1a1b9a8a5062e50ed2cd4bcb12</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>need_any_computer_accessories</variable>
         <variable_set display_value="Information Technology">071caa8a1b524a5062e50ed2cd4bcb98</variable_set>
         <visible>false</visible>

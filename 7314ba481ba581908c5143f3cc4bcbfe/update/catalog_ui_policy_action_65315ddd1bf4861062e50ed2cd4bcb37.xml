@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>false</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-03-06 14:22:37</sys_updated_on>
         <table/>
         <ui_policy display_value="No mobile phone">d81191dd1bf4861062e50ed2cd4bcbec</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>mobile_phone_number</variable>
         <variable_set/>
         <visible>ignore</visible>

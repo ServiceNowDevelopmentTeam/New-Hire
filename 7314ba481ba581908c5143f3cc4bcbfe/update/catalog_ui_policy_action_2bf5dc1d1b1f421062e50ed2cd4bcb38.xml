@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-07-08 16:43:38</sys_updated_on>
         <table/>
         <ui_policy display_value="Request type visible for ITIL">59e51c1d1b1f421062e50ed2cd4bcb1d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>peopleteam_request_type</variable>
         <variable_set display_value="People Team Request Type">3d20dcd11b1f421062e50ed2cd4bcb17</variable_set>
         <visible>true</visible>

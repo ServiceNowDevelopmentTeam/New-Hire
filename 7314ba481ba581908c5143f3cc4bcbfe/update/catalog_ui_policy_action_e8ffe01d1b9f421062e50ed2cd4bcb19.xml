@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-07-08 18:33:43</sys_updated_on>
         <table/>
         <ui_policy display_value="If Hourly">dfcfecd91b9f421062e50ed2cd4bcb9c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>avg_weekly_hours</variable>
         <variable_set display_value="Team Member Compensation">789ea8591b9f421062e50ed2cd4bcb95</variable_set>
         <visible>true</visible>

@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_hub_flow_variable" name="sys_hub_flow_variable" sys_domain="global" view="Default view">e60ded061b1e0a5062e50ed2cd4bcb82</sys_ui_form>
-            <sys_ui_section caption="Topic Variables" display_value="Topic Variables" name="sys_hub_flow_variable" sys_domain="global" view="Default view">320ded061b1e0a5062e50ed2cd4bcba7</sys_ui_section>
+            <sys_ui_section display_value="">320ded061b1e0a5062e50ed2cd4bcba7</sys_ui_section>
             <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
             <sys_updated_on>2024-05-22 13:53:13</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_hub_flow_variable" name="sys_hub_flow_variable" sys_domain="global" view="Default view">e60ded061b1e0a5062e50ed2cd4bcb82</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_hub_flow_variable" sys_domain="global" view="Default view">360ded061b1e0a5062e50ed2cd4bcb87</sys_ui_section>
+            <sys_ui_section display_value="">360ded061b1e0a5062e50ed2cd4bcb87</sys_ui_section>
             <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
             <sys_updated_on>2024-05-22 13:53:13</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_hub_flow_variable" name="sys_hub_flow_variable" sys_domain="global" view="Default view">e60ded061b1e0a5062e50ed2cd4bcb82</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_hub_flow_variable" sys_domain="global" view="Default view">760ded061b1e0a5062e50ed2cd4bcbc1</sys_ui_section>
+            <sys_ui_section display_value="">760ded061b1e0a5062e50ed2cd4bcbc1</sys_ui_section>
             <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
             <sys_updated_on>2024-05-22 13:53:14</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sys_hub_flow_variable" name="sys_hub_flow_variable" sys_domain="global" view="Default view">e60ded061b1e0a5062e50ed2cd4bcb82</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_hub_flow_variable" sys_domain="global" view="Default view">b60ded061b1e0a5062e50ed2cd4bcbaf</sys_ui_section>
+            <sys_ui_section display_value="">b60ded061b1e0a5062e50ed2cd4bcbaf</sys_ui_section>
             <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
             <sys_updated_on>2024-05-22 13:53:13</sys_updated_on>
         </sys_ui_form_section>

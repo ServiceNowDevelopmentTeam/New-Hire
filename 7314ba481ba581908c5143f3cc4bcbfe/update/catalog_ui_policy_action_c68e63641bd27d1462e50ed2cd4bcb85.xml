@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2023-11-01 11:17:05</sys_updated_on>
         <table/>
         <ui_policy display_value="If existing employee not found">094e6fe01bd27d1462e50ed2cd4bcbf5</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>new_hire_legal_last_name</variable>
         <variable_set/>
         <visible>true</visible>

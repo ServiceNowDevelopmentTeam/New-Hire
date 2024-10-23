@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-08-07 17:44:22</sys_updated_on>
         <table/>
         <ui_policy display_value="if change type is phone">0144033e1bb3461062e50ed2cd4bcb83</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>new_phone_number</variable>
         <variable_set display_value="Personal Info Variable Set">665243ba1bb3461062e50ed2cd4bcba1</variable_set>
         <visible>true</visible>

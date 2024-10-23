@@ -3,7 +3,7 @@
         <active>false</active>
         <guide_variable display_value="Requester">aae6f13b1b1e029062e50ed2cd4bcb42</guide_variable>
         <item_variable display_value="Requested For">6680d3441ba274108c5143f3cc4bcb39</item_variable>
-        <rule display_value="Tekla Access Request">0ce8bb161b9a8a5062e50ed2cd4bcbd7</rule>
+        <rule display_value="Tekla PowerFab Access Request">0ce8bb161b9a8a5062e50ed2cd4bcbd7</rule>
         <sys_class_name>sc_item_variable_assignment</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-30 17:09:01</sys_created_on>

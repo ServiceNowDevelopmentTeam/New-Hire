@@ -5,6 +5,8 @@
         <cleared>true</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-08-07 15:16:06</sys_updated_on>
         <table/>
         <ui_policy display_value="Show IT Section If Choose To Fill Out">e5424c261bda8a5062e50ed2cd4bcbb4</ui_policy>
+        <value/>
+        <value_action>clear_value</value_action>
         <variable>do_you_need_a_computer</variable>
         <variable_set/>
         <visible>ignore</visible>

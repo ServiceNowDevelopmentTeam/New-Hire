@@ -5,14 +5,19 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=53305910000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>segment_distribution_list_picker</internal_name>
         <label_cache>[{"name":"subflow.company_segment","label":"Input➛Company/Segment","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d4628d93-3402-42ae-bd77-d85f3abaf4ca","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company_segment.name","label":"Input➛Company/Segment➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"subflow.company_segment.parent.name","label":"Input➛Company/Segment➛Parent➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"subflow.company_segment.parent.parent.name","label":"Input➛Company/Segment➛Parent➛Parent➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"subflow.emp_type","label":"Input➛Employee Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6b36cc94-ae29-4636-9c05-3134d5d3a998","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.department","label":"Input➛Department","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"fa547d1a-a7e4-4021-a2fe-3e363907c417","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.var1","label":"Flow Variables➛var1","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0053129f-e096-4c59-8228-2ac789983b45"}},{"name":"flow_variable.var2","label":"Flow Variables➛var2","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f7c2edfa-5931-4271-b4d9-502bf9b5e775"}},{"name":"flow_variable.var3","label":"Flow Variables➛var3","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dd699c0d-dd90-4095-8d62-46b5d657c669"}},{"name":"97fc42af-4751-4de7-8a67-5cf8ead30327.answer.u_distribution_group","label":"11 - Make a decision➛Result Record➛Distribution Group","reference":"","reference_display":"Distribution Group","type":"string","base_type":"string","parent_table_name":"var__m_sys_decision_multi_result_element_1bce45161b9a91508c5143f3cc4bcb5a","column_name":"u_distribution_group"}]</label_cache>
         <master_snapshot>843455521bda91508c5143f3cc4bcb09</master_snapshot>
+        <master_snapshot_digest/>
         <name>Segment Distribution List Picker</name>
         <natlang/>
         <outputs/>
@@ -24,6 +29,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-10-04 17:38:11</sys_created_on>
@@ -38,13 +44,13 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_5bfc85da1b5a91508c5143f3cc4bcb21</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-16 15:21:51</sys_updated_on>
+        <sys_updated_on>2024-10-23 20:58:21</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_variable_value action="delete_multiple" query="document_key=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_5bfc85da1b5a91508c5143f3cc4bcb21^id=5bfc85da1b5a91508c5143f3cc4bcb21"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=5bfc85da1b5a91508c5143f3cc4bcb21^sys_idNOT IN57fccdde1b5a91508c5143f3cc4bcb34"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -349,6 +355,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="">boolean</internal_type>
         <label>Sucess</label>
         <mandatory>false</mandatory>
@@ -433,6 +440,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="String">string</internal_type>
         <label>Distribution List</label>
         <mandatory>false</mandatory>
@@ -482,8 +490,8 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=819d4d521b9a91508c5143f3cc4bcb3d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bfc85da1b5a91508c5143f3cc4bcb21"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21^sys_idNOT IN110411121bda91508c5143f3cc4bcb8a,150411121bda91508c5143f3cc4bcba2,190411121bda91508c5143f3cc4bcb9e,190411121bda91508c5143f3cc4bcbe5,1d0411121bda91508c5143f3cc4bcba5,1d0411121bda91508c5143f3cc4bcbbc,576251da1b9a91508c5143f3cc4bcbe7,5d0411121bda91508c5143f3cc4bcbd4,5d0411121bda91508c5143f3cc4bcbe9,5f6251da1b9a91508c5143f3cc4bcbde,810411121bda91508c5143f3cc4bcb86,890411121bda91508c5143f3cc4bcb81,9d0411121bda91508c5143f3cc4bcbec,d10411121bda91508c5143f3cc4bcb9b,d36251da1b9a91508c5143f3cc4bcbe4,d50411121bda91508c5143f3cc4bcbb9,dd0411121bda91508c5143f3cc4bcbb5"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -497,6 +505,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -572,6 +581,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned>var2</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>7</order>
@@ -621,6 +631,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -670,6 +681,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>13</order>
@@ -744,6 +756,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -794,6 +807,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>11</order>
@@ -923,6 +937,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>17</order>
@@ -958,6 +973,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1033,6 +1049,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>14</order>
@@ -1068,6 +1085,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1144,6 +1162,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>var1</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>3</order>
@@ -1191,6 +1210,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1266,6 +1286,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>15</order>
@@ -1302,6 +1323,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>var1</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>5</order>
@@ -1349,6 +1371,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>16</order>
@@ -1385,6 +1408,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>var3</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>10</order>
@@ -1432,6 +1456,7 @@
         <flow display_value="Segment Distribution List Picker">5bfc85da1b5a91508c5143f3cc4bcb21</flow>
         <flow_variable/>
         <flow_variables_assigned>var2</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>9</order>
@@ -1469,6 +1494,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_5bfc85da1b5a91508c5143f3cc4bcb21^id=dd0411121bda91508c5143f3cc4bcbb5"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dd0411121bda91508c5143f3cc4bcbb5"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=dd0411121bda91508c5143f3cc4bcbb5"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=5bfc85da1b5a91508c5143f3cc4bcb21"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=5bfc85da1b5a91508c5143f3cc4bcb21^sys_idNOT IN136251da1b9a91508c5143f3cc4bcbd2,136251da1b9a91508c5143f3cc4bcbd6,176251da1b9a91508c5143f3cc4bcbd9"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -1845,11 +1871,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>segment_distribution_list_picker</internal_name>
         <label_cache>[{"name":"2c8a4e39-3996-428e-9dc7-8d3511fe2eab.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"2c8a4e39-3996-428e-9dc7-8d3511fe2eab.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"2c8a4e39-3996-428e-9dc7-8d3511fe2eab.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"2c8a4e39-3996-428e-9dc7-8d3511fe2eab.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"2c8a4e39-3996-428e-9dc7-8d3511fe2eab.Table","label":"1 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2c8a4e39-3996-428e-9dc7-8d3511fe2eab.Record","label":"1 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9390f930-e88f-40d8-b5f3-7970dc7d85cd.Record","label":"1 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9390f930-e88f-40d8-b5f3-7970dc7d85cd.Table","label":"1 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9390f930-e88f-40d8-b5f3-7970dc7d85cd.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"9390f930-e88f-40d8-b5f3-7970dc7d85cd.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"9390f930-e88f-40d8-b5f3-7970dc7d85cd.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9390f930-e88f-40d8-b5f3-7970dc7d85cd.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"subflow.company_segment","label":"Input➛Company/Segment","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d4628d93-3402-42ae-bd77-d85f3abaf4ca","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company_segment.name","label":"Input➛Company/Segment➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"subflow.company_segment.parent.name","label":"Input➛Company/Segment➛Parent➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"subflow.company_segment.parent.parent.name","label":"Input➛Company/Segment➛Parent➛Parent➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"core_company","column_name":"name"},{"name":"subflow.emp_type","label":"Input➛Employee Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6b36cc94-ae29-4636-9c05-3134d5d3a998","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.department","label":"Input➛Department","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"fa547d1a-a7e4-4021-a2fe-3e363907c417","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"97fc42af-4751-4de7-8a67-5cf8ead30327.answer","label":"11 - Make a decision➛Result Record","reference":"var__m_sys_decision_multi_result_element_1bce45161b9a91508c5143f3cc4bcb5a","reference_display":"Result","type":"reference","base_type":"reference","attributes":{"decision_table":"1bce45161b9a91508c5143f3cc4bcb5a"}},{"name":"97fc42af-4751-4de7-8a67-5cf8ead30327.table_name","label":"11 - Make a decision➛Result Table","reference":"var__m_sys_decision_multi_result_element_1bce45161b9a91508c5143f3cc4bcb5a","reference_display":"Result","type":"table_name","base_type":"table_name","attributes":{}},{"name":"flow_variable.var1","label":"Flow Variables➛var1","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0053129f-e096-4c59-8228-2ac789983b45"}},{"name":"flow_variable.var2","label":"Flow Variables➛var2","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f7c2edfa-5931-4271-b4d9-502bf9b5e775"}},{"name":"flow_variable.var3","label":"Flow Variables➛var3","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dd699c0d-dd90-4095-8d62-46b5d657c669"}},{"name":"97fc42af-4751-4de7-8a67-5cf8ead30327.answer.u_distribution_group","label":"11 - Make a decision➛Result Record➛Distribution Group","reference":"","reference_display":"Distribution Group","type":"string","base_type":"string","parent_table_name":"var__m_sys_decision_multi_result_element_1bce45161b9a91508c5143f3cc4bcb5a","column_name":"u_distribution_group"}]</label_cache>
         <master>true</master>
@@ -1878,11 +1906,11 @@
         <sys_updated_by>John.Schwab</sys_updated_by>
         <sys_updated_on>2024-06-12 16:50:11</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=843455521bda91508c5143f3cc4bcb09"/>
     <sys_variable_value action="delete_multiple" query="document_key=843455521bda91508c5143f3cc4bcb09"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_843455521bda91508c5143f3cc4bcb09^id=843455521bda91508c5143f3cc4bcb09"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=843455521bda91508c5143f3cc4bcb09^sys_idNOT IN843455521bda91508c5143f3cc4bcb0a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -2187,6 +2215,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="">boolean</internal_type>
         <label>Sucess</label>
         <mandatory>false</mandatory>
@@ -2271,6 +2300,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="String">string</internal_type>
         <label>Distribution List</label>
         <mandatory>false</mandatory>
@@ -2320,8 +2350,8 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=883455521bda91508c5143f3cc4bcbed"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=843455521bda91508c5143f3cc4bcb09"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09^sys_idNOT IN103495521bda91508c5143f3cc4bcb4d,103495521bda91508c5143f3cc4bcb68,143495521bda91508c5143f3cc4bcbbc,1c3495521bda91508c5143f3cc4bcb26,1c3495521bda91508c5143f3cc4bcba4,1c3495521bda91508c5143f3cc4bcbb5,503495521bda91508c5143f3cc4bcb2b,503495521bda91508c5143f3cc4bcbb9,543495521bda91508c5143f3cc4bcb22,943495521bda91508c5143f3cc4bcb50,943495521bda91508c5143f3cc4bcbbf,983495521bda91508c5143f3cc4bcb60,9c3495521bda91508c5143f3cc4bcb87,d03495521bda91508c5143f3cc4bcb64,d43495521bda91508c5143f3cc4bcb84,d43495521bda91508c5143f3cc4bcba0,dc3495521bda91508c5143f3cc4bcb47"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -2336,6 +2366,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>var1</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>5</order>
@@ -2383,6 +2414,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned>var2</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>9</order>
@@ -2432,6 +2464,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>16</order>
@@ -2467,6 +2500,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2542,6 +2576,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>13</order>
@@ -2616,6 +2651,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>14</order>
@@ -2652,6 +2688,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>var1</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>3</order>
@@ -2699,6 +2736,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>15</order>
@@ -2734,6 +2772,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2809,6 +2848,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2858,6 +2898,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>17</order>
@@ -2893,6 +2934,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned>var2</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>7</order>
@@ -2943,6 +2985,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
         <order>11</order>
@@ -3072,6 +3115,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -3122,6 +3166,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>var3</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>10</order>
@@ -3169,6 +3214,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3244,6 +3290,7 @@
         <flow display_value="Segment Distribution List Picker">843455521bda91508c5143f3cc4bcb09</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
@@ -3307,6 +3354,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_843455521bda91508c5143f3cc4bcb09^id=dc3495521bda91508c5143f3cc4bcb47"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dc3495521bda91508c5143f3cc4bcb47"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=dc3495521bda91508c5143f3cc4bcb47"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=843455521bda91508c5143f3cc4bcb09"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=843455521bda91508c5143f3cc4bcb09"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=843455521bda91508c5143f3cc4bcb09^sys_idNOT IN543495521bda91508c5143f3cc4bcb09,543495521bda91508c5143f3cc4bcb0d,583495521bda91508c5143f3cc4bcb10"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">

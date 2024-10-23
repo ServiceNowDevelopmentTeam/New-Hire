@@ -12,7 +12,7 @@ answer;]]></condition>
         <name>New Hire Request Daily Reminder</name>
         <offset/>
         <offset_type>0</offset_type>
-        <run_as display_value="James Benagh">037a34211b12c250c16ddb9ebd4bcb7f</run_as>
+        <run_as display_value="">037a34211b12c250c16ddb9ebd4bcb7f</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>

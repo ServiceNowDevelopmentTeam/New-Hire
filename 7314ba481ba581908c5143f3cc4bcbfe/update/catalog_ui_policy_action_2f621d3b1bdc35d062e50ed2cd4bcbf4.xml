@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2023-08-03 16:09:42</sys_updated_on>
         <table/>
         <ui_policy display_value="init">3732d5f71bdc35d062e50ed2cd4bcbf8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>employee_legal_last_name</variable>
         <variable_set/>
         <visible>false</visible>

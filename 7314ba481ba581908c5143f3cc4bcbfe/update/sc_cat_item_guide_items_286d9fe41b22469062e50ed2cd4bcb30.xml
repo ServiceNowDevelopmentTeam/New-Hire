@@ -3,7 +3,7 @@
         <condition>IO:463ff31e1b9a8a5062e50ed2cd4bcb5a=set_reminder_requester^EQ</condition>
         <guide display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
-        <item display_value="Supervisor To-Do">3680c97e1b520e5062e50ed2cd4bcbbc</item>
+        <item display_value="Team Member To-Do">3680c97e1b520e5062e50ed2cd4bcbbc</item>
         <order>15</order>
         <quantity>1</quantity>
         <requested_by/>

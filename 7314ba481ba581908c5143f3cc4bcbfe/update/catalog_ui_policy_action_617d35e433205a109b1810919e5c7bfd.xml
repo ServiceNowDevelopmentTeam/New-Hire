@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>false</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-09-06 19:35:21</sys_updated_on>
         <table/>
         <ui_policy display_value="if returning not found is false">4c5d71e433205a109b1810919e5c7b11</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>new_hire_legal_last_name</variable>
         <variable_set display_value="Employee/Contractor New Hire">e757f4df1bdbd810e7004229bc4bcb9a</variable_set>
         <visible>false</visible>

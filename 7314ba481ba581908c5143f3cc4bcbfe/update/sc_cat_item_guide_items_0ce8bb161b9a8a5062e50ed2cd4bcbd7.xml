@@ -3,7 +3,7 @@
         <condition>IO:7c457cfe1b120e5062e50ed2cd4bcbf2LIKE9472239b1b85e450622b32ac0a4bcb39^ORIO:7c457cfe1b120e5062e50ed2cd4bcbf2LIKE47f399e61b3aa414622b32ac0a4bcbe8^EQ</condition>
         <guide display_value="New Hire Request">03fc9db11b96c65062e50ed2cd4bcbe2</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
-        <item display_value="Tekla Access Request">6c7eaaff1bfcca10c16ddb9ebd4bcbd9</item>
+        <item display_value="Tekla PowerFab Access Request">6c7eaaff1bfcca10c16ddb9ebd4bcbd9</item>
         <order>50</order>
         <quantity>1</quantity>
         <requested_by/>

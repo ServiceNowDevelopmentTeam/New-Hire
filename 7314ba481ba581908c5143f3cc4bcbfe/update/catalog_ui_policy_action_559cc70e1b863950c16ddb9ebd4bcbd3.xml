@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2023-10-24 14:23:57</sys_updated_on>
         <table/>
         <ui_policy display_value="init (was : &quot;when prereq = yes:)">ab2531981b5f6c508c5143f3cc4bcbee</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>mobile_phone_number</variable>
         <variable_set/>
         <visible>true</visible>

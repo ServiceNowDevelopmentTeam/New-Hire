@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_children">
     <sc_cat_item_children action="INSERT_OR_UPDATE">
-        <child display_value="Lenovo Lenovo ThinkVision P27h-30 - LED monitor - QHD - (SHI - 63A1GAR1US)">b9fa4c8b1be6ce9062e50ed2cd4bcbec</child>
+        <child display_value="">b9fa4c8b1be6ce9062e50ed2cd4bcbec</child>
         <order>100</order>
-        <parent display_value="test">5c1f1fb51baa8a9062e50ed2cd4bcbd5</parent>
+        <parent display_value="">5c1f1fb51baa8a9062e50ed2cd4bcbd5</parent>
         <quantity>1</quantity>
         <sys_class_name>sc_cat_item_children</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

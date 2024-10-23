@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-08-07 17:52:53</sys_updated_on>
         <table/>
         <ui_policy display_value="if name change">c7c5cb3e1bb3461062e50ed2cd4bcb17</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>team_member_s_new_middle_name</variable>
         <variable_set display_value="Personal Info Variable Set">665243ba1bb3461062e50ed2cd4bcba1</variable_set>
         <visible>true</visible>

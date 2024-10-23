@@ -5,14 +5,19 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=17002000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Adds bundle items to new hire order guide, removes bundle items that are no longer needed.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>synchronize_order_guide_with_item_bundles</internal_name>
         <label_cache>[{"name":"99dfb851-3f51-4a79-9416-2504b469ab9a.item.child","label":"3 - For Each➛Child Record➛Included by","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item_children","column_name":"child"},{"name":"4a5aa04e-5fbd-491d-a07d-35b3e5451bbf.item","label":"6 - For Each➛Rule Record","reference":"sc_cat_item_guide_items","reference_display":"Rule","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4a5aa04e-5fbd-491d-a07d-35b3e5451bbf.item.item","label":"6 - For Each➛Rule Record➛Include this item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item_guide_items","column_name":"item"},{"name":"69f5c33a-0bc3-4bba-9c68-771fc54574c7.Records","label":"5 - Look Up Records➛Rule Records","reference":"sc_cat_item_guide_items","reference_display":"Rule","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99dfb851-3f51-4a79-9416-2504b469ab9a.item","label":"3 - For Each➛Child Record","reference":"sc_cat_item_children","reference_display":"Child","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.item_include_condition","label":"Flow Variables➛Item Include Condition","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"070c0afa-b898-4037-b89a-fdf0772e3c9c"}},{"name":"subflow.bundle_parent.sys_id","label":"Input➛Bundle Parent➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pc_hardware_cat_item","column_name":"sys_id"},{"name":"76717285-e1cb-44d3-99c2-83939a4bb11e.Records","label":"1 - Look Up Records➛Child Records","reference":"sc_cat_item_children","reference_display":"Child","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.bundle_parent","label":"Input➛Bundle Parent","reference":"pc_hardware_cat_item","reference_display":"Hardware Catalog","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2fdfd775-e76e-41b5-8074-cee955185533","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>339945e41bb2c21062e50ed2cd4bcb9b</master_snapshot>
+        <master_snapshot_digest/>
         <name>Synchronize New Hire Order Guide with Item Bundles</name>
         <natlang/>
         <outputs/>
@@ -24,6 +29,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-11 14:03:47</sys_created_on>
@@ -38,12 +44,12 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_e44fe4e41b32c21062e50ed2cd4bcb44</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-16 15:22:04</sys_updated_on>
+        <sys_updated_on>2024-10-23 20:58:29</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_variable_value action="delete_multiple" query="document_key=e44fe4e41b32c21062e50ed2cd4bcb44"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e44fe4e41b32c21062e50ed2cd4bcb44^sys_idNOT IN204fe4e41b32c21062e50ed2cd4bcb45"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -145,6 +151,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7080f0681b32c21062e50ed2cd4bcb89"/>
     <sys_hub_flow_output action="delete_multiple" query="model=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e44fe4e41b32c21062e50ed2cd4bcb44"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44^sys_idNOT IN308b09681bb2c21062e50ed2cd4bcbab,b10130a81b32c21062e50ed2cd4bcbe0,de9a09281bb2c21062e50ed2cd4bcb65,f88b09681bb2c21062e50ed2cd4bcbb4,fc9538601b72c21062e50ed2cd4bcb97"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -155,6 +162,7 @@
         <comment>See if the item is still a child of the bundle</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>44159240-8140-44fc-a33d-552c9792491d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -218,6 +226,7 @@
         <comment>Look up children of bundle</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -281,6 +290,7 @@
         <comment>Look up order guide item association</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -344,6 +354,7 @@
         <comment>Delete from the guide if it's not part of the bundle</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>fcc1bd2f-4625-4e49-867c-c305237f59ee</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -381,6 +392,7 @@
         <comment>Create or update item association with guide</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>99dfb851-3f51-4a79-9416-2504b469ab9a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -435,7 +447,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fc9538601b72c21062e50ed2cd4bcb97"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc9538601b72c21062e50ed2cd4bcb97"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44^sys_idNOT IN349538601b72c21062e50ed2cd4bcb90,3c9538601b72c21062e50ed2cd4bcb8b,708b09681bb2c21062e50ed2cd4bcb95,bc8b09681bb2c21062e50ed2cd4bcbad,f88b09681bb2c21062e50ed2cd4bcb91"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -449,6 +460,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -498,6 +510,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>item_include_condition</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -544,6 +557,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Try">07223332de022010ec58424b73829721</logic_definition>
         <order>7</order>
@@ -578,6 +592,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Catch">35d60003e6022010a5e40cdd1254dd21</logic_definition>
         <order>9</order>
@@ -627,6 +642,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">e44fe4e41b32c21062e50ed2cd4bcb44</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -663,6 +679,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f88b09681bb2c21062e50ed2cd4bcb91"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f88b09681bb2c21062e50ed2cd4bcb91"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e44fe4e41b32c21062e50ed2cd4bcb44"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=e44fe4e41b32c21062e50ed2cd4bcb44^sys_idNOT IN689538601b72c21062e50ed2cd4bcb6a"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -781,11 +798,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Adds bundle items to new hire order guide, removes bundle items that are no longer needed.</description>
+        <flow_priority/>
         <internal_name>synchronize_new_hire_order_guide_with_item_bundles</internal_name>
         <label_cache>[{"name":"99dfb851-3f51-4a79-9416-2504b469ab9a.item.child","label":"3 - For Each➛Child Record➛Included by","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item_children","column_name":"child"},{"name":"4a5aa04e-5fbd-491d-a07d-35b3e5451bbf.item","label":"6 - For Each➛Rule Record","reference":"sc_cat_item_guide_items","reference_display":"Rule","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4a5aa04e-5fbd-491d-a07d-35b3e5451bbf.item.item","label":"6 - For Each➛Rule Record➛Include this item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item_guide_items","column_name":"item"},{"name":"69f5c33a-0bc3-4bba-9c68-771fc54574c7.Records","label":"5 - Look Up Records➛Rule Records","reference":"sc_cat_item_guide_items","reference_display":"Rule","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99dfb851-3f51-4a79-9416-2504b469ab9a.item","label":"3 - For Each➛Child Record","reference":"sc_cat_item_children","reference_display":"Child","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.item_include_condition","label":"Flow Variables➛Item Include Condition","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"070c0afa-b898-4037-b89a-fdf0772e3c9c"}},{"name":"subflow.bundle_parent.sys_id","label":"Input➛Bundle Parent➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pc_hardware_cat_item","column_name":"sys_id"},{"name":"76717285-e1cb-44d3-99c2-83939a4bb11e.Records","label":"1 - Look Up Records➛Child Records","reference":"sc_cat_item_children","reference_display":"Child","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.bundle_parent","label":"Input➛Bundle Parent","reference":"pc_hardware_cat_item","reference_display":"Hardware Catalog","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2fdfd775-e76e-41b5-8074-cee955185533","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master>true</master>
@@ -814,10 +833,10 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-06-11 18:47:13</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_variable_value action="delete_multiple" query="document_key=339945e41bb2c21062e50ed2cd4bcb9b"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=339945e41bb2c21062e50ed2cd4bcb9b^sys_idNOT INfb9945e41bb2c21062e50ed2cd4bcba8"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -919,6 +938,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fb9945e41bb2c21062e50ed2cd4bcba9"/>
     <sys_hub_flow_output action="delete_multiple" query="model=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=339945e41bb2c21062e50ed2cd4bcb9b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b^sys_idNOT IN6f8bc9681bb2c21062e50ed2cd4bcb8b,ab8bc9681bb2c21062e50ed2cd4bcb6d,c0a945e41bb2c21062e50ed2cd4bcbf8,c8a945e41bb2c21062e50ed2cd4bcbee,e38bc9681bb2c21062e50ed2cd4bcb85"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -929,6 +949,7 @@
         <comment>Delete from the guide if it's not part of the bundle</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>fcc1bd2f-4625-4e49-867c-c305237f59ee</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -966,6 +987,7 @@
         <comment>Look up order guide item association</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1029,6 +1051,7 @@
         <comment>Create or update item association with guide</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>99dfb851-3f51-4a79-9416-2504b469ab9a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1092,6 +1115,7 @@
         <comment>Look up children of bundle</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1155,6 +1179,7 @@
         <comment>See if the item is still a child of the bundle</comment>
         <display_text/>
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>44159240-8140-44fc-a33d-552c9792491d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1209,7 +1234,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e38bc9681bb2c21062e50ed2cd4bcb85"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e38bc9681bb2c21062e50ed2cd4bcb85"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b^sys_idNOT IN678bc9681bb2c21062e50ed2cd4bcba5,678bc9681bb2c21062e50ed2cd4bcbab,a78bc9681bb2c21062e50ed2cd4bcba8,c8a945e41bb2c21062e50ed2cd4bcbde,cca945e41bb2c21062e50ed2cd4bcbe2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1223,6 +1247,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1271,6 +1296,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Catch">35d60003e6022010a5e40cdd1254dd21</logic_definition>
         <order>9</order>
@@ -1320,6 +1346,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Try">07223332de022010ec58424b73829721</logic_definition>
         <order>7</order>
@@ -1355,6 +1382,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>item_include_condition</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -1401,6 +1429,7 @@
         <flow display_value="Synchronize New Hire Order Guide with Item Bundles">339945e41bb2c21062e50ed2cd4bcb9b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1437,6 +1466,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cca945e41bb2c21062e50ed2cd4bcbe2"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cca945e41bb2c21062e50ed2cd4bcbe2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=339945e41bb2c21062e50ed2cd4bcb9b"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=339945e41bb2c21062e50ed2cd4bcb9b^sys_idNOT IN00a945e41bb2c21062e50ed2cd4bcbd9"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">

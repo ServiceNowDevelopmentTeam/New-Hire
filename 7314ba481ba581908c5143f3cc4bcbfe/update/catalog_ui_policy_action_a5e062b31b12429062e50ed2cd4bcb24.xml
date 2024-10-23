@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-07-19 19:53:30</sys_updated_on>
         <table/>
         <ui_policy display_value="if moving desks">ccbf52331b12429062e50ed2cd4bcbcd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>neighboring_team_member_s</variable>
         <variable_set/>
         <visible>true</visible>

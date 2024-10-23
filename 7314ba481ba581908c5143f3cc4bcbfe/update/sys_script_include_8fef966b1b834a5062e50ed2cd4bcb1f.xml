@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>wsfp_company</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var wsfp_company = Class.create();
 wsfp_company.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 

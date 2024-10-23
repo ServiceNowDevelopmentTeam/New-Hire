@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-06-27 19:09:07</sys_updated_on>
         <table/>
         <ui_policy display_value="Show new email for itil">2e7e88351b4f025062e50ed2cd4bcbc5</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>workers_new_email</variable>
         <variable_set/>
         <visible>true</visible>

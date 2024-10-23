@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2023-10-25 14:50:15</change_date>
-        <changed_by display_value="Terry Lillo">351171db1b75e95046b60ed5604bcbf4</changed_by>
+        <changed_by display_value="Terry(Personal) Lillo">351171db1b75e95046b60ed5604bcbf4</changed_by>
         <content display_value="Redirect Legacy UI Pages">e4a53ee57301230034921c86fbf6a724</content>
         <related_change_log_entry/>
         <related_task_entry/>

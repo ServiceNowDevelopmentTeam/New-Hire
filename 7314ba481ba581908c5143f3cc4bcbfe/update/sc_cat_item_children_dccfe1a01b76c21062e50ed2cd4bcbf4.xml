@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_children">
     <sc_cat_item_children action="INSERT_OR_UPDATE">
-        <child display_value="Lenovo Lenovo ThinkPad Thunderbolt 4 WorkStation Dock - (SHI - 40B00300US)">bbeac88b1be6ce9062e50ed2cd4bcb94</child>
+        <child display_value="">bbeac88b1be6ce9062e50ed2cd4bcb94</child>
         <order>100</order>
-        <parent display_value="test">5c1f1fb51baa8a9062e50ed2cd4bcbd5</parent>
+        <parent display_value="">5c1f1fb51baa8a9062e50ed2cd4bcbd5</parent>
         <quantity>1</quantity>
         <sys_class_name>sc_cat_item_children</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

@@ -5,14 +5,19 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=156902000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>set_user_emailupnid_if_devtest</internal_name>
         <label_cache>[{"name":"8eda2569-72f5-4ef2-a364-241d8d9c6a51.property_value","label":"1 - Get System Property➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}},{"name":"subflow.user","label":"Input➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7ece445e-3da6-4e89-8daf-733183ab65e4","uiTypeLabel":"Reference"}},{"name":"subflow.user.first_name","label":"Input➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"subflow.user.last_name","label":"Input➛User➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"subflow.user.sys_id","label":"Input➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"flow_variable.user_sys_id","label":"Flow Variables➛User Sys Id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08cf881a-85ed-4443-a2d9-6a715633d87c"}}]</label_cache>
         <master_snapshot>c650d77c1b320610c16ddb9ebd4bcb47</master_snapshot>
+        <master_snapshot_digest/>
         <name>Set user email/upn/id if dev/test</name>
         <natlang/>
         <outputs/>
@@ -24,6 +29,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-06-12 20:22:02</sys_created_on>
@@ -38,12 +44,12 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_c36f473c1b320610c16ddb9ebd4bcb17</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-09-16 15:22:01</sys_updated_on>
+        <sys_updated_on>2024-10-23 20:58:27</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_variable_value action="delete_multiple" query="document_key=c36f473c1b320610c16ddb9ebd4bcb17"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN4b6f473c1b320610c16ddb9ebd4bcb18"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -145,6 +151,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1000537c1b320610c16ddb9ebd4bcbf3"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c36f473c1b320610c16ddb9ebd4bcb17"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN6400937c1b320610c16ddb9ebd4bcb1b,ec00937c1b320610c16ddb9ebd4bcb0e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -155,6 +162,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>d039be22-90dc-4a9d-9b94-521b80ca19ae</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -229,6 +237,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -259,7 +268,6 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_eaddde611b16c59062e50ed2cd4bcb83^id=ec00937c1b320610c16ddb9ebd4bcb0e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ec00937c1b320610c16ddb9ebd4bcb0e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec00937c1b320610c16ddb9ebd4bcb0e"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN45d56ce11b368610c16ddb9ebd4bcb12,98ea825f1b8fc65062e50ed2cd4bcb74,ac00937c1b320610c16ddb9ebd4bcb12"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -274,6 +282,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>user_sys_id</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -320,6 +329,7 @@
         <flow display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
         <order>5</order>
@@ -383,6 +393,7 @@
         <flow display_value="Set user email/upn/id if dev/test">c36f473c1b320610c16ddb9ebd4bcb17</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -445,6 +456,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ac00937c1b320610c16ddb9ebd4bcb12"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ac00937c1b320610c16ddb9ebd4bcb12"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c36f473c1b320610c16ddb9ebd4bcb17"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=c36f473c1b320610c16ddb9ebd4bcb17^sys_idNOT IN7cd52ce11b368610c16ddb9ebd4bcbfb"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -563,11 +575,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>set_user_emailupnid_if_devtest</internal_name>
         <label_cache>[{"name":"flow_variable.user_sys_id","label":"Flow Variables➛User Sys Id","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"08cf881a-85ed-4443-a2d9-6a715633d87c"}},{"name":"subflow.user.sys_id","label":"Input➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"subflow.user.last_name","label":"Input➛User➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"subflow.user.first_name","label":"Input➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"subflow.user","label":"Input➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7ece445e-3da6-4e89-8daf-733183ab65e4","uiTypeLabel":"Reference"}},{"name":"8eda2569-72f5-4ef2-a364-241d8d9c6a51.property_value","label":"1 - Get System Property➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d7029dba-bde6-4a06-814f-092b7f5fe49b"}}]</label_cache>
         <master>true</master>
@@ -596,10 +610,10 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-06-14 15:57:08</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_variable_value action="delete_multiple" query="document_key=c650d77c1b320610c16ddb9ebd4bcb47"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT INc650d77c1b320610c16ddb9ebd4bcb48"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -701,6 +715,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8650d77c1b320610c16ddb9ebd4bcb49"/>
     <sys_hub_flow_output action="delete_multiple" query="model=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c650d77c1b320610c16ddb9ebd4bcb47"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT IN9650d77c1b320610c16ddb9ebd4bcba1,9a50d77c1b320610c16ddb9ebd4bcba8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -710,6 +725,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Set user email/upn/id if dev/test">c650d77c1b320610c16ddb9ebd4bcb47</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -749,6 +765,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Set user email/upn/id if dev/test">c650d77c1b320610c16ddb9ebd4bcb47</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>d039be22-90dc-4a9d-9b94-521b80ca19ae</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -815,7 +832,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9a50d77c1b320610c16ddb9ebd4bcba8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a50d77c1b320610c16ddb9ebd4bcba8"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT INc6f5a0251b368610c16ddb9ebd4bcb99,de50d77c1b320610c16ddb9ebd4bcb94"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -830,6 +846,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>user_sys_id</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>2</order>
@@ -876,6 +893,7 @@
         <flow display_value="Set user email/upn/id if dev/test">c650d77c1b320610c16ddb9ebd4bcb47</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -938,6 +956,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=de50d77c1b320610c16ddb9ebd4bcb94"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=de50d77c1b320610c16ddb9ebd4bcb94"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c650d77c1b320610c16ddb9ebd4bcb47"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=c650d77c1b320610c16ddb9ebd4bcb47^sys_idNOT IN79f5a0251b368610c16ddb9ebd4bcb6b"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">

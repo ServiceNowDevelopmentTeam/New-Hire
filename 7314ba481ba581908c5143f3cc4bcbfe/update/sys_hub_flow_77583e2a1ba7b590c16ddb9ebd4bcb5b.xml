@@ -5,14 +5,19 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3097000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>reqf__new_hire_user_creation</internal_name>
         <label_cache>[{"name":"5bcee26f-f553-4769-ab69-20b92c6b3c11.record","label":"7 - Create or Update Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile Record","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79316fe6-127a-46d4-98da-e85f48306514.record","label":"6 - Update Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.nickname","label":"Input➛Nickname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b8cd1c35-82c8-4bca-b9dc-294f44181817","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.employment_start_date","label":"Input➛Employment Start Date","reference":"","reference_display":"","type":"glide_date","base_type":"glide_date","column_name":"","attributes":{"uiType":"glide_date","uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a70d4b49-eee1-44f7-b962-7181adb15b81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.user_requires_email","label":"Input➛User Requires Email","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98de5926-16d4-4e13-8d21-11d202d1a948","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"99476a61-1e89-4471-9cc8-cf1526eece18.record","label":"2 - Create Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.employee_number","label":"Input➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f93e6f1d-19c5-4fef-a5c1-414afcd55e91","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.title","label":"Input➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"17f0a8bd-d671-43a2-bd27-e0161fb55d21","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.department","label":"Input➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a6a84a37-5b6f-4aec-8e75-490f3307df4d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.manager","label":"Input➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cec1d552-7f48-4b01-b71a-8817a41b3e1e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.location","label":"Input➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"42cd85db-3509-4c9b-956e-7715ba3625a9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company","label":"Input➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"857a31f9-ad0f-4a83-a738-acdc6be849d0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.rehire_employee_not_found","label":"Input➛Rehire Employee Not Found","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2499c552-bf24-4999-afb8-6fd61c03dbb6","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.hire_or_return_type","label":"Input➛Hire or Return Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"047ec30b-ac8b-4180-ae28-764744df5d2a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"693042bf-e461-4e25-b643-5c19cb6442af","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.middle_name","label":"Input➛Middle Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"03506982-a76e-49da-99fa-bb478162b8da","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.last_name","label":"Input➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ef076fc6-33b3-4b25-8c1d-0dab3402de29","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.mobile_phone_number","label":"Input➛Mobile Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a30f89de-1c26-4314-be3e-26ae7a1ba147","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.business_phone_number","label":"Input➛Business Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e0bee1e5-220b-4aea-b36b-ab6c4c930ef9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.union_status","label":"Input➛Union Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"u_union_status","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Non-Union","value":"non_union","order":1.0},{"label":"Union","value":"union","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f4278c44-fdee-420c-a177-3751d01623f9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.position_type","label":"Input➛Position Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"position_type","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Contractor","value":"contractor","order":1.0},{"label":"Employee Full-Time","value":"regular","order":2.0},{"label":"Employee Part-Time or Temp","value":"temporary","order":3.0},{"label":"Intern","value":"trainee_(trainee)","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4b84eaba-5edb-475b-9184-64b685f47964","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"ea3d453b-2455-49fb-ac44-c5324ef59577.record","label":"3 - Create Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.rehire_employee","label":"Input➛Rehire Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"60adcc95-a701-4b42-bc40-dd9ba07281de","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"8f8cdb33-fdca-48e1-9727-6cee05b014b6.__status__.message","label":"10 - Top Level Catch➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.related_ritm.number","label":"Input➛Related RITM➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"8f8cdb33-fdca-48e1-9727-6cee05b014b6.__status__.code","label":"10 - Top Level Catch➛Error Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}}]</label_cache>
         <master_snapshot>382cb2621b2bb590c16ddb9ebd4bcb7b</master_snapshot>
+        <master_snapshot_digest/>
         <name>*Pending Retirement*REQF - New Hire User Creation</name>
         <natlang/>
         <outputs/>
@@ -24,6 +29,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-01-08 15:46:38</sys_created_on>
@@ -38,13 +44,13 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_77583e2a1ba7b590c16ddb9ebd4bcb5b</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 17:34:10</sys_updated_on>
+        <sys_updated_on>2024-10-23 20:58:26</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_variable_value action="delete_multiple" query="document_key=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=77583e2a1ba7b590c16ddb9ebd4bcb5b^sys_idNOT IN3f58722a1be7b590c16ddb9ebd4bcb15"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1777,6 +1783,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>Employee Profile</label>
         <mandatory>false</mandatory>
@@ -1861,6 +1868,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>User</label>
         <mandatory>false</mandatory>
@@ -1910,6 +1918,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=914a326e1be7b590c16ddb9ebd4bcb9e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b^sys_idNOT IN1d60cb221b6bb590c16ddb9ebd4bcb44,3d818b261b6bb590c16ddb9ebd4bcba2,4800cfae1b2bb590c16ddb9ebd4bcba0,b0da72ee1be7b590c16ddb9ebd4bcb03,e27b32221b2bb590c16ddb9ebd4bcbd1"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1920,6 +1929,7 @@
         <comment/>
         <display_text/>
         <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1982,6 +1992,7 @@
         <comment/>
         <display_text/>
         <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>a84aaea7-1df6-4099-8642-094a003ffba1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2035,6 +2046,7 @@
         <comment/>
         <display_text/>
         <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2110,6 +2122,7 @@
         <comment/>
         <display_text/>
         <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2173,6 +2186,7 @@
         <comment/>
         <display_text/>
         <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2241,12 +2255,418 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e27b32221b2bb590c16ddb9ebd4bcbd1"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e27b32221b2bb590c16ddb9ebd4bcbd1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b^sys_idNOT IN1e4c3a621b2bb590c16ddb9ebd4bcbc8,39e047a21b6bb590c16ddb9ebd4bcb9c,942487ea1b6bb590c16ddb9ebd4bcb27,a82487ea1b6bb590c16ddb9ebd4bcb8c,ae8af6ae1be7b590c16ddb9ebd4bcb0e,b58cb2a21b2bb590c16ddb9ebd4bcb02,fd818b261b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">164c3a621b2bb590c16ddb9ebd4bcbc8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>user,employee_profile</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:43</sys_created_on>
+        <sys_id>1e4c3a621b2bb590c16ddb9ebd4bcbc8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
+        <ui_id>869a84f8-30e5-4ced-a721-5c6d73e9b7e8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
+    <sys_element_mapping action="delete_multiple" query="id=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>employee_profile</field>
+        <id>1e4c3a621b2bb590c16ddb9ebd4bcbc8</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:44</sys_created_on>
+        <sys_id>de4c3a621b2bb590c16ddb9ebd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
+        <value>{{ea3d453b-2455-49fb-ac44-c5324ef59577.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>1e4c3a621b2bb590c16ddb9ebd4bcbc8</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:44</sys_created_on>
+        <sys_id>1e4c3a621b2bb590c16ddb9ebd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
+        <value>{{99476a61-1e89-4471-9cc8-cf1526eece18.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">31e047a21b6bb590c16ddb9ebd4bcb9c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned>user,employee_profile</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:23:54</sys_created_on>
+        <sys_id>39e047a21b6bb590c16ddb9ebd4bcb9c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:28</sys_updated_on>
+        <ui_id>4cb606b8-b454-4cff-a053-892392a8c7d8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_element_mapping action="delete_multiple" query="id=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>employee_profile</field>
+        <id>39e047a21b6bb590c16ddb9ebd4bcb9c</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:23:54</sys_created_on>
+        <sys_id>39e047a21b6bb590c16ddb9ebd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:23:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
+        <value>{{5bcee26f-f553-4769-ab69-20b92c6b3c11.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>39e047a21b6bb590c16ddb9ebd4bcb9c</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:23:54</sys_created_on>
+        <sys_id>75e047a21b6bb590c16ddb9ebd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:23:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
+        <value>{{79316fe6-127a-46d4-98da-e85f48306514.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">982487ea1b6bb590c16ddb9ebd4bcb26</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:00</sys_created_on>
+        <sys_id>942487ea1b6bb590c16ddb9ebd4bcb27</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
+        <ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=942487ea1b6bb590c16ddb9ebd4bcb27"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=942487ea1b6bb590c16ddb9ebd4bcb27"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=942487ea1b6bb590c16ddb9ebd4bcb27"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=942487ea1b6bb590c16ddb9ebd4bcb27"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e02487ea1b6bb590c16ddb9ebd4bcb8c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:01</sys_created_on>
+        <sys_id>a82487ea1b6bb590c16ddb9ebd4bcb8c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:28</sys_updated_on>
+        <ui_id>8f8cdb33-fdca-48e1-9727-6cee05b014b6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a82487ea1b6bb590c16ddb9ebd4bcb8c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:01</sys_created_on>
+        <sys_id>202487ea1b6bb590c16ddb9ebd4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a82487ea1b6bb590c16ddb9ebd4bcb8c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:01</sys_created_on>
+        <sys_id>282487ea1b6bb590c16ddb9ebd4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:01</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a68af6ae1be7b590c16ddb9ebd4bcb0e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
+        <sys_id>ae8af6ae1be7b590c16ddb9ebd4bcb0e</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
+        <ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ae8af6ae1be7b590c16ddb9ebd4bcb0e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
+        <sys_id>ea8af6ae1be7b590c16ddb9ebd4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 15:56:06</sys_updated_on>
+        <value>New hire or rehire not found</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ae8af6ae1be7b590c16ddb9ebd4bcb0e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
+        <sys_id>6a8af6ae1be7b590c16ddb9ebd4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 15:56:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.hire_or_return_type}}=New Hire^NQ{{subflow.hire_or_return_type}}!=New Hire^{{subflow.rehire_employee_not_found}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ae8af6ae1be7b590c16ddb9ebd4bcb0e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
+        <sys_id>a28af6ae1be7b590c16ddb9ebd4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 15:56:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f18cb2a21b2bb590c16ddb9ebd4bcb02</block>
+        <comment/>
+        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
+        <sys_id>b58cb2a21b2bb590c16ddb9ebd4bcb02</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
+        <ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b58cb2a21b2bb590c16ddb9ebd4bcb02</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
+        <sys_id>3d8cb2a21b2bb590c16ddb9ebd4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:04:47</sys_updated_on>
+        <value>rehire employee selected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b58cb2a21b2bb590c16ddb9ebd4bcb02</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
+        <sys_id>b98cb2a21b2bb590c16ddb9ebd4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:04:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.rehire_employee}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b58cb2a21b2bb590c16ddb9ebd4bcb02</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
+        <sys_id>f58cb2a21b2bb590c16ddb9ebd4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:04:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3d818b261b6bb590c16ddb9ebd4bcb9c</block>
+        <comment/>
+        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:26:38</sys_created_on>
+        <sys_id>fd818b261b6bb590c16ddb9ebd4bcb9c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:49:28</sys_updated_on>
+        <ui_id>a84aaea7-1df6-4099-8642-094a003ffba1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b^sys_idNOT IN642487ea1b6bb590c16ddb9ebd4bcb9d"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>12</order>
@@ -2427,404 +2847,6 @@
         <xml_view>false</xml_view>
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=642487ea1b6bb590c16ddb9ebd4bcb9d"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=77583e2a1ba7b590c16ddb9ebd4bcb5b^sys_idNOT IN1e4c3a621b2bb590c16ddb9ebd4bcbc8,39e047a21b6bb590c16ddb9ebd4bcb9c,942487ea1b6bb590c16ddb9ebd4bcb27,a82487ea1b6bb590c16ddb9ebd4bcb8c,ae8af6ae1be7b590c16ddb9ebd4bcb0e,b58cb2a21b2bb590c16ddb9ebd4bcb02,fd818b261b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">164c3a621b2bb590c16ddb9ebd4bcbc8</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
-        <outputs_assigned>user,employee_profile</outputs_assigned>
-        <outputs_to_assign/>
-        <outputs_to_assign/>
-        <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:43</sys_created_on>
-        <sys_id>1e4c3a621b2bb590c16ddb9ebd4bcbc8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
-        <ui_id>869a84f8-30e5-4ced-a721-5c6d73e9b7e8</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
-    <sys_element_mapping action="delete_multiple" query="id=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>employee_profile</field>
-        <id>1e4c3a621b2bb590c16ddb9ebd4bcbc8</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:44</sys_created_on>
-        <sys_id>de4c3a621b2bb590c16ddb9ebd4bcbcb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:44</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
-        <value>{{ea3d453b-2455-49fb-ac44-c5324ef59577.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>user</field>
-        <id>1e4c3a621b2bb590c16ddb9ebd4bcbc8</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:44</sys_created_on>
-        <sys_id>1e4c3a621b2bb590c16ddb9ebd4bcbcb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:44</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
-        <value>{{99476a61-1e89-4471-9cc8-cf1526eece18.record}}</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=1e4c3a621b2bb590c16ddb9ebd4bcbc8"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">31e047a21b6bb590c16ddb9ebd4bcb9c</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
-        <outputs_assigned>user,employee_profile</outputs_assigned>
-        <outputs_to_assign/>
-        <outputs_to_assign/>
-        <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:23:54</sys_created_on>
-        <sys_id>39e047a21b6bb590c16ddb9ebd4bcb9c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:28</sys_updated_on>
-        <ui_id>4cb606b8-b454-4cff-a053-892392a8c7d8</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_element_mapping action="delete_multiple" query="id=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>employee_profile</field>
-        <id>39e047a21b6bb590c16ddb9ebd4bcb9c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:23:54</sys_created_on>
-        <sys_id>39e047a21b6bb590c16ddb9ebd4bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:23:54</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
-        <value>{{5bcee26f-f553-4769-ab69-20b92c6b3c11.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>user</field>
-        <id>39e047a21b6bb590c16ddb9ebd4bcb9c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:23:54</sys_created_on>
-        <sys_id>75e047a21b6bb590c16ddb9ebd4bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:23:54</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b</table>
-        <value>{{79316fe6-127a-46d4-98da-e85f48306514.record}}</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=39e047a21b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">982487ea1b6bb590c16ddb9ebd4bcb26</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
-        <order>0</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:00</sys_created_on>
-        <sys_id>942487ea1b6bb590c16ddb9ebd4bcb27</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
-        <ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=942487ea1b6bb590c16ddb9ebd4bcb27"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=942487ea1b6bb590c16ddb9ebd4bcb27"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=942487ea1b6bb590c16ddb9ebd4bcb27"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=942487ea1b6bb590c16ddb9ebd4bcb27"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">e02487ea1b6bb590c16ddb9ebd4bcb8c</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
-        <order>11</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:01</sys_created_on>
-        <sys_id>a82487ea1b6bb590c16ddb9ebd4bcb8c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:28</sys_updated_on>
-        <ui_id>8f8cdb33-fdca-48e1-9727-6cee05b014b6</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>a82487ea1b6bb590c16ddb9ebd4bcb8c</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:01</sys_created_on>
-        <sys_id>202487ea1b6bb590c16ddb9ebd4bcb9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:01</sys_updated_on>
-        <value>1</value>
-        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>a82487ea1b6bb590c16ddb9ebd4bcb8c</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:01</sys_created_on>
-        <sys_id>282487ea1b6bb590c16ddb9ebd4bcb9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:01</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=a82487ea1b6bb590c16ddb9ebd4bcb8c"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">a68af6ae1be7b590c16ddb9ebd4bcb0e</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
-        <sys_id>ae8af6ae1be7b590c16ddb9ebd4bcb0e</sys_id>
-        <sys_mod_count>29</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
-        <ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>ae8af6ae1be7b590c16ddb9ebd4bcb0e</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
-        <sys_id>ea8af6ae1be7b590c16ddb9ebd4bcb1f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 15:56:06</sys_updated_on>
-        <value>New hire or rehire not found</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>ae8af6ae1be7b590c16ddb9ebd4bcb0e</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
-        <sys_id>6a8af6ae1be7b590c16ddb9ebd4bcb1f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 15:56:06</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{subflow.hire_or_return_type}}=New Hire^NQ{{subflow.hire_or_return_type}}!=New Hire^{{subflow.rehire_employee_not_found}}=true</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>ae8af6ae1be7b590c16ddb9ebd4bcb0e</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 15:56:06</sys_created_on>
-        <sys_id>a28af6ae1be7b590c16ddb9ebd4bcb1f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 15:56:06</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ae8af6ae1be7b590c16ddb9ebd4bcb0e"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">f18cb2a21b2bb590c16ddb9ebd4bcb02</block>
-        <comment/>
-        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>5</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
-        <sys_id>b58cb2a21b2bb590c16ddb9ebd4bcb02</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:27</sys_updated_on>
-        <ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>b58cb2a21b2bb590c16ddb9ebd4bcb02</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
-        <sys_id>3d8cb2a21b2bb590c16ddb9ebd4bcb05</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:04:47</sys_updated_on>
-        <value>rehire employee selected</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>b58cb2a21b2bb590c16ddb9ebd4bcb02</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
-        <sys_id>b98cb2a21b2bb590c16ddb9ebd4bcb05</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:04:47</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value>{{subflow.rehire_employee}}!=</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>b58cb2a21b2bb590c16ddb9ebd4bcb02</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:04:47</sys_created_on>
-        <sys_id>f58cb2a21b2bb590c16ddb9ebd4bcb05</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:04:47</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b58cb2a21b2bb590c16ddb9ebd4bcb02"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">3d818b261b6bb590c16ddb9ebd4bcb9c</block>
-        <comment/>
-        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="*Pending Retirement*REQF - New Hire User Creation">77583e2a1ba7b590c16ddb9ebd4bcb5b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>9</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:26:38</sys_created_on>
-        <sys_id>fd818b261b6bb590c16ddb9ebd4bcb9c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:49:28</sys_updated_on>
-        <ui_id>a84aaea7-1df6-4099-8642-094a003ffba1</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77583e2a1ba7b590c16ddb9ebd4bcb5b^id=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=fd818b261b6bb590c16ddb9ebd4bcb9c"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=77583e2a1ba7b590c16ddb9ebd4bcb5b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_77583e2a1ba7b590c16ddb9ebd4bcb5b^sys_idNOT IN080aba2e1be7b590c16ddb9ebd4bcb3a,0f78362a1be7b590c16ddb9ebd4bcb08,1de83e2a1be7b590c16ddb9ebd4bcb36,418936aa1be7b590c16ddb9ebd4bcb22,480aba2e1be7b590c16ddb9ebd4bcb36,4989362a1be7b590c16ddb9ebd4bcb49,558936aa1be7b590c16ddb9ebd4bcb27,558936aa1be7b590c16ddb9ebd4bcb5e,55e83e2a1be7b590c16ddb9ebd4bcb3b,5b29726a1be7b590c16ddb9ebd4bcbc0,5f29726a1be7b590c16ddb9ebd4bcbc5,9329726a1be7b590c16ddb9ebd4bcbc9,9c1afa2e1be7b590c16ddb9ebd4bcbb7,be78362a1be7b590c16ddb9ebd4bcb04,c58936aa1be7b590c16ddb9ebd4bcb1f,c98936aa1be7b590c16ddb9ebd4bcb24,d329726a1be7b590c16ddb9ebd4bcbc3,d729726a1be7b590c16ddb9ebd4bcbcc,d729baa21be7b590c16ddb9ebd4bcbbe,d98936aa1be7b590c16ddb9ebd4bcb5b"/>
@@ -3387,11 +3409,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>reqf__new_hire_user_creation</internal_name>
         <label_cache>[{"name":"8f8cdb33-fdca-48e1-9727-6cee05b014b6.__status__.code","label":"10 - Top Level Catch➛Error Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"subflow.related_ritm.number","label":"Input➛Related RITM➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number"},{"name":"8f8cdb33-fdca-48e1-9727-6cee05b014b6.__status__.message","label":"10 - Top Level Catch➛Error Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.rehire_employee","label":"Input➛Rehire Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"60adcc95-a701-4b42-bc40-dd9ba07281de","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"ea3d453b-2455-49fb-ac44-c5324ef59577.record","label":"3 - Create Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.position_type","label":"Input➛Position Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"position_type","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Contractor","value":"contractor","order":1.0},{"label":"Employee Full-Time","value":"regular","order":2.0},{"label":"Employee Part-Time or Temp","value":"temporary","order":3.0},{"label":"Intern","value":"trainee_(trainee)","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4b84eaba-5edb-475b-9184-64b685f47964","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.union_status","label":"Input➛Union Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"u_union_status","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Non-Union","value":"non_union","order":1.0},{"label":"Union","value":"union","order":2.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f4278c44-fdee-420c-a177-3751d01623f9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.business_phone_number","label":"Input➛Business Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e0bee1e5-220b-4aea-b36b-ab6c4c930ef9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.mobile_phone_number","label":"Input➛Mobile Phone Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a30f89de-1c26-4314-be3e-26ae7a1ba147","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.last_name","label":"Input➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ef076fc6-33b3-4b25-8c1d-0dab3402de29","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.middle_name","label":"Input➛Middle Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"03506982-a76e-49da-99fa-bb478162b8da","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"693042bf-e461-4e25-b643-5c19cb6442af","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.hire_or_return_type","label":"Input➛Hire or Return Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"047ec30b-ac8b-4180-ae28-764744df5d2a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.rehire_employee_not_found","label":"Input➛Rehire Employee Not Found","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2499c552-bf24-4999-afb8-6fd61c03dbb6","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.company","label":"Input➛Company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"857a31f9-ad0f-4a83-a738-acdc6be849d0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.location","label":"Input➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"42cd85db-3509-4c9b-956e-7715ba3625a9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.manager","label":"Input➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cec1d552-7f48-4b01-b71a-8817a41b3e1e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.department","label":"Input➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a6a84a37-5b6f-4aec-8e75-490f3307df4d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.title","label":"Input➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"17f0a8bd-d671-43a2-bd27-e0161fb55d21","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.employee_number","label":"Input➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f93e6f1d-19c5-4fef-a5c1-414afcd55e91","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"99476a61-1e89-4471-9cc8-cf1526eece18.record","label":"2 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.user_requires_email","label":"Input➛User Requires Email","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"98de5926-16d4-4e13-8d21-11d202d1a948","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.employment_start_date","label":"Input➛Employment Start Date","reference":"","reference_display":"","type":"glide_date","base_type":"glide_date","column_name":"","attributes":{"uiType":"glide_date","uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a70d4b49-eee1-44f7-b962-7181adb15b81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.nickname","label":"Input➛Nickname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b8cd1c35-82c8-4bca-b9dc-294f44181817","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"79316fe6-127a-46d4-98da-e85f48306514.record","label":"6 - Update Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5bcee26f-f553-4769-ab69-20b92c6b3c11.record","label":"7 - Create or Update Record➛Employee Profile Record","reference":"sn_employee_profile","reference_display":"Employee Profile","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
@@ -3420,11 +3444,11 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2024-01-08 16:38:25</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_variable_value action="delete_multiple" query="document_key=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=382cb2621b2bb590c16ddb9ebd4bcb7b^sys_idNOT INf42cb2621b2bb590c16ddb9ebd4bcb7c"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -5157,6 +5181,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>Employee Profile</label>
         <mandatory>false</mandatory>
@@ -5241,6 +5266,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>User</label>
         <mandatory>false</mandatory>
@@ -5290,6 +5316,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=752cf2621b2bb590c16ddb9ebd4bcbf5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b^sys_idNOT IN3534872e1b6bb590c16ddb9ebd4bcb46,4e2c36621b2bb590c16ddb9ebd4bcb2a,822c36621b2bb590c16ddb9ebd4bcb18,baf04ba21b6bb590c16ddb9ebd4bcb5e,bef04ba21b6bb590c16ddb9ebd4bcb49"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -5299,6 +5326,7 @@
         <comment/>
         <display_text/>
         <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>a84aaea7-1df6-4099-8642-094a003ffba1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -5352,6 +5380,7 @@
         <comment/>
         <display_text/>
         <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -5415,6 +5444,7 @@
         <comment/>
         <display_text/>
         <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -5478,6 +5508,7 @@
         <comment/>
         <display_text/>
         <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -5541,6 +5572,7 @@
         <comment/>
         <display_text/>
         <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -5607,12 +5639,418 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=bef04ba21b6bb590c16ddb9ebd4bcb49"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bef04ba21b6bb590c16ddb9ebd4bcb49"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b^sys_idNOT IN3534872e1b6bb590c16ddb9ebd4bcb49,6d5cfa621b2bb590c16ddb9ebd4bcbdc,bd34872e1b6bb590c16ddb9ebd4bcbe2,bd34872e1b6bb590c16ddb9ebd4bcbe5,ce2c36621b2bb590c16ddb9ebd4bcb0c,f2f04ba21b6bb590c16ddb9ebd4bcb6d,f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">982487ea1b6bb590c16ddb9ebd4bcb26</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:22</sys_created_on>
+        <sys_id>3534872e1b6bb590c16ddb9ebd4bcb49</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
+        <ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3534872e1b6bb590c16ddb9ebd4bcb49"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=3534872e1b6bb590c16ddb9ebd4bcb49"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3534872e1b6bb590c16ddb9ebd4bcb49"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3534872e1b6bb590c16ddb9ebd4bcb49"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">164c3a621b2bb590c16ddb9ebd4bcbc8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>user,employee_profile</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:57</sys_created_on>
+        <sys_id>6d5cfa621b2bb590c16ddb9ebd4bcbdc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
+        <ui_id>869a84f8-30e5-4ced-a721-5c6d73e9b7e8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
+    <sys_element_mapping action="delete_multiple" query="id=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>employee_profile</field>
+        <id>6d5cfa621b2bb590c16ddb9ebd4bcbdc</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:57</sys_created_on>
+        <sys_id>615cfa621b2bb590c16ddb9ebd4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
+        <value>{{ea3d453b-2455-49fb-ac44-c5324ef59577.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>6d5cfa621b2bb590c16ddb9ebd4bcbdc</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:57</sys_created_on>
+        <sys_id>ad5cfa621b2bb590c16ddb9ebd4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
+        <value>{{99476a61-1e89-4471-9cc8-cf1526eece18.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3d818b261b6bb590c16ddb9ebd4bcb9c</block>
+        <comment/>
+        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
+        <sys_id>bd34872e1b6bb590c16ddb9ebd4bcbe2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
+        <ui_id>a84aaea7-1df6-4099-8642-094a003ffba1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e02487ea1b6bb590c16ddb9ebd4bcb8c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
+        <sys_id>bd34872e1b6bb590c16ddb9ebd4bcbe5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:25</sys_updated_on>
+        <ui_id>8f8cdb33-fdca-48e1-9727-6cee05b014b6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bd34872e1b6bb590c16ddb9ebd4bcbe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
+        <sys_id>3134872e1b6bb590c16ddb9ebd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:23</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bd34872e1b6bb590c16ddb9ebd4bcbe5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
+        <sys_id>f134872e1b6bb590c16ddb9ebd4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:23</sys_updated_on>
+        <value>1</value>
+        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a68af6ae1be7b590c16ddb9ebd4bcb0e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
+        <sys_id>ce2c36621b2bb590c16ddb9ebd4bcb0c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
+        <ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ce2c36621b2bb590c16ddb9ebd4bcb0c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
+        <sys_id>422c36621b2bb590c16ddb9ebd4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:10</sys_updated_on>
+        <value>New hire or rehire not found</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ce2c36621b2bb590c16ddb9ebd4bcb0c</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
+        <sys_id>ce2c36621b2bb590c16ddb9ebd4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.hire_or_return_type}}=New Hire^NQ{{subflow.hire_or_return_type}}!=New Hire^{{subflow.rehire_employee_not_found}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ce2c36621b2bb590c16ddb9ebd4bcb0c</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
+        <sys_id>0a2c36621b2bb590c16ddb9ebd4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:03:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f18cb2a21b2bb590c16ddb9ebd4bcb02</block>
+        <comment/>
+        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>f2f04ba21b6bb590c16ddb9ebd4bcb6d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
+        <ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f2f04ba21b6bb590c16ddb9ebd4bcb6d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>7ef04ba21b6bb590c16ddb9ebd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
+        <value>rehire employee selected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f2f04ba21b6bb590c16ddb9ebd4bcb6d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>faf04ba21b6bb590c16ddb9ebd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.rehire_employee}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f2f04ba21b6bb590c16ddb9ebd4bcb6d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>3af04ba21b6bb590c16ddb9ebd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">31e047a21b6bb590c16ddb9ebd4bcb9c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned>user,employee_profile</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>f6f04ba21b6bb590c16ddb9ebd4bcb71</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
+        <ui_id>4cb606b8-b454-4cff-a053-892392a8c7d8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
+    <sys_element_mapping action="delete_multiple" query="id=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>employee_profile</field>
+        <id>f6f04ba21b6bb590c16ddb9ebd4bcb71</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>f6f04ba21b6bb590c16ddb9ebd4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
+        <value>{{5bcee26f-f553-4769-ab69-20b92c6b3c11.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>f6f04ba21b6bb590c16ddb9ebd4bcb71</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
+        <sys_id>36f04ba21b6bb590c16ddb9ebd4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
+        <value>{{79316fe6-127a-46d4-98da-e85f48306514.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b^sys_idNOT INb534872e1b6bb590c16ddb9ebd4bcbe9"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <order>12</order>
@@ -5793,404 +6231,6 @@
         <xml_view>false</xml_view>
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b534872e1b6bb590c16ddb9ebd4bcbe9"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=382cb2621b2bb590c16ddb9ebd4bcb7b^sys_idNOT IN3534872e1b6bb590c16ddb9ebd4bcb49,6d5cfa621b2bb590c16ddb9ebd4bcbdc,bd34872e1b6bb590c16ddb9ebd4bcbe2,bd34872e1b6bb590c16ddb9ebd4bcbe5,ce2c36621b2bb590c16ddb9ebd4bcb0c,f2f04ba21b6bb590c16ddb9ebd4bcb6d,f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">982487ea1b6bb590c16ddb9ebd4bcb26</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
-        <order>0</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:22</sys_created_on>
-        <sys_id>3534872e1b6bb590c16ddb9ebd4bcb49</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
-        <ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=3534872e1b6bb590c16ddb9ebd4bcb49"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=3534872e1b6bb590c16ddb9ebd4bcb49"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3534872e1b6bb590c16ddb9ebd4bcb49"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=3534872e1b6bb590c16ddb9ebd4bcb49"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">164c3a621b2bb590c16ddb9ebd4bcbc8</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
-        <outputs_assigned>user,employee_profile</outputs_assigned>
-        <outputs_to_assign/>
-        <outputs_to_assign/>
-        <parent_ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:57</sys_created_on>
-        <sys_id>6d5cfa621b2bb590c16ddb9ebd4bcbdc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
-        <ui_id>869a84f8-30e5-4ced-a721-5c6d73e9b7e8</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
-    <sys_element_mapping action="delete_multiple" query="id=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>employee_profile</field>
-        <id>6d5cfa621b2bb590c16ddb9ebd4bcbdc</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:57</sys_created_on>
-        <sys_id>615cfa621b2bb590c16ddb9ebd4bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:57</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
-        <value>{{ea3d453b-2455-49fb-ac44-c5324ef59577.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>user</field>
-        <id>6d5cfa621b2bb590c16ddb9ebd4bcbdc</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:57</sys_created_on>
-        <sys_id>ad5cfa621b2bb590c16ddb9ebd4bcbdf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:57</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
-        <value>{{99476a61-1e89-4471-9cc8-cf1526eece18.record}}</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=6d5cfa621b2bb590c16ddb9ebd4bcbdc"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">3d818b261b6bb590c16ddb9ebd4bcb9c</block>
-        <comment/>
-        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>9</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
-        <sys_id>bd34872e1b6bb590c16ddb9ebd4bcbe2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
-        <ui_id>a84aaea7-1df6-4099-8642-094a003ffba1</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bd34872e1b6bb590c16ddb9ebd4bcbe2"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">e02487ea1b6bb590c16ddb9ebd4bcb8c</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
-        <order>11</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
-        <sys_id>bd34872e1b6bb590c16ddb9ebd4bcbe5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:25</sys_updated_on>
-        <ui_id>8f8cdb33-fdca-48e1-9727-6cee05b014b6</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>bd34872e1b6bb590c16ddb9ebd4bcbe5</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
-        <sys_id>3134872e1b6bb590c16ddb9ebd4bcbe9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:23</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>bd34872e1b6bb590c16ddb9ebd4bcbe5</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:38:23</sys_created_on>
-        <sys_id>f134872e1b6bb590c16ddb9ebd4bcbe9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:23</sys_updated_on>
-        <value>1</value>
-        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bd34872e1b6bb590c16ddb9ebd4bcbe5"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">a68af6ae1be7b590c16ddb9ebd4bcb0e</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
-        <sys_id>ce2c36621b2bb590c16ddb9ebd4bcb0c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
-        <ui_id>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>ce2c36621b2bb590c16ddb9ebd4bcb0c</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
-        <sys_id>422c36621b2bb590c16ddb9ebd4bcb11</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:10</sys_updated_on>
-        <value>New hire or rehire not found</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>ce2c36621b2bb590c16ddb9ebd4bcb0c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
-        <sys_id>ce2c36621b2bb590c16ddb9ebd4bcb10</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:10</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{subflow.hire_or_return_type}}=New Hire^NQ{{subflow.hire_or_return_type}}!=New Hire^{{subflow.rehire_employee_not_found}}=true</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>ce2c36621b2bb590c16ddb9ebd4bcb0c</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:03:10</sys_created_on>
-        <sys_id>0a2c36621b2bb590c16ddb9ebd4bcb10</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:03:10</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ce2c36621b2bb590c16ddb9ebd4bcb0c"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">f18cb2a21b2bb590c16ddb9ebd4bcb02</block>
-        <comment/>
-        <connected_to>d4c345c1-2064-4b8b-b98a-8a1829f10cb0</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>5</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>6d9db0b2-bb21-4751-94e8-89cb710c1d26</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>f2f04ba21b6bb590c16ddb9ebd4bcb6d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
-        <ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>f2f04ba21b6bb590c16ddb9ebd4bcb6d</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>7ef04ba21b6bb590c16ddb9ebd4bcb70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
-        <value>rehire employee selected</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>f2f04ba21b6bb590c16ddb9ebd4bcb6d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>faf04ba21b6bb590c16ddb9ebd4bcb70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value>{{subflow.rehire_employee}}!=</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>f2f04ba21b6bb590c16ddb9ebd4bcb6d</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>3af04ba21b6bb590c16ddb9ebd4bcb70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b^id=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=f2f04ba21b6bb590c16ddb9ebd4bcb6d"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">31e047a21b6bb590c16ddb9ebd4bcb9c</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="REQF - New Hire User Creation">382cb2621b2bb590c16ddb9ebd4bcb7b</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
-        <outputs_assigned>user,employee_profile</outputs_assigned>
-        <outputs_to_assign/>
-        <outputs_to_assign/>
-        <parent_ui_id>12fd6941-d42c-4df1-9dd2-a58e78954859</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>f6f04ba21b6bb590c16ddb9ebd4bcb71</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:38:24</sys_updated_on>
-        <ui_id>4cb606b8-b454-4cff-a053-892392a8c7d8</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
-    <sys_element_mapping action="delete_multiple" query="id=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>employee_profile</field>
-        <id>f6f04ba21b6bb590c16ddb9ebd4bcb71</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>f6f04ba21b6bb590c16ddb9ebd4bcb74</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
-        <value>{{5bcee26f-f553-4769-ab69-20b92c6b3c11.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>user</field>
-        <id>f6f04ba21b6bb590c16ddb9ebd4bcb71</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2024-01-08 16:24:15</sys_created_on>
-        <sys_id>36f04ba21b6bb590c16ddb9ebd4bcb74</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-01-08 16:24:15</sys_updated_on>
-        <table>var__m_sys_hub_flow_output_382cb2621b2bb590c16ddb9ebd4bcb7b</table>
-        <value>{{79316fe6-127a-46d4-98da-e85f48306514.record}}</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=f6f04ba21b6bb590c16ddb9ebd4bcb71"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=382cb2621b2bb590c16ddb9ebd4bcb7b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_382cb2621b2bb590c16ddb9ebd4bcb7b^sys_idNOT IN052cf2621b2bb590c16ddb9ebd4bcb31,112cf2621b2bb590c16ddb9ebd4bcb5c,212cf2621b2bb590c16ddb9ebd4bcbac,2d2cf2621b2bb590c16ddb9ebd4bcba3,352cf2621b2bb590c16ddb9ebd4bcbe6,492cf2621b2bb590c16ddb9ebd4bcb15,4d2cf2621b2bb590c16ddb9ebd4bcb29,4d2cf2621b2bb590c16ddb9ebd4bcb38,512cf2621b2bb590c16ddb9ebd4bcb7f,5d2cf2621b2bb590c16ddb9ebd4bcb63,612cf2621b2bb590c16ddb9ebd4bcbb8,652cf2621b2bb590c16ddb9ebd4bcb96,812cf2621b2bb590c16ddb9ebd4bcb48,892cf2621b2bb590c16ddb9ebd4bcb1f,992cf2621b2bb590c16ddb9ebd4bcb73,9d2cf2621b2bb590c16ddb9ebd4bcb4f,a92cf2621b2bb590c16ddb9ebd4bcb8a,c52cf2621b2bb590c16ddb9ebd4bcb40,d92cf2621b2bb590c16ddb9ebd4bcb6b,f92cf2621b2bb590c16ddb9ebd4bcbc9"/>

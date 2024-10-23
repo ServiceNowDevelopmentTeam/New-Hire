@@ -25,6 +25,7 @@
         <image/>
         <include_items>false</include_items>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta>new hire, onboard, hire, employee, contractor, offer, job</meta>
         <mobile_hide_price>false</mobile_hide_price>
@@ -41,13 +42,14 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <order_to_cart>false</order_to_cart>
         <ordered_item_link/>
-        <owner display_value="James Benagh">037a34211b12c250c16ddb9ebd4bcb7f</owner>
+        <owner display_value="">037a34211b12c250c16ddb9ebd4bcb7f</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=03fc9db11b96c65062e50ed2cd4bcbe2&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>

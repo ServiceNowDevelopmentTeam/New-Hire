@@ -3,7 +3,7 @@
         <active>true</active>
         <guide_variable display_value="Select Team Member to Delegate To">51ff735e1b9a8a5062e50ed2cd4bcb83</guide_variable>
         <item_variable display_value="Supervisor">d0b0c1be1b520e5062e50ed2cd4bcb80</item_variable>
-        <rule display_value="Supervisor To-Do">44ad13281b22469062e50ed2cd4bcbc7</rule>
+        <rule display_value="Team Member To-Do">44ad13281b22469062e50ed2cd4bcbc7</rule>
         <sys_class_name>sc_item_variable_assignment</sys_class_name>
         <sys_created_by>james.benagh@glidefast.com</sys_created_by>
         <sys_created_on>2024-05-30 16:31:11</sys_created_on>
