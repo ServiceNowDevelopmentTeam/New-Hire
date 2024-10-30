@@ -35,14 +35,14 @@ steps:
     echo "Raw response length: ${#response}"
     echo "First 100 characters of response: ${response:0:100}"
 
-    # Parse the response to find the matching application by name
+    # Parse the response to find the matching application by vcs.url ending
     app_info=$(echo "$response" | jq -r --arg NAME "$(repoName)" \
-      '.result.apps[] | select(.name == $NAME)')
+      '.result.apps[] | select(.vcs.url | endswith($NAME))')
     
     if [ -z "$app_info" ]; then
-      echo "Error: No application found with name '$(repoName)'"
-      echo "Available applications:"
-      echo "$response" | jq -r '.result.apps[] | .name'
+      echo "Error: No application found with repository name '$(repoName)'"
+      echo "Available URLs:"
+      echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | .vcs.url'
       exit 1
     fi
 
@@ -51,7 +51,7 @@ steps:
     repo_id=$(echo "$app_info" | jq -r '.vcs.repoId')
 
     if [ -z "$repo_id" ] || [ "$repo_id" == "null" ]; then
-      echo "Error: No repository ID found for application '$(repoName)'"
+      echo "Error: No repository ID found for repository '$(repoName)'"
       echo "App info found: $app_info"
       exit 1
     fi
