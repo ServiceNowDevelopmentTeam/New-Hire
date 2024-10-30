@@ -18,6 +18,8 @@ variables:
   value: $(TOKEN)
 - name: azureDevOpsPAT
   value: $(AZURE_DEVOPS_PAT)
+- name: instanceName
+  value: 'apigrouptest'
 
 steps:
 - script: |
@@ -27,7 +29,7 @@ steps:
     # Get the application and repository IDs from ServiceNow
     response=$(curl -s \
       --user $(SERVICENOW_USER):$(SERVICENOW_PASSWORD) \
-      https://<your-instance>.service-now.com/api/sn_devstudio/v1/vcs/apps)
+      https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/apps)
 
     # Parse the response to find the matching application by repo name in URL
     # Convert repoName to the format used in Azure DevOps URLs (replace spaces with hyphens)
@@ -110,7 +112,7 @@ steps:
 - script: |
     echo "Applying incoming changes to ServiceNow..."
     curl -X POST \
-      https://<your-instance>.service-now.com/api/sn_devstudio/vcs/apps/$(APP_ID)/repos/$(REPO_ID)/apply \
+      https://$(instanceName).service-now.com/api/sn_devstudio/vcs/apps/$(APP_ID)/repos/$(REPO_ID)/apply \
       --user $(SERVICENOW_USER):$(SERVICENOW_PASSWORD) \
       --header "Content-Type: application/json" \
       --data '{
