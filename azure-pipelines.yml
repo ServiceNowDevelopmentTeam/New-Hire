@@ -28,7 +28,7 @@ steps:
 
     # Get the application and repository IDs from ServiceNow
     response=$(curl -s \
-      --user $(SERVICENOW_USER):$(SERVICENOW_PASSWORD) \
+      --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       "https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/apps")
 
     # Parse the response to find the matching application by repo name in URL
@@ -113,7 +113,7 @@ steps:
     echo "Applying incoming changes to ServiceNow..."
     curl -X POST \
       "https://$(instanceName).service-now.com/api/sn_devstudio/vcs/apps/$(APP_ID)/repos/$(REPO_ID)/apply" \
-      --user $(SERVICENOW_USER):$(SERVICENOW_PASSWORD) \
+      --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       --header "Content-Type: application/json" \
       --data '{
         "stashMessage": "Auto-import from pipeline",
