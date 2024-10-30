@@ -29,7 +29,7 @@ steps:
     # Get the application and repository IDs from ServiceNow
     response=$(curl -s \
       --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-      "https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/apps")
+      "https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/appsall")
 
     # Debug: Print full response for debugging
     echo "Full response:"
