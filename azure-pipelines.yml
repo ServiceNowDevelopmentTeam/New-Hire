@@ -43,7 +43,7 @@ steps:
     if [ -z "$app_info" ]; then
       echo "Error: No application found with name '$(repoName)'"
       echo "Available applications with VCS:"
-      echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | "\(.name) -> \(.vcs)"'
+      echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | "\(.name) -> \(.vcs | tostring)"'
       exit 1
     fi
 
