@@ -34,16 +34,16 @@ steps:
     # Debug: Check if we got a valid response
     echo "Raw response length: ${#response}"
     echo "First 100 characters of response: ${response:0:100}"
-    echo "Looking for application with name: $(repoName)"
+    echo "Looking for application name ending with: $(repoName)"
 
-    # Parse the response to find the matching application by name
+    # Parse the response to find the matching application by vcs url
     app_info=$(echo "$response" | jq -r --arg NAME "$(repoName)" \
-      '.result.apps[] | select(.vcs != null and .vcs.url== endsWith($NAME))')
+      '.result.apps[] | select(.vcs != null and .vcs.url != null and (.vcs.url | endswith($NAME)))')
     
     if [ -z "$app_info" ]; then
-      echo "Error: No application found with name '$(repoName)'"
+      echo "Error: No application found ending with '$(repoName)'"
       echo "Available applications with VCS:"
-      echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | "\(.name) -> \(.vcs | tostring)"'
+      echo "$response" | jq -r '.result.apps[] | select(.vcs != null and .vcs.url != null) | "\(.name) -> \(.vcs.url)"'
       exit 1
     fi
 
