@@ -35,31 +35,14 @@ steps:
     echo "Raw response length: ${#response}"
     echo "First 100 characters of response: ${response:0:100}"
 
-    # Verify we have a valid JSON response
-    if ! echo "$response" | jq . >/dev/null 2>&1; then
-      echo "Error: Invalid JSON response received"
-      echo "Full response: $response"
-      exit 1
-    fi
-
-    # Parse the response to find the matching application by repo name in URL
-    formatted_repo_name=$(echo "$(repoName)" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
-    echo "Looking for repository: $formatted_repo_name"
-
-    # Debug: Print all URLs first
-    echo "Available repository URLs:"
-    echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | .vcs.url'
-    
-    # Try to find the matching app
-    app_info=$(echo "$response" | jq -r --arg REPO_NAME "$formatted_repo_name" \
-      '.result.apps[] | select(.vcs != null and .vcs.url != null) | 
-       select((.vcs.url | ascii_downcase) | contains($REPO_NAME))')
+    # Parse the response to find the matching application by name
+    app_info=$(echo "$response" | jq -r --arg NAME "$(repoName)" \
+      '.result.apps[] | select(.name == $NAME)')
     
     if [ -z "$app_info" ]; then
-      echo "Error: No application found with repository name '$(repoName)'"
-      echo "Formatted repo name was: $formatted_repo_name"
+      echo "Error: No application found with name '$(repoName)'"
       echo "Available applications:"
-      echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | .name'
+      echo "$response" | jq -r '.result.apps[] | .name'
       exit 1
     fi
 
@@ -68,7 +51,7 @@ steps:
     repo_id=$(echo "$app_info" | jq -r '.vcs.repoId')
 
     if [ -z "$repo_id" ] || [ "$repo_id" == "null" ]; then
-      echo "Error: No repository ID found for repository '$(repoName)'"
+      echo "Error: No repository ID found for application '$(repoName)'"
       echo "App info found: $app_info"
       exit 1
     fi
