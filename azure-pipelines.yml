@@ -1,18 +1,120 @@
-# azure-pipelines.yml (in each repo)
-resources:
-  repositories:
-    - repository: templates
-      type: git
-      name: APi Connect Continuous Improvement/Pipeline Templates
-
 trigger:
 - master
 
 pool:
   vmImage: 'ubuntu-latest'
-  
-extends:
-  template: github-cloning-pipelines-template.yml@templates
-  parameters:
-    repoName: $(Build.Repository.Name)
-    branchName: $(Build.SourceBranchName)
+
+variables:
+- group: 'AAD-and-GitHub-Secrets'
+- name: repoName
+  value: $(Build.Repository.Name)
+- name: branchName
+  value: $(Build.SourceBranchName)
+- name: azureDevOpsRepoUrl
+  value: $(Build.Repository.Uri)
+- name: githubUser
+  value: $(USER)
+- name: githubToken
+  value: $(TOKEN)
+- name: azureDevOpsPAT
+  value: $(AZURE_DEVOPS_PAT)
+
+steps:
+- script: |
+    # Install jq for JSON parsing
+    sudo apt-get install -y jq
+
+    # Get the application and repository IDs from ServiceNow
+    response=$(curl -s \
+      --user $(SERVICENOW_USER):$(SERVICENOW_PASSWORD) \
+      https://<your-instance>.service-now.com/api/sn_devstudio/v1/vcs/apps)
+
+    # Parse the response to find the matching application by repo name in URL
+    # Convert repoName to the format used in Azure DevOps URLs (replace spaces with hyphens)
+    formatted_repo_name=$(echo "$(repoName)" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
+    
+    app_info=$(echo "$response" | jq -r --arg REPO_NAME "$formatted_repo_name" '.result.apps[] | select(.vcs.url | contains($REPO_NAME))')
+    
+    if [ -z "$app_info" ]; then
+      echo "Error: No application found with repository name '$(repoName)'"
+      exit 1
+    fi
+
+    # Extract appId and repoId
+    app_id=$(echo "$app_info" | jq -r '.sysId')
+    repo_id=$(echo "$app_info" | jq -r '.vcs.repoId')
+
+    if [ -z "$repo_id" ] || [ "$repo_id" == "null" ]; then
+      echo "Error: No repository ID found for repository '$(repoName)'"
+      exit 1
+    fi
+
+    # Set variables for later use
+    echo "##vso[task.setvariable variable=APP_ID]$app_id"
+    echo "##vso[task.setvariable variable=REPO_ID]$repo_id"
+    
+    echo "Found application ID: $app_id"
+    echo "Found repository ID: $repo_id"
+  displayName: 'Get ServiceNow Application and Repository IDs'
+
+- script: |
+    echo "Cloning the repository from Azure DevOps..."
+    cleanedUrl=$(echo $(azureDevOpsRepoUrl) | sed 's/^https:\/\/APi-IT-Community\@dev.azure.com//')
+    echo "Using cleaned URL: https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl"
+    git clone https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl repo
+  displayName: 'Clone repository from Azure DevOps'
+
+- script: |
+    cd repo
+    echo "Setting the remote origin to GitHub..."
+    git remote set-url origin https://$(githubUser):$(githubToken)@github.com/ServiceNowDevelopmentTeam/$(repoName).git
+    git remote -v
+
+    echo "Checking if repository exists on GitHub..."
+    repoExists=$(curl -s -o /dev/null -w "%{http_code}" -u $(githubUser):$(githubToken) https://api.github.com/repos/ServiceNowDevelopmentTeam/$(repoName))
+    if [ $repoExists -eq 404 ]; then
+      echo "Repository does not exist on GitHub. Creating..."
+      curl -u $(githubUser):$(githubToken) https://api.github.com/orgs/ServiceNowDevelopmentTeam/repos -d "{\"name\":\"$(repoName)\"}"
+    fi
+
+    echo "Checking if branch exists on GitHub $(branchName)..."
+    branchExists=$(git ls-remote --heads origin $(branchName))
+    if [ -z "$branchExists" ]; then
+      echo "Branch does not exist on GitHub. Creating..."
+      git checkout -b $(branchName)
+      git push origin $(branchName)
+    else
+      git checkout $(branchName)
+    fi
+
+    echo "Pushing changes to GitHub $(branchName)..."
+    for i in {1..5}; do
+      git push origin $(branchName) && break || sleep 15
+    done
+
+    echo "Setting the default branch to $(branchName) on GitHub..."
+    curl -X PATCH -u $(githubUser):$(githubToken) https://api.github.com/repos/ServiceNowDevelopmentTeam/$(repoName) -d "{\"default_branch\":\"$(branchName)\"}"
+
+    if [ "$(branchName)" != "main" ]; then
+      echo "Checking if 'main' branch exists on GitHub..."
+      mainBranchExists=$(git ls-remote --heads origin main)
+      if [ -n "$mainBranchExists" ]; then
+        echo "'main' branch exists. Deleting 'main' branch on GitHub..."
+        git push origin --delete main
+      else
+        echo "'main' branch does not exist on GitHub. Nothing to delete."
+      fi
+    fi
+  displayName: 'Set default branch and manage main branch on GitHub'
+
+- script: |
+    echo "Applying incoming changes to ServiceNow..."
+    curl -X POST \
+      https://<your-instance>.service-now.com/api/sn_devstudio/vcs/apps/$(APP_ID)/repos/$(REPO_ID)/apply \
+      --user $(SERVICENOW_USER):$(SERVICENOW_PASSWORD) \
+      --header "Content-Type: application/json" \
+      --data '{
+        "stashMessage": "Auto-import from pipeline",
+        "preserveLocalChanges": true
+      }'
+  displayName: 'Apply incoming changes to ServiceNow'
