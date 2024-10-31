@@ -74,7 +74,7 @@ steps:
         --header "Content-Type: application/json" \
         --data '{
           "sys_app": "'"${app_id}"'",
-          "vcs_url": "git@ssh.dev.azure.com:v3/APi-IT-Community/APi%20Connect%20Continuous%20Improvement/$(repoName)",
+          "url": "git@ssh.dev.azure.com:v3/APi-IT-Community/APi%20Connect%20Continuous%20Improvement/$(repoName)",
           "credential": "c20fa1991bed41108c5143f3cc4bcb2f",
           "authentication": "basic_authentication",
           "current_branch": "'"${branchName}"'"
