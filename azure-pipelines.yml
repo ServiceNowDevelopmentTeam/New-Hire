@@ -37,7 +37,7 @@ steps:
     sudo apt-get install -y jq
 
     # Read the sys_id from the sn_source_control.properties file
-    sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2)
+    sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2 | tr -d '[:space:]')
     # Print the contents of the file for debugging
     cat sn_source_control.properties
 
