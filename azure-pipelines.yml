@@ -25,6 +25,14 @@ variables:
 
 steps:
 - script: |
+    echo "Cloning the repository from Azure DevOps..."
+    cleanedUrl=$(echo $(azureDevOpsRepoUrl) | sed 's/^https:\/\/APi-IT-Community\@dev.azure.com//')
+    echo "Using cleaned URL: https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl"
+    git clone https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl repo
+  displayName: 'Clone repository from Azure DevOps'
+
+- script: |
+    cd repo
     # Install jq for JSON parsing
     sudo apt-get install -y jq
 
@@ -78,13 +86,6 @@ steps:
     echo "Found application ID: $app_id"
     echo "Found repository ID: $repo_id"
   displayName: 'Check and Convert App, Create Repo Config, Pull Changes'
-
-- script: |
-    echo "Cloning the repository from Azure DevOps..."
-    cleanedUrl=$(echo $(azureDevOpsRepoUrl) | sed 's/^https:\/\/APi-IT-Community\@dev.azure.com//')
-    echo "Using cleaned URL: https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl"
-    git clone https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl repo
-  displayName: 'Clone repository from Azure DevOps'
 
 - script: |
     cd repo
