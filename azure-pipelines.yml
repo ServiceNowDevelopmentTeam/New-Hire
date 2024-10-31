@@ -36,8 +36,8 @@ steps:
     # Install jq for JSON parsing
     sudo apt-get install -y jq
 
-    # Read the sys_id from the sn_source_control.properties file
-    sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2 | tr -d '[:space:]')
+    # Read the sys_id from the sn_source_control.properties file, ignoring commented lines
+    sys_id=$(grep -v '^#' sn_source_control.properties | grep 'path=' | cut -d'=' -f2 | tr -d '[:space:]')
     # Print the contents of the file for debugging
     cat sn_source_control.properties
 
