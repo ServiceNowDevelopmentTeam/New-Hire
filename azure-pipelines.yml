@@ -63,6 +63,10 @@ steps:
     # Check for a sys_repo_config record
     repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       "https://$(instanceName).service-now.com/api/now/table/sys_repo_config?sysparm_query=sys_app=${app_id}")
+    
+    # Print the repo_config for debugging
+    echo "repo_config: $repo_config"
+
     if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
       # Create a repo config with the provided details
       curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
@@ -77,6 +81,9 @@ steps:
         }'
     fi
 
+    # Extract the repository ID from the repo_config
+    repo_id=$(echo "$repo_config" | jq -r '.result[0].sys_id')
+
     # Pull down all remote changes from the repo
     curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       -X POST "https://$(instanceName).service-now.com/api/sn_devstudio/vcs/apps/${app_id}/repos/apply" \
@@ -84,7 +91,6 @@ steps:
       --data '{"stashMessage": "Auto-import from pipeline", "preserveLocalChanges": true}'
 
     # Set variables for later use
-    repo_id=$(echo "$app_info" | jq -r '.result[0].vcs.repoId')
     echo "##vso[task.setvariable variable=APP_ID]$app_id"
     echo "##vso[task.setvariable variable=REPO_ID]$repo_id"
     
