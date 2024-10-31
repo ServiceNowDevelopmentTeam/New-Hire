@@ -40,7 +40,6 @@ steps:
     sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2)
     # Print the contents of the file for debugging
     cat sn_source_control.properties
-    ls
 
     if [ -z "$sys_id" ]; then
       echo "Error: sys_id not found in sn_source_control.properties"
