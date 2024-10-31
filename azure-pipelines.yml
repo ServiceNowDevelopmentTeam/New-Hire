@@ -68,8 +68,8 @@ steps:
     echo "repo_config: $repo_config"
 
     if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
-      # Create a repo config with the provided details
-      curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+      echo "No repo config found. Creating a new one..."
+      repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
         -X POST "https://$(instanceName).service-now.com/api/now/table/sys_repo_config" \
         --header "Content-Type: application/json" \
         --data '{
@@ -78,7 +78,7 @@ steps:
           "credential": "c20fa1991bed41108c5143f3cc4bcb2f",
           "authentication": "basic_authentication",
           "current_branch": "'"${branchName}"'"
-        }'
+        }')
     fi
 
     # Extract the repository ID from the repo_config
