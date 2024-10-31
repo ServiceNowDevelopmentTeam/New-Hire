@@ -28,35 +28,29 @@ steps:
     # Install jq for JSON parsing
     sudo apt-get install -y jq
 
-    # Function to check if the app exists in the given endpoint
-    check_app_exists() {
-      local endpoint=$1
-      response=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" "https://$(instanceName).service-now.com${endpoint}")
-      echo "$response" | jq -r --arg NAME "$(repoName)" '.result.apps[] | select(.vcs != null and .vcs.url != null and (.vcs.url | endswith($NAME)))'
-    }
+    # Read the sys_id from the sn_source_control.properties file
+    sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2)
 
-    # Check if the app exists in the /apps endpoint
-    app_info=$(check_app_exists "/api/sn_devstudio/v1/vcs/apps")
-    if [ -z "$app_info" ]; then
-      # Check if the app exists in the /appsall endpoint
-      app_info=$(check_app_exists "/api/sn_devstudio/v1/vcs/appsall")
-      if [ -n "$app_info" ]; then
-        # Convert the app to development mode
-        app_id=$(echo "$app_info" | jq -r '.sysId')
-        curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-          -X POST "https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/apps/${app_id}/convertToDevelopmentApp"
-      else
-        echo "Error: App not found in /apps or /appsall endpoints."
-        exit 1
-      fi
-    else
-      app_id=$(echo "$app_info" | jq -r '.sysId')
+    if [ -z "$sys_id" ]; then
+      echo "Error: sys_id not found in sn_source_control.properties"
+      exit 1
     fi
+
+    # Check if the app exists using the sys_id
+    app_info=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+      "https://$(instanceName).service-now.com/api/now/table/sys_app?sysparm_query=sys_id=${sys_id}")
+    
+    if [ "$(echo "$app_info" | jq -r '.result | length')" -eq 0 ]; then
+      echo "Error: App not found with sys_id ${sys_id}"
+      exit 1
+    fi
+
+    app_id=$(echo "$app_info" | jq -r '.result[0].sys_id')
 
     # Check for a sys_repo_config record
     repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       "https://$(instanceName).service-now.com/api/now/table/sys_repo_config?sysparm_query=sys_app=${app_id}")
-    if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
+    if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0]; then
       # Create a repo config with the provided details
       curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
         -X POST "https://$(instanceName).service-now.com/api/now/table/sys_repo_config" \
@@ -77,7 +71,7 @@ steps:
       --data '{"stashMessage": "Auto-import from pipeline", "preserveLocalChanges": true}'
 
     # Set variables for later use
-    repo_id=$(echo "$app_info" | jq -r '.vcs.repoId')
+    repo_id=$(echo "$app_info" | jq -r '.result[0].vcs.repoId')
     echo "##vso[task.setvariable variable=APP_ID]$app_id"
     echo "##vso[task.setvariable variable=REPO_ID]$repo_id"
     
