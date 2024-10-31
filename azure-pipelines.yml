@@ -38,7 +38,8 @@ steps:
 
     # Read the sys_id from the sn_source_control.properties file
     sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2)
-    
+    # Print the contents of the file for debugging
+    cat sn_source_control.properties
     ls
 
     if [ -z "$sys_id" ]; then
