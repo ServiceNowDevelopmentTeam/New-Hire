@@ -50,6 +50,9 @@ steps:
     app_info=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       "https://$(instanceName).service-now.com/api/now/table/sys_app?sysparm_query=sys_id=${sys_id}")
     
+    # Print the app_info for debugging
+    echo "app_info: $app_info"
+
     if [ "$(echo "$app_info" | jq -r '.result | length')" -eq 0 ]; then
       echo "Error: App not found with sys_id ${sys_id}"
       exit 1
