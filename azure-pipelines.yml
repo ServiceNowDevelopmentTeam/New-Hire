@@ -50,7 +50,7 @@ steps:
     # Check for a sys_repo_config record
     repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
       "https://$(instanceName).service-now.com/api/now/table/sys_repo_config?sysparm_query=sys_app=${app_id}")
-    if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0]; then
+    if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
       # Create a repo config with the provided details
       curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
         -X POST "https://$(instanceName).service-now.com/api/now/table/sys_repo_config" \
