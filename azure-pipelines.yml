@@ -37,8 +37,9 @@ steps:
     sudo apt-get install -y jq
 
     # Read the sys_id from the sn_source_control.properties file
-    cd repo
     sys_id=$(grep 'path=' sn_source_control.properties | cut -d'=' -f2)
+    
+    ls
 
     if [ -z "$sys_id" ]; then
       echo "Error: sys_id not found in sn_source_control.properties"
