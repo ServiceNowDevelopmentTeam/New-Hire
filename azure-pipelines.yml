@@ -1,166 +1,18 @@
+# azure-pipelines.yml (in each repo)
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: APi Connect Continuous Improvement/Pipeline Templates
+
 trigger:
 - master
 
 pool:
   vmImage: 'ubuntu-latest'
-
-variables:
-- group: 'AAD-and-GitHub-Secrets'
-- name: repoName
-  value: $(Build.Repository.Name)
-- name: branchName
-  value: $(Build.SourceBranchName)
-- name: azureDevOpsRepoUrl
-  value: $(Build.Repository.Uri)
-- name: githubUser
-  value: $(USER)
-- name: githubToken
-  value: $(TOKEN)
-- name: azureDevOpsPAT
-  value: $(AZURE_DEVOPS_PAT)
-- name: devInstanceName
-  value: 'apigroupdev'
-- name: instanceName
-  value: 'apigrouptest'
-
-steps:
-- script: |
-    echo "Cloning the repository from Azure DevOps..."
-    cleanedUrl=$(echo $(azureDevOpsRepoUrl) | sed 's/^https:\/\/APi-IT-Community\@dev.azure.com//')
-    echo "Using cleaned URL: https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl"
-    git clone https://$(azureDevOpsPAT)@dev.azure.com$cleanedUrl repo
-  displayName: 'Clone repository from Azure DevOps'
-
-- script: |
-    cd repo
-    # Install jq for JSON parsing
-    sudo apt-get install -y jq
-
-    # Read the sys_id from the sn_source_control.properties file, ignoring commented lines
-    sys_id=$(grep -v '^#' sn_source_control.properties | grep 'path=' | cut -d'=' -f2 | tr -d '[:space:]')
-    # Print the contents of the file for debugging
-    cat sn_source_control.properties
-
-    if [ -z "$sys_id" ]; then
-      echo "Error: sys_id not found in sn_source_control.properties"
-      exit 1
-    fi
-
-    # Check if the app exists using the sys_id
-    app_info=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-      "https://$(instanceName).service-now.com/api/now/table/sys_app?sysparm_query=sys_id=${sys_id}")
-    
-    # Print the app_info for debugging
-    echo "app_info: $app_info"
-
-    if [ "$(echo "$app_info" | jq -r '.result | length')" -eq 0 ]; then
-      echo "Error: App not found with sys_id ${sys_id}"
-      exit 1
-    fi
-
-    app_id=$(echo "$app_info" | jq -r '.result[0].sys_id')
-
-    # Check for a sys_repo_config record
-    repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-      "https://$(instanceName).service-now.com/api/now/table/sys_repo_config?sysparm_query=sys_app=${app_id}")
-    
-    # Print the repo_config for debugging
-    echo "repo_config: $repo_config"
-
-    if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
-      echo "No repo config found. Creating a new one..."
-      create_repo_response=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-        -X POST "https://$(instanceName).service-now.com/api/now/table/sys_repo_config" \
-        --header "Content-Type: application/json" \
-        --data '{
-          "sys_app": "'"${app_id}"'",
-          "url": "git@ssh.dev.azure.com:v3/APi-IT-Community/APi%20Connect%20Continuous%20Improvement/$(repoName)",
-          "credential": "c20fa1991bed41108c5143f3cc4bcb2f",
-          "authentication": "basic_authentication",
-          "current_branch": "'"${branchName}"'"
-        }')
-      
-      # Log the response for debugging
-      echo "create_repo_response: $create_repo_response"
-      
-      # Check if the creation was successful
-      if [ "$(echo "$create_repo_response" | jq -r '.result | length')" -eq 0 ]; then
-        echo "Error: Failed to create repo config"
-        exit 1
-      fi
-
-      # Update repo_config with the new response
-      repo_config=$create_repo_response
-    fi
-
-    # Extract the repository ID from the repo_config
-    repo_id=$(echo "$repo_config" | jq -r '.result[0].sys_id')
-
-    # Pull down all remote changes from the repo
-    curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-      -X POST "https://$(instanceName).service-now.com/api/sn_devstudio/vcs/apps/${app_id}/repos/apply" \
-      --header "Content-Type: application/json" \
-      --data '{"stashMessage": "Auto-import from pipeline", "preserveLocalChanges": true}'
-
-    # Set variables for later use
-    echo "##vso[task.setvariable variable=APP_ID]$app_id"
-    echo "##vso[task.setvariable variable=REPO_ID]$repo_id"
-    
-    echo "Found application ID: $app_id"
-    echo "Found repository ID: $repo_id"
-  displayName: 'Check and Convert App, Create Repo Config, Pull Changes'
-
-- script: |
-    cd repo
-    echo "Setting the remote origin to GitHub..."
-    git remote set-url origin https://$(githubUser):$(githubToken)@github.com/ServiceNowDevelopmentTeam/$(repoName).git
-    git remote -v
-
-    echo "Checking if repository exists on GitHub..."
-    repoExists=$(curl -s -o /dev/null -w "%{http_code}" -u $(githubUser):$(githubToken) https://api.github.com/repos/ServiceNowDevelopmentTeam/$(repoName))
-    if [ $repoExists -eq 404 ]; then
-      echo "Repository does not exist on GitHub. Creating..."
-      curl -u $(githubUser):$(githubToken) https://api.github.com/orgs/ServiceNowDevelopmentTeam/repos -d "{\"name\":\"$(repoName)\"}"
-    fi
-
-    echo "Checking if branch exists on GitHub $(branchName)..."
-    branchExists=$(git ls-remote --heads origin $(branchName))
-    if [ -z "$branchExists" ]; then
-      echo "Branch does not exist on GitHub. Creating..."
-      git checkout -b $(branchName)
-      git push origin $(branchName)
-    else
-      git checkout $(branchName)
-    fi
-
-    echo "Pushing changes to GitHub $(branchName)..."
-    for i in {1..5}; do
-      git push origin $(branchName) && break || sleep 15
-    done
-
-    echo "Setting the default branch to $(branchName) on GitHub..."
-    curl -X PATCH -u $(githubUser):$(githubToken) https://api.github.com/repos/ServiceNowDevelopmentTeam/$(repoName) -d "{\"default_branch\":\"$(branchName)\"}"
-
-    if [ "$(branchName)" != "main" ]; then
-      echo "Checking if 'main' branch exists on GitHub..."
-      mainBranchExists=$(git ls-remote --heads origin main)
-      if [ -n "$mainBranchExists" ]; then
-        echo "'main' branch exists. Deleting 'main' branch on GitHub..."
-        git push origin --delete main
-      else
-        echo "'main' branch does not exist on GitHub. Nothing to delete."
-      fi
-    fi
-  displayName: 'Set default branch and manage main branch on GitHub'
-
-- script: |
-    echo "Applying incoming changes to ServiceNow..."
-    curl -X POST \
-      "https://$(instanceName).service-now.com/api/sn_devstudio/vcs/apps/$(APP_ID)/repos/$(REPO_ID)/apply" \
-      --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-      --header "Content-Type: application/json" \
-      --data '{
-        "stashMessage": "Auto-import from pipeline",
-        "preserveLocalChanges": true
-      }'
-  displayName: 'Apply incoming changes to ServiceNow'
+  
+extends:
+  template: github-cloning-pipelines-template.yml@templates
+  parameters:
+    repoName: $(Build.Repository.Name)
+    branchName: $(Build.SourceBranchName)
