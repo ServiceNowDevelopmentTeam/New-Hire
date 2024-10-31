@@ -28,47 +28,56 @@ steps:
     # Install jq for JSON parsing
     sudo apt-get install -y jq
 
-    # Get the application and repository IDs from ServiceNow
-    response=$(curl -s \
-      --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
-      "https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/appsall")
+    # Function to check if the app exists in the given endpoint
+    check_app_exists() {
+      local endpoint=$1
+      response=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" "https://$(instanceName).service-now.com${endpoint}")
+      echo "$response" | jq -r --arg NAME "$(repoName)" '.result.apps[] | select(.vcs != null and .vcs.url != null and (.vcs.url | endswith($NAME)))'
+    }
 
-    # Debug: Print full response for debugging
-    echo "Full response:"
-    echo "$response" | jq '.'
-    
-    echo "Looking for application name ending with: $(repoName)"
-    
-    # Print all vcs URLs for debugging
-    echo "All VCS URLs:"
-    echo "$response" | jq -r '.result.apps[] | select(.vcs != null) | [.name, .vcs.url] | @tsv'
-
-    # Parse the response to find the matching application by vcs url
-    app_info=$(echo "$response" | jq -r --arg NAME "$(repoName)" \
-      '.result.apps[] | select(.vcs != null and .vcs.url != null and (.vcs.url | endswith($NAME)))')
-    
+    # Check if the app exists in the /apps endpoint
+    app_info=$(check_app_exists "/api/sn_devstudio/v1/vcs/apps")
     if [ -z "$app_info" ]; then
-      echo "Error: No application found ending with '$(repoName)'"
-      exit 1
+      # Check if the app exists in the /appsall endpoint
+      app_info=$(check_app_exists "/api/sn_devstudio/v1/vcs/appsall")
+      if [ -n "$app_info" ]; then
+        # Convert the app to development mode
+        app_id=$(echo "$app_info" | jq -r '.sysId')
+        curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+          -X POST "https://$(instanceName).service-now.com/api/sn_devstudio/v1/vcs/apps/${app_id}/convertToDevelopmentApp"
+      else
+        echo "Error: App not found in /apps or /appsall endpoints."
+        exit 1
+      fi
+    else
+      app_id=$(echo "$app_info" | jq -r '.sysId')
     fi
 
-    # Extract appId and repoId
-    app_id=$(echo "$app_info" | jq -r '.sysId')
-    repo_id=$(echo "$app_info" | jq -r '.vcs.repoId')
-
-    if [ -z "$repo_id" ] || [ "$repo_id" == "null" ]; then
-      echo "Error: No repository ID found for application '$(repoName)'"
-      echo "App info found: $app_info"
-      exit 1
+    # Check for a sys_repo_config record
+    repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+      "https://$(instanceName).service-now.com/api/now/table/sys_repo_config?sysparm_query=sys_app=${app_id}")
+    if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
+      # Create a repo config
+      curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+        -X POST "https://$(instanceName).service-now.com/api/now/table/sys_repo_config" \
+        --header "Content-Type: application/json" \
+        --data "{\"sys_app\":\"${app_id}\",\"vcs_url\":\"https://github.com/ServiceNowDevelopmentTeam/$(repoName).git\"}"
     fi
+
+    # Pull down all remote changes from the repo
+    curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+      -X POST "https://$(instanceName).service-now.com/api/sn_devstudio/vcs/apps/${app_id}/repos/apply" \
+      --header "Content-Type: application/json" \
+      --data '{"stashMessage": "Auto-import from pipeline", "preserveLocalChanges": true}'
 
     # Set variables for later use
+    repo_id=$(echo "$app_info" | jq -r '.vcs.repoId')
     echo "##vso[task.setvariable variable=APP_ID]$app_id"
     echo "##vso[task.setvariable variable=REPO_ID]$repo_id"
     
     echo "Found application ID: $app_id"
     echo "Found repository ID: $repo_id"
-  displayName: 'Get ServiceNow Application and Repository IDs'
+  displayName: 'Check and Convert App, Create Repo Config, Pull Changes'
 
 - script: |
     echo "Cloning the repository from Azure DevOps..."
