@@ -69,7 +69,7 @@ steps:
 
     if [ "$(echo "$repo_config" | jq -r '.result | length')" -eq 0 ]; then
       echo "No repo config found. Creating a new one..."
-      repo_config=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
+      create_repo_response=$(curl -s --user "$(SERVICENOW_USER):$(SERVICENOW_PASSWORD)" \
         -X POST "https://$(instanceName).service-now.com/api/now/table/sys_repo_config" \
         --header "Content-Type: application/json" \
         --data '{
@@ -79,6 +79,18 @@ steps:
           "authentication": "basic_authentication",
           "current_branch": "'"${branchName}"'"
         }')
+      
+      # Log the response for debugging
+      echo "create_repo_response: $create_repo_response"
+      
+      # Check if the creation was successful
+      if [ "$(echo "$create_repo_response" | jq -r '.result | length')" -eq 0 ]; then
+        echo "Error: Failed to create repo config"
+        exit 1
+      fi
+
+      # Update repo_config with the new response
+      repo_config=$create_repo_response
     fi
 
     # Extract the repository ID from the repo_config
