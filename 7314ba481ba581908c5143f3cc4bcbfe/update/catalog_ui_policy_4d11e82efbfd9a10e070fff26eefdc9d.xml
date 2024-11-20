@@ -4,10 +4,10 @@
         <applies_catalog>true</applies_catalog>
         <applies_req_item>true</applies_req_item>
         <applies_sc_task>true</applies_sc_task>
-        <applies_target_record>true</applies_target_record>
-        <applies_to>set</applies_to>
-        <catalog_conditions>IO:597207ba1bb3461062e50ed2cd4bcb3bLIKE500e8bdefb399a10e070fff26eefdc49^ORIO:597207ba1bb3461062e50ed2cd4bcb3bLIKEf87e12b01bb02d508c5143f3cc4bcb33^EQ</catalog_conditions>
-        <catalog_item/>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:153090951b1f421062e50ed2cd4bcb96=Team Member Update^EQ</catalog_conditions>
+        <catalog_item display_value="People Team Request">9559de421b124a5062e50ed2cd4bcb20</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>
@@ -16,9 +16,9 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
+        <order>2147483647</order>
         <published_ref/>
-        <reverse_if_false>true</reverse_if_false>
+        <reverse_if_false>false</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
@@ -27,26 +27,26 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>if name change</short_description>
+        <short_description>if type up;date </short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
-        <sys_created_on>2024-08-07 17:50:52</sys_created_on>
+        <sys_created_on>2024-11-13 21:18:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c7c5cb3e1bb3461062e50ed2cd4bcb17</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>if name change</sys_name>
+        <sys_id>4d11e82efbfd9a10e070fff26eefdc9d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>if type up;date </sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name>catalog_ui_policy_c7c5cb3e1bb3461062e50ed2cd4bcb17</sys_update_name>
+        <sys_update_name>catalog_ui_policy_4d11e82efbfd9a10e070fff26eefdc9d</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-11-13 15:17:14</sys_updated_on>
+        <sys_updated_on>2024-11-13 21:22:41</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>
-        <variable_set display_value="Personal Info Variable Set">665243ba1bb3461062e50ed2cd4bcba1</variable_set>
+        <variable_set/>
         <view/>
     </catalog_ui_policy>
 </record_update>

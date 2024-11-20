@@ -6,7 +6,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>true</applies_target_record>
         <applies_to>set</applies_to>
-        <catalog_conditions>IO:597207ba1bb3461062e50ed2cd4bcb3b=Phone Number Change^EQ</catalog_conditions>
+        <catalog_conditions>IO:597207ba1bb3461062e50ed2cd4bcb3bLIKE0f7e5e701bb02d508c5143f3cc4bcbdf^ORIO:597207ba1bb3461062e50ed2cd4bcb3bLIKE19edc7defb399a10e070fff26eefdc22^EQ</catalog_conditions>
         <catalog_item/>
         <conditions/>
         <description/>
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0144033e1bb3461062e50ed2cd4bcb83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>if change type is phone</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_ui_policy_0144033e1bb3461062e50ed2cd4bcb83</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-08-07 17:44:11</sys_updated_on>
+        <sys_updated_on>2024-11-13 15:17:43</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>

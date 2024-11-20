@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item/>
-        <catalog_variable>IO:d50303fa1bb3461062e50ed2cd4bcbfa</catalog_variable>
+        <catalog_item display_value="People Team Request">9559de421b124a5062e50ed2cd4bcb20</catalog_item>
+        <catalog_variable>IO:c8f5ac9f1b5bd810e7004229bc4bcb34</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <field_message/>
         <field_message_type>none</field_message_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
-        <sys_created_on>2024-08-07 19:18:18</sys_created_on>
-        <sys_id>acd913b61b37461062e50ed2cd4bcb54</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>team_member_s_new_middle_name</sys_name>
+        <sys_created_on>2024-11-13 21:20:05</sys_created_on>
+        <sys_id>b881a46efbfd9a10e070fff26eefdce1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new_hire_legal_last_name</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_acd913b61b37461062e50ed2cd4bcb54</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_b881a46efbfd9a10e070fff26eefdce1</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-11-13 18:14:17</sys_updated_on>
+        <sys_updated_on>2024-11-13 21:20:05</sys_updated_on>
         <table/>
-        <ui_policy display_value="no middle name is true">67b9db761b37461062e50ed2cd4bcbee</ui_policy>
+        <ui_policy display_value="if type up;date ">4d11e82efbfd9a10e070fff26eefdc9d</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <variable>team_member_s_new_middle_name</variable>
-        <variable_set display_value="Personal Info Variable Set">665243ba1bb3461062e50ed2cd4bcba1</variable_set>
-        <visible>ignore</visible>
+        <variable>new_hire_legal_last_name</variable>
+        <variable_set/>
+        <visible>false</visible>
     </catalog_ui_policy_action>
 </record_update>

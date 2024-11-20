@@ -13,20 +13,20 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2024-08-07 19:17:19</sys_created_on>
         <sys_id>f2999b761b37461062e50ed2cd4bcb4d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>add_attachments</sys_name>
         <sys_package display_value="New Hire" source="7314ba481ba581908c5143f3cc4bcbfe">7314ba481ba581908c5143f3cc4bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire">7314ba481ba581908c5143f3cc4bcbfe</sys_scope>
         <sys_update_name>catalog_ui_policy_action_f2999b761b37461062e50ed2cd4bcb4d</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-08-07 19:17:19</sys_updated_on>
+        <sys_updated_on>2024-11-13 18:05:15</sys_updated_on>
         <table/>
         <ui_policy display_value="if name change">c7c5cb3e1bb3461062e50ed2cd4bcb17</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <variable>add_attachments</variable>
         <variable_set display_value="Personal Info Variable Set">665243ba1bb3461062e50ed2cd4bcba1</variable_set>
-        <visible>ignore</visible>
+        <visible>true</visible>
     </catalog_ui_policy_action>
 </record_update>
